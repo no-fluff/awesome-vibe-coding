@@ -15,3 +15,5 @@
 ### Agent interfaces
 
 ### Tools and MCP servers
+
+<summary>[**Task Master**](https://www.task-master.dev/) AI-powered task management system for coding workflows with MCP integration.</summary><detail>Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage.</detail>
