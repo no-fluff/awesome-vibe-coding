@@ -8,6 +8,8 @@
 
 ### Agents
 
+<summary>[**Opencode**](https://opencode.ai/) open source terminal-based coding agent with multi-provider LLM support.</summary><detail>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</detail>
+
 ### Vibe-coding apps
 
 ### Agent interfaces
