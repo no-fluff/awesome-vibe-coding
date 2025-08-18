@@ -19,7 +19,9 @@
     * [Security](#security)
     * [Other tools](#other tools)
 
-### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/agents.png" width="40" height="40" alt="Agents" align="middle" />&nbsp; Agents
+<br />
+
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/agents.png" width="36" height="36" alt="Agents" align="absmiddle" />&nbsp; Agents
 
 <details>
   <summary><strong>🔥 <a href="https://www.anthropic.com/claude-code">Claude Code</a></strong> AI-powered terminal coding assistant with deep codebase understanding and multi-file coordination.</summary>
@@ -57,7 +59,9 @@
   <blockquote>Qwen Code is an intelligent command-line tool that helps developers understand, refactor, and generate code using advanced AI models. It provides workflow automation, code analysis, and supports multiple authentication methods across different regional providers.</blockquote>
 </details>
 
-### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/apps.png" width="40" height="40" alt="Apps" align="middle" />&nbsp; Vibe-coding apps
+<br />
+
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/apps.png" width="36" height="36" alt="Apps" align="absmiddle" />&nbsp; Vibe-coding apps
 
 <details>
   <summary><strong>🔥 <a href="https://kiro.dev/">Kiro</a></strong> AI-powered IDE with spec-driven development and autonomous task execution.</summary>
@@ -65,7 +69,9 @@
   <blockquote>Kiro transforms prompts into structured requirements and implementation tasks, supporting multimodal inputs and agent hooks for automated background workflows with Claude Sonnet integration.</blockquote>
 </details>
 
-### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/interfaces.png" width="40" height="40" alt="Interfaces" align="middle" />&nbsp; Agent interfaces
+<br />
+
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/interfaces.png" width="36" height="36" alt="Interfaces" align="absmiddle" />&nbsp; Agent interfaces
 
 <details>
   <summary><strong><a href="https://github.com/baryhuang/claude-code-by-agents">Agentrooms</a></strong> Multi-agent workspace for collaborative development with Claude CLI.</summary>
@@ -91,9 +97,11 @@
   <blockquote>Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms.</blockquote>
 </details>
 
-### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/tools.png" width="40" height="40" alt="Tools" align="middle" />&nbsp; Tools and MCP servers
+<br />
 
-#### Memory
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/tools.png" width="36" height="36" alt="Tools" align="absmiddle" />&nbsp; Tools and MCP servers
+
+#### ⚪&nbsp; Memory
 
 <details>
   <summary><strong><a href="https://github.com/coleam00/Archon">Archon</a></strong> MCP server and knowledge management platform for AI coding assistants.</summary>
@@ -107,7 +115,9 @@
   <blockquote>Kratos MCP provides persistent memory for AI coding tools using a Four Pillars Framework with SQLite storage, ensuring AI maintains project context across sessions with sub-10ms retrieval times and automatic project isolation.</blockquote>
 </details>
 
-#### Task management
+<br />
+
+#### ⚪&nbsp; Task management
 
 <details>
   <summary><strong><a href="https://www.task-master.dev/">Task Master</a></strong> AI-powered task management system for coding workflows with MCP integration.</summary>
@@ -115,7 +125,9 @@
   <blockquote>Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage.</blockquote>
 </details>
 
-#### Codebase understanding
+<br />
+
+#### ⚪&nbsp; Codebase understanding
 
 <details>
   <summary><strong><a href="https://github.com/glebkudr/shotgun_code">Shotgun App</a></strong> Desktop tool for preparing comprehensive project context for AI coding assistants.</summary>
@@ -123,7 +135,9 @@
   <blockquote>Shotgun App enables one-click generation of structured project payloads for LLM interactions, allowing selective file exclusion and supporting whole-repository analysis and modification workflows with ChatGPT, Gemini, and other AI assistants.</blockquote>
 </details>
 
-#### Security
+<br />
+
+#### ⚪&nbsp; Security
 
 <details>
   <summary><strong><a href="https://github.com/nikvdp/cco">cco</a></strong> Protective wrapper for Claude Code with zero-config sandboxed execution.</summary>
@@ -131,7 +145,9 @@
   <blockquote>cco provides automatic sandboxing for Claude Code using native OS tools or Docker fallback, enabling secure isolated interactions while maintaining seamless user experience and preserving project context across platforms.</blockquote>
 </details>
 
-#### Other tools
+<br />
+
+#### ⚪&nbsp; Other tools
 
 <details>
   <summary><strong>🔥 <a href="https://github.com/microsoft/playwright-mcp">playwright-mcp</a></strong> MCP server providing browser automation capabilities using Playwright's accessibility tree.</summary>
@@ -139,5 +155,9 @@
   <blockquote>playwright-mcp enables LLMs to interact with web pages through structured accessibility snapshots rather than pixel-based input, offering deterministic browser automation with clicking, typing, navigation, and screenshot tools for precise web interactions.</blockquote>
 </details>
 
-### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="40" height="40" alt="Workflows" align="middle" />&nbsp; Vibe-coding workflows
+<br />
+
+<br />
+
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="36" height="36" alt="Workflows" align="absmiddle" />&nbsp; Vibe-coding workflows
 

@@ -77,6 +77,9 @@ handlebars.registerHelper('render-section', function(items, options) {
       sortedUncategorized.forEach(item => {
         result += renderItem(item) + '\n\n';
       });
+      
+      // Add line break after uncategorized entries
+      result += '<br />\n\n';
     }
     
     // Render items in defined categories, in the order specified
@@ -87,7 +90,7 @@ handlebars.registerHelper('render-section', function(items, options) {
           result += '\n';
         }
         
-        result += `#### ${category}\n\n`;
+        result += `#### ⚪&nbsp; ${category}\n\n`;
         
         // Sort items with hot entries first, then alphabetically within each group
         const sortedItems = groupedItems[category].sort((a, b) => {
@@ -101,6 +104,9 @@ handlebars.registerHelper('render-section', function(items, options) {
         sortedItems.forEach(item => {
           result += renderItem(item) + '\n\n';
         });
+        
+        // Add line break after each category's entries
+        result += '<br />\n\n';
       }
     });
     
