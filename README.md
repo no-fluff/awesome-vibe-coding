@@ -161,5 +161,9 @@
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="36" height="36" alt="Workflows" align="absmiddle" />&nbsp; Vibe-coding workflows
 
+<details>
+  <summary><strong><a href="https://github.com/bmad-code-org/BMAD-METHOD">BMAD-METHOD</a></strong> AI-driven agile development framework with specialized agent orchestration and context engineering.</summary>
 
+  <blockquote>BMAD-METHOD combines agentic planning with context-engineered development, using specialized AI agents (Analyst, Product Manager, Architect, Scrum Master) to create detailed PRDs and hyper-detailed development stories that embed full implementation context and architectural guidance directly in story files.</blockquote>
+</details>
 
