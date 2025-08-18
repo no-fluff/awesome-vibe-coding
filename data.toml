@@ -8,12 +8,37 @@ detail = "Gemini CLI brings Google's Gemini AI directly to the terminal with cod
 category = "Open source"
 
 [[agents]]
+name = "OpenAI Codex"
+website = "https://chatgpt.com/codex"
+repo = ""
+open_source = false
+summary = "Cloud-based autonomous coding agent with multi-task execution and isolated environments."
+detail = "OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions."
+
+[[agents]]
+name = "Claude Code"
+website = "https://www.anthropic.com/claude-code"
+repo = ""
+open_source = false
+summary = "AI-powered terminal coding assistant with deep codebase understanding and multi-file coordination."
+detail = "Claude Code embeds Claude Opus 4.1 directly in developers' terminals, providing agentic search across entire codebases, coordinated multi-file changes, and direct command execution in development environments with integrations for VS Code, JetBrains IDEs, GitHub, and enterprise tools."
+hot = true
+
+[[agents]]
 name = "Opencode"
 website = "https://opencode.ai/"
 repo = "https://github.com/sst/opencode"
 open_source = true
 summary = "Open source terminal-based coding agent with multi-provider LLM support."
 detail = "Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows."
+
+[[agents]]
+name = "OpenAI Codex CLI"
+website = ""
+repo = "https://github.com/openai/codex"
+open_source = true
+summary = "Experimental terminal-based coding agent with configurable sandbox modes."
+detail = "Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access."
 
 [[agents]]
 name = "Qwen Code"
