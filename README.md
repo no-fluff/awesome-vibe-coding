@@ -14,6 +14,12 @@
   <blockquote>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</blockquote>
 </details>
 
+<details>
+  <summary><strong><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></strong> AI-powered command-line workflow tool optimized for Qwen-Coder models.</summary>
+
+  <blockquote>Qwen Code specializes in large codebase analysis, intelligent refactoring, and automated workflow tasks with support for multiple regional providers including Alibaba Cloud, ModelScope, and OpenAI-compatible APIs, offering 2,000 free daily requests.</blockquote>
+</details>
+
 ### Vibe-coding apps
 
 <details>
