@@ -1,4 +1,13 @@
 [[agents]]
+name = "Gemini CLI"
+website = "https://google-gemini.github.io/gemini-cli/"
+repo = "https://github.com/google-gemini/gemini-cli"
+open_source = true
+summary = "Open source terminal-based AI agent with Gemini 2.5 Pro and multimodal capabilities."
+detail = "Gemini CLI brings Google's Gemini AI directly to the terminal with code generation, Google Search integration, file operations, and 1M token context window. Supports multiple authentication methods and offers extensible architecture for developer workflows."
+category = "Open source"
+
+[[agents]]
 name = "Opencode"
 website = "https://opencode.ai/"
 repo = "https://github.com/sst/opencode"
