@@ -6,6 +6,14 @@ open_source = true
 summary = "Open source terminal-based coding agent with multi-provider LLM support."
 detail = "Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows."
 
+[[agents]]
+name = "Qwen Code"
+website = ""
+repo = "https://github.com/QwenLM/qwen-code"
+open_source = true
+summary = "AI coding assistant CLI for exploring, developing, and automating software workflows."
+detail = "Qwen Code is an intelligent command-line tool that helps developers understand, refactor, and generate code using advanced AI models. It provides workflow automation, code analysis, and supports multiple authentication methods across different regional providers."
+
 [[apps]]
 name = "Kiro"
 website = "https://kiro.dev/"

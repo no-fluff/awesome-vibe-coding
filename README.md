@@ -24,6 +24,12 @@
   <blockquote>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</blockquote>
 </details>
 
+<details>
+  <summary><strong><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></strong> AI coding assistant CLI for exploring, developing, and automating software workflows.</summary>
+
+  <blockquote>Qwen Code is an intelligent command-line tool that helps developers understand, refactor, and generate code using advanced AI models. It provides workflow automation, code analysis, and supports multiple authentication methods across different regional providers.</blockquote>
+</details>
+
 ### Vibe-coding apps
 
 <details>
