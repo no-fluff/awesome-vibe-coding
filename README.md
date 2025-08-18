@@ -17,6 +17,12 @@
 ### Vibe-coding apps
 
 <details>
+  <summary><strong><a href="https://github.com/baryhuang/claude-code-by-agents">Agentrooms</a></strong> multi-agent desktop and web application for collaborative AI-powered software development.</summary>
+
+  <blockquote>Agentrooms coordinates multiple Claude agents across local and remote environments, providing task routing, workflow orchestration, and dynamic agent management through both desktop and web interfaces with cross-platform support.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://kiro.dev/">Kiro</a></strong> AI-powered IDE with spec-driven development and autonomous task execution.</summary>
 
   <blockquote>Kiro transforms prompts into structured requirements and implementation tasks, supporting multimodal inputs and agent hooks for automated background workflows with Claude Sonnet integration.</blockquote>
