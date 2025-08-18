@@ -29,8 +29,7 @@ I'd like to propose a new tool for the awesome-vibe-coding list:
 [ ] Task management
 [ ] Codebase understanding
 [ ] Memory
-[ ] Background agents/cloud-hosted agents
-[ ] Mobile agent
+[ ] Agent feedback (e.g. vision, browser testing)
 
 > Please only select from the provided options; additional ones can go below.
 
