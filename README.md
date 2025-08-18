@@ -17,6 +17,7 @@
     * [Task management](#task management)
     * [Codebase understanding](#codebase understanding)
     * [Security](#security)
+    * [Other tools](#other tools)
 
 ### Agents
 
@@ -128,6 +129,14 @@
   <summary><strong><a href="https://github.com/nikvdp/cco">cco</a></strong> Protective wrapper for Claude Code with zero-config sandboxed execution.</summary>
 
   <blockquote>cco provides automatic sandboxing for Claude Code using native OS tools or Docker fallback, enabling secure isolated interactions while maintaining seamless user experience and preserving project context across platforms.</blockquote>
+</details>
+
+#### Other tools
+
+<details>
+  <summary><strong><a href="https://github.com/microsoft/playwright-mcp">playwright-mcp</a></strong> MCP server providing browser automation capabilities using Playwright's accessibility tree.</summary>
+
+  <blockquote>playwright-mcp enables LLMs to interact with web pages through structured accessibility snapshots rather than pixel-based input, offering deterministic browser automation with clicking, typing, navigation, and screenshot tools for precise web interactions.</blockquote>
 </details>
 
 ### Vibe-coding workflows

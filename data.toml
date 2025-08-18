@@ -127,6 +127,15 @@ detail = "Shotgun App enables one-click generation of structured project payload
 category = "Codebase understanding"
 
 [[tools]]
+name = "playwright-mcp"
+website = ""
+repo = "https://github.com/microsoft/playwright-mcp"
+open_source = true
+summary = "MCP server providing browser automation capabilities using Playwright's accessibility tree."
+detail = "playwright-mcp enables LLMs to interact with web pages through structured accessibility snapshots rather than pixel-based input, offering deterministic browser automation with clicking, typing, navigation, and screenshot tools for precise web interactions."
+category = "Other tools"
+
+[[tools]]
 name = "Task Master"
 website = "https://www.task-master.dev/"
 repo = ""
