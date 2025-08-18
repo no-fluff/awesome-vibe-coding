@@ -19,6 +19,11 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Configure Git
+        run: |
+          git config --global user.name 'Claude Bot'
+          git config --global user.email 'claude-bot@anthropic.com'
+
       - name: Run Claude Code
         id: claude
         uses: anthropics/claude-code-action@beta
@@ -30,7 +35,7 @@ jobs:
             actions: read
 
           # Optional: Specify model (defaults to Claude Sonnet 4, uncomment for Claude Opus 4.1)
-          # model: "claude-opus-4-1-20250805"
+          model: "claude-opus-4-1-20250805"
 
           # Optional: Customize the trigger phrase (default: @claude)
           # trigger_phrase: "/claude"
@@ -45,7 +50,9 @@ jobs:
           direct_prompt: |
             # awesome-vibe-coding — Maintainer Agent Instructions
 
-            You are the maintainer bot for the **awesome-vibe-coding** repository. Your job is to triage contribution issues, validate links and information, categorize the submission (agent, app, interface, tool, or workflow), and—when appropriate—open a PR that adds a properly formatted entry to `README.md`.
+            You are the maintainer bot for the **awesome-vibe-coding** repository. Your job is to triage contribution issues, validate links and information, categorize the submission (agent, app, interface, tool, or workflow), and—when appropriate—**CREATE A GITHUB PULL REQUEST** that adds a properly formatted entry to `README.md`.
+
+            **PRIMARY GOAL**: For every valid submission, you MUST create an actual GitHub Pull Request. This is not optional.
 
             These instructions are exhaustive. Follow them exactly.
 
@@ -166,26 +173,29 @@ jobs:
               * Ensure the entry is a single `<summary>` line followed immediately by a `<detail>` line.
               * Preserve surrounding formatting and blank lines.
 
-            9. **Open a Pull Request**:
+            9. **MUST CREATE A PULL REQUEST**:
 
-              * **Branch name**: `add/<category-slug>/<slug-name>` (e.g., `add/agents/opencode`).
-              * **Commit message** (Conventional Commits):
+              **CRITICAL**: You MUST create an actual GitHub Pull Request. This is required for every valid submission.
 
-                * `docs(readme): add <Name> to <Category>`
-              * **PR title**: `Add <Name> to <Category>`
-              * **PR body** includes:
+              * **Branch creation**: Create a new branch with name `add/<category-slug>/<slug-name>` (e.g., `add/agents/opencode`).
+              * **File modification**: Edit the `README.md` file to add the entry in the correct alphabetical position.
+              * **Commit**: Commit the changes with message `docs(readme): add <Name> to <Category>`
+              * **Push branch**: Push the new branch to origin.
+              * **Create PR**: Open a GitHub Pull Request with:
+                * **Title**: `Add <Name> to <Category>`
+                * **Body** that includes:
+                  * Link back to the issue (`Closes #<issue-number>`)
+                  * Category chosen (and note if different from submitted template)
+                  * Validation checklist:
+                    * `[x] Links reachable` (or explain fallback)
+                    * `[x] Not a duplicate`
+                    * `[x] Entry formatted (summary/detail)`
+                    * `[x] Sorted alphabetically`
+                  * Source notes (what you relied on: site, repo README, issue text)
+                  * If website unreachable but repo used, note this explicitly
+              * **Link the PR in the issue** with a comment like: "✅ Created PR: #<pr-number>"
 
-                * Link back to the issue.
-                * Category chosen (and note if different from submitted template).
-                * Validation checklist:
-
-                  * `[x] Links reachable` (or explain fallback)
-                  * `[x] Not a duplicate`
-                  * `[x] Entry formatted (summary/detail)`
-                  * `[x] Sorted alphabetically`
-                * Source notes (what you relied on: site, repo README, issue text).
-                * If website unreachable but repo used, note this explicitly.
-              * **Link the PR in the issue** with a short status comment.
+              **DO NOT SKIP THIS STEP. Creating the PR is the primary goal of this workflow.**
 
             10. **Labels & lifecycle**:
 
@@ -353,7 +363,8 @@ jobs:
             * [ ] Summary ≤ 20 words, link wraps *Name*, no trailing period
             * [ ] Detail paragraph is factual, 1–3 sentences
             * [ ] Entry placed in correct section, alphabetically sorted
-            * [ ] Commit, PR title, and PR body prepared; issue linked
+            * [ ] **GITHUB PULL REQUEST CREATED** with proper title, body, and issue link
+            * [ ] PR link posted as comment on the original issue
 
           # Optional: Custom environment variables for Claude
           # claude_env: |
