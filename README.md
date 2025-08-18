@@ -17,7 +17,12 @@
 ### Vibe-coding apps
 
 <details>
-<summary><strong><a href="https://github.com/glebkudr/shotgun_code">Shotgun App</a></strong> desktop tool for preparing comprehensive project context for AI coding assistants.</summary>
+  <summary><strong><a href="https://happy.engineering/">Happy</a></strong> mobile client for Claude Code with remote access and cross-device synchronization.</summary>
+  <blockquote>Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms.</blockquote>
+</details>
+
+<details>
+ <summary><strong><a href="https://github.com/glebkudr/shotgun_code">Shotgun App</a></strong> desktop tool for preparing comprehensive project context for AI coding assistants.</summary>
 <blockquote>Shotgun App enables one-click generation of structured project payloads for LLM interactions, allowing selective file exclusion and supporting whole-repository analysis and modification workflows with ChatGPT, Gemini, and other AI assistants.</blockquote>
 </details>
 
