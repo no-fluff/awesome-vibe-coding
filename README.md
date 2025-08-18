@@ -41,6 +41,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://claudiacode.com/">Claudia</a></strong> Desktop GUI and toolkit for Claude Code with session management and custom agent creation.</summary>
+
+  <blockquote>Claudia provides a comprehensive desktop interface for Claude Code, offering project and session management, usage analytics, custom AI agent creation, and MCP server management with secure process isolation and local data storage.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://happy.engineering/">Happy</a></strong> Mobile client for Claude Code with remote access and cross-device synchronization.</summary>
 
   <blockquote>Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms.</blockquote>
