@@ -5,6 +5,36 @@ const path = require('path');
 const toml = require('toml');
 const handlebars = require('handlebars');
 
+// Register the dynamic-categories helper
+handlebars.registerHelper('dynamic-categories', function(sectionKey, data, options) {
+  if (!data.categories || !data.categories[sectionKey]) {
+    return '';
+  }
+  
+  const items = data[sectionKey];
+  const categories = data.categories[sectionKey];
+  const usedCategories = new Set();
+  
+  // Find which categories are actually used
+  if (items && Array.isArray(items)) {
+    items.forEach(item => {
+      if (item.category && categories.includes(item.category)) {
+        usedCategories.add(item.category);
+      }
+    });
+  }
+  
+  // Generate category links
+  const categoryLinks = [];
+  categories.forEach(category => {
+    if (usedCategories.has(category)) {
+      categoryLinks.push(`* [${category}](#${category.toLowerCase()})`);
+    }
+  });
+  
+  return categoryLinks.join('\n    ');
+});
+
 // Register the render-section helper
 handlebars.registerHelper('render-section', function(items, options) {
   if (!items || !Array.isArray(items)) {

@@ -6,6 +6,15 @@
 
 ## Advanced vibe coding
 
+* [**Agents**](#agents)
+    {{{dynamic-categories "agents" this}}}
+* [**Vibe-coding apps**](#vibe-coding-apps)
+    {{{dynamic-categories "apps" this}}}
+* [**Agent interfaces**](#agent-interfaces)
+    {{{dynamic-categories "interfaces" this}}}
+* [**Tools and MCP servers**](#tools-and-mcp-servers)
+    {{{dynamic-categories "tools" this}}}
+
 ### Agents
 
 {{{render-section agents}}}

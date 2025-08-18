@@ -6,6 +6,16 @@
 
 ## Advanced vibe coding
 
+* [**Agents**](#agents)
+    
+* [**Vibe-coding apps**](#vibe-coding-apps)
+    
+* [**Agent interfaces**](#agent-interfaces)
+    
+* [**Tools and MCP servers**](#tools-and-mcp-servers)
+    * [Memory](#memory)
+    * [Security](#security)
+
 ### Agents
 
 <details>
