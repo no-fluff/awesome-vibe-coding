@@ -16,8 +16,8 @@ I'd like to propose a new agent interface for the awesome-vibe-coding list:
 
 ## Are you the developer/maintainer? (Either is fine!)
 
-- [x] Yes
-- [ ] No
+- [ ] Yes
+- [x] No
 
 ### Is the interface open source?
 
