@@ -30,11 +30,18 @@ I'd like to propose a new agent for the awesome-vibe-coding list:
 > Please only select from the provided features; additional ones can go below.
 
 ## Short free-text overview of features (which models does it support? why should users choose it?):
-> e.g. OpenCode is an open source terminal-based agent which supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code
+<features>
+
+<!-- e.g. 
+OpenCode is an open source terminal-based agent which supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code 
+-->
 
 ### Other notes (optional):
+<notes>
 
 ---
 
-* Contributions should be fully functioning and actively maintained
-* Your contribution will be edited by our AI agents, and may be moved to a different category
+<!--
+ - Contributions should be fully functioning
+ - Your contribution will be edited by our AI agents, and may be moved to a different category
+-->
