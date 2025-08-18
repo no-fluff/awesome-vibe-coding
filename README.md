@@ -21,6 +21,12 @@
 ### Agents
 
 <details>
+  <summary><strong><a href="https://github.com/openai/codex">OpenAI Codex CLI</a></strong> Experimental terminal-based coding agent with configurable sandbox modes.</summary>
+
+  <blockquote>Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://opencode.ai/">Opencode</a></strong> Open source terminal-based coding agent with multi-provider LLM support.</summary>
 
   <blockquote>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</blockquote>
