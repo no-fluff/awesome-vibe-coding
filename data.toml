@@ -24,6 +24,14 @@ summary = "Visual interface for AI-powered code modifications with Claude CLI."
 detail = "claude-frontend provides a browser widget that allows developers to select webpage elements and send them to Claude for instant code modifications, supporting multiple frameworks including Next.js, Vite, React, and Vue in local development environments."
 
 [[interfaces]]
+name = "Claudia"
+website = "https://claudiacode.com/"
+repo = "https://github.com/getAsterisk/claudia"
+open_source = true
+summary = "Desktop GUI for Claude Code with session management and custom agent creation."
+detail = "Claudia provides a visual command center for Claude Code featuring project browsers, session history tracking, custom AI agents with background execution, usage analytics, and process isolation for secure AI-assisted development workflows."
+
+[[interfaces]]
 name = "Happy"
 website = "https://happy.engineering/"
 repo = "https://github.com/slopus/happy"
