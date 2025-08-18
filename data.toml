@@ -27,6 +27,15 @@ detail = "claude-frontend provides a browser widget that allows developers to se
 category = "Open source"
 
 [[interfaces]]
+name = "Claudia"
+website = "https://claudiacode.com/"
+repo = "https://github.com/getAsterisk/claudia"
+open_source = true
+summary = "Desktop GUI and toolkit for Claude Code with session management and custom agent creation."
+detail = "Claudia provides a comprehensive desktop interface for Claude Code, offering project and session management, usage analytics, custom AI agent creation, and MCP server management with secure process isolation and local data storage."
+category = "Open source"
+
+[[interfaces]]
 name = "Happy"
 website = "https://happy.engineering/"
 repo = "https://github.com/slopus/happy"
