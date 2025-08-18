@@ -26,19 +26,17 @@ I'd like to propose a new tool for the awesome-vibe-coding list:
 
 ### Tool category:
 
-[ ] Editor/IDE
-[ ] Code analysis/linting
-[ ] Testing
-[ ] CI/CD
-[ ] Prompt/LLM tooling
-[ ] Data/ETL
-[ ] Observability/telemetry
-[ ] Deployment/runtime
+[ ] Task management
+[ ] Codebase understanding
+[ ] Memory
+[ ] Background agents/cloud-hosted agents
+[ ] Mobile agent
 
 > Please only select from the provided options; additional ones can go below.
 
 ### Features:
 
+[ ] MCP Server
 [ ] Self-hosted
 [ ] Cloud/SaaS
 [ ] CLI

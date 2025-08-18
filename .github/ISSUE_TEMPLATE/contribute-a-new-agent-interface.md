@@ -31,18 +31,14 @@ I'd like to propose a new agent interface for the awesome-vibe-coding list:
 [ ] Desktop UI
 [ ] IDE plugin
 [ ] API/SDK
-[ ] Chat/terminal overlay
 
 > Please only select from the provided options; additional ones can go below.
 
 ### Features:
 
 [ ] Multi-model routing
-[ ] Real-time/streaming UI
-[ ] Tooling/plugins
-[ ] Workspace/filesystem access
-[ ] Collaboration/multi-user
-[ ] Authentication/roles
+[ ] Codespace understanding
+[ ] Multi-agent swarms
 
 > Please only select from the provided features; additional ones can go below.
 

@@ -39,10 +39,10 @@ I'd like to propose a new app for the awesome-vibe-coding list:
 
 [ ] Self-hosted
 [ ] Cloud/SaaS
-[ ] Plugin system/extensions
 [ ] Bring-your-own-API-keys
 [ ] Multi-agent support
 [ ] Offline/local models
+[ ] Project management tools
 
 > Please only select from the provided features; additional ones can go below.
 
