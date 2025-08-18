@@ -15,6 +15,12 @@
 
 ### Vibe-coding apps
 
+<details>
+<summary><strong><a href="https://github.com/glebkudr/shotgun_code">Shotgun App</a></strong> desktop tool for preparing complete project context for AI coding assistants.</summary>
+
+<p>Shotgun App generates comprehensive project context for LLM interactions, enabling whole-repository analysis and modification by scanning project directories, allowing selective file exclusion, and producing structured payloads that work with ChatGPT, Gemini, and Cursor.</p>
+</details>
+
 ### Agent interfaces
 
 ### Tools and MCP servers
