@@ -82,7 +82,7 @@ jobs:
               <details>
                 <summary><strong><a href="https://example.com/">Name</a></strong> headline up to 20 words.</summary>
 
-                <p>One concise paragraph expanding on capabilities and use-cases.</p>
+                <blockquote>One concise paragraph expanding on capabilities and use-cases.</blockquote>
               </details>
             ````
 
@@ -91,14 +91,14 @@ jobs:
               <correct>
                 <details>
                   <summary><a href="https://opencode.ai/"><strong>Opencode</strong></a> open source terminal-based coding agent with multi-provider LLM support.</summary>
-                  <p>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</p>
+                  <blockquote>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</blockquote>
                 </details>
               </correct>
 
               <incorrect>
                 <details>
                   <summary>[**Opencode**](https://opencode.ai/) open source terminal-based coding agent with multi-provider LLM support.</summary>
-                  <p>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</p>
+                  <blockquote>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</blockquote>
                 </details>
               </incorrect>
 
@@ -289,7 +289,7 @@ jobs:
             <details>
               <summary><strong><a href="https://opencode.ai/">Opencode</a></strong> open source terminal-based coding agent with multi-provider LLM support.</summary>
 
-              <p>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</p>
+              <blockquote>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</blockquote>
             </details>
             ```
 
@@ -327,7 +327,7 @@ jobs:
             <details>
               <summary><strong><a href="https://terminalagent-ui.app/">TerminalAgent UI</a></strong> a web interface for the TerminalAgent.</summary>
 
-              <p>TerminalAgent UI provides a browser-based control surface for the TerminalAgent, offering file navigation, run/output views, and one-click tool invocations without changing the underlying agent behavior.</p>
+              <blockquote>TerminalAgent UI provides a browser-based control surface for the TerminalAgent, offering file navigation, run/output views, and one-click tool invocations without changing the underlying agent behavior.</blockquote>
             </details>
             ```
 
@@ -404,7 +404,7 @@ jobs:
             * [ ] Category auto-determined from website analysis
             * [ ] Not a duplicate (name/domain checked)
             * [ ] Summary auto-generated from website, in <strong> tags with link, ≤ 20 words
-            * [ ] Detail paragraph auto-generated from website, in <p> tags, factual, 1–3 sentences  
+            * [ ] Detail paragraph auto-generated from website, in <blockquote> tags, factual, 1–3 sentences  
             * [ ] Entry placed in correct section, alphabetically sorted
             * [ ] **GITHUB PULL REQUEST CREATED** with proper title, body, and issue link
             * [ ] PR link posted as comment on the original issue
