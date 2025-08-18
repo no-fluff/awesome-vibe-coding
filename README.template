@@ -15,22 +15,22 @@
 * [**Tools and MCP servers**](#tools-and-mcp-servers)
     {{{dynamic-categories "tools" this}}}
 
-### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/agents.png" width="40" height="40" alt="Agents" style="vertical-align: middle; margin-right: 5px;" /> Agents
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/agents.png" width="40" height="40" alt="Agents" align="middle" />&nbsp; Agents
 
 {{{render-section agents}}}
 
-### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/apps.png" width="40" height="40" alt="Apps" style="vertical-align: middle; margin-right: 5px;" /> Vibe-coding apps
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/apps.png" width="40" height="40" alt="Apps" align="middle" />&nbsp; Vibe-coding apps
 
 {{{render-section apps}}}
 
-### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/interfaces.png" width="40" height="40" alt="Interfaces" style="vertical-align: middle; margin-right: 5px;" /> Agent interfaces
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/interfaces.png" width="40" height="40" alt="Interfaces" align="middle" />&nbsp; Agent interfaces
 
 {{{render-section interfaces}}}
 
-### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/tools.png" width="40" height="40" alt="Tools" style="vertical-align: middle; margin-right: 5px;" /> Tools and MCP servers
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/tools.png" width="40" height="40" alt="Tools" align="middle" />&nbsp; Tools and MCP servers
 
 {{{render-section tools categories=categories.tools}}}
 
-### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="40" height="40" alt="Workflows" style="vertical-align: middle; margin-right: 5px;" /> Vibe-coding workflows
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="40" height="40" alt="Workflows" align="middle" />&nbsp; Vibe-coding workflows
 
 {{{render-section workflows}}}
