@@ -24,6 +24,7 @@ open_source = false
 summary = "AI-powered IDE with spec-driven development and autonomous task execution."
 detail = "Kiro transforms prompts into structured requirements and implementation tasks, supporting multimodal inputs and agent hooks for automated background workflows with Claude Sonnet integration."
 category = "Commercial"
+hot = true
 
 [[interfaces]]
 name = "claude-frontend"

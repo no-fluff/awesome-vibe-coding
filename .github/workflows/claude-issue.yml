@@ -99,6 +99,8 @@ jobs:
               category = "Relevant Category"
               ```
 
+              **IMPORTANT**: NEVER include the `hot` attribute when adding new entries. The `hot` attribute is reserved for highlighting exceptional or trending resources and should only be added manually by maintainers.
+
               Example correct entry:
               ```toml
               [[agents]]
