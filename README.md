@@ -17,7 +17,7 @@
     * [Task management](#task-management)
     * [Codebase understanding](#codebase-understanding)
     * [Security](#security)
-    * [Other tools](#other-tools)
+    * [Agent feedback](#agent-feedback)
 
 <br />
 
@@ -147,7 +147,7 @@
 
 <br />
 
-### &nbsp;&nbsp;Other tools
+### &nbsp;&nbsp;Agent feedback
 
 <details>
   <summary><strong>🔥 <a href="https://github.com/microsoft/playwright-mcp">playwright-mcp</a></strong> MCP server providing browser automation capabilities using Playwright's accessibility tree.</summary>
