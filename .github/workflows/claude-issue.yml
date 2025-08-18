@@ -82,11 +82,17 @@ jobs:
               You *CANNOT* use Markdown inside the <details> element; you must only use HTML.
 
               <correct>
-                <summary><a href="https://opencode.ai/"><strong>Opencode</strong></a> open source terminal-based coding agent with multi-provider LLM support.</summary><detail>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</detail>
+                <details>
+                  <summary><a href="https://opencode.ai/"><strong>Opencode</strong></a> open source terminal-based coding agent with multi-provider LLM support.</summary>
+                  <p>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</p>
+                </details>
               </correct>
 
               <incorrect>
-                <summary>[**Opencode**](https://opencode.ai/) open source terminal-based coding agent with multi-provider LLM support.</summary><detail>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</detail>
+                <details>
+                  <summary>[**Opencode**](https://opencode.ai/) open source terminal-based coding agent with multi-provider LLM support.</summary>
+                  <p>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</p>
+                </details>
               </incorrect>
 
             * Features checklist allowed in “agent” template:
@@ -171,7 +177,7 @@ jobs:
                 * Determine category clues from website content (look for keywords: "GUI", "interface", "wrapper", "MCP", "plugin", "agent", "coding assistant", etc.).
                 * **Period** at the end of `<summary>`.
 
-                * **Detail paragraph (for `<detail>`):**
+                * **Detail paragraph (for `<details>`):**
 
                 * 1–3 sentences. Auto-generated from website content analysis.
                 * Extract and mention 1–3 concrete capabilities and typical use-cases from the website.
