@@ -35,6 +35,12 @@
 ### Agent interfaces
 
 <details>
+  <summary><strong><a href="https://github.com/baryhuang/claude-code-by-agents">Agentrooms</a></strong> Multi-agent workspace for collaborative development with Claude CLI.</summary>
+
+  <blockquote>Agentrooms provides desktop and web interfaces for coordinating specialized AI agents in collaborative software development workflows, enabling task routing via @agent-name mentions, automatic decomposition, and management of complex multi-agent projects using Claude CLI as the underlying engine.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://github.com/tobias-schuemann/claude-frontend">claude-frontend</a></strong> Visual interface for AI-powered code modifications with Claude CLI.</summary>
 
   <blockquote>claude-frontend provides a browser widget that allows developers to select webpage elements and send them to Claude for instant code modifications, supporting multiple frameworks including Next.js, Vite, React, and Vue in local development environments.</blockquote>

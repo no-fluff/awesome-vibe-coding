@@ -32,6 +32,15 @@ summary = "Desktop GUI for Claude Code with session management and custom agent 
 detail = "Claudia provides a visual command center for Claude Code featuring project browsers, session history tracking, custom AI agents with background execution, usage analytics, and process isolation for secure AI-assisted development workflows."
 
 [[interfaces]]
+name = "Agentrooms"
+website = ""
+repo = "https://github.com/baryhuang/claude-code-by-agents"
+open_source = true
+summary = "Multi-agent workspace for collaborative development with Claude CLI."
+detail = "Agentrooms provides desktop and web interfaces for coordinating specialized AI agents in collaborative software development workflows, enabling task routing via @agent-name mentions, automatic decomposition, and management of complex multi-agent projects using Claude CLI as the underlying engine."
+
+
+[[interfaces]]
 name = "Happy"
 website = "https://happy.engineering/"
 repo = "https://github.com/slopus/happy"
