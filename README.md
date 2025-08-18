@@ -19,7 +19,7 @@
     * [Security](#security)
     * [Other tools](#other tools)
 
-### Agents
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/agents.png" width="40" height="40" alt="Agents" /> Agents
 
 <details>
   <summary><strong>🔥 <a href="https://www.anthropic.com/claude-code">Claude Code</a></strong> AI-powered terminal coding assistant with deep codebase understanding and multi-file coordination.</summary>
@@ -57,7 +57,7 @@
   <blockquote>Qwen Code is an intelligent command-line tool that helps developers understand, refactor, and generate code using advanced AI models. It provides workflow automation, code analysis, and supports multiple authentication methods across different regional providers.</blockquote>
 </details>
 
-### Vibe-coding apps
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/apps.png" width="40" height="40" alt="Apps" /> Vibe-coding apps
 
 <details>
   <summary><strong>🔥 <a href="https://kiro.dev/">Kiro</a></strong> AI-powered IDE with spec-driven development and autonomous task execution.</summary>
@@ -65,7 +65,7 @@
   <blockquote>Kiro transforms prompts into structured requirements and implementation tasks, supporting multimodal inputs and agent hooks for automated background workflows with Claude Sonnet integration.</blockquote>
 </details>
 
-### Agent interfaces
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/interfaces.png" width="40" height="40" alt="Interfaces" /> Agent interfaces
 
 <details>
   <summary><strong><a href="https://github.com/baryhuang/claude-code-by-agents">Agentrooms</a></strong> Multi-agent workspace for collaborative development with Claude CLI.</summary>
@@ -91,7 +91,7 @@
   <blockquote>Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms.</blockquote>
 </details>
 
-### Tools and MCP servers
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/tools.png" width="40" height="40" alt="Tools" /> Tools and MCP servers
 
 #### Memory
 
@@ -139,5 +139,5 @@
   <blockquote>playwright-mcp enables LLMs to interact with web pages through structured accessibility snapshots rather than pixel-based input, offering deterministic browser automation with clicking, typing, navigation, and screenshot tools for precise web interactions.</blockquote>
 </details>
 
-### Vibe-coding workflows
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="40" height="40" alt="Workflows" /> Vibe-coding workflows
 

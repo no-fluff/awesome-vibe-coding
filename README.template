@@ -15,22 +15,22 @@
 * [**Tools and MCP servers**](#tools-and-mcp-servers)
     {{{dynamic-categories "tools" this}}}
 
-### Agents
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/agents.png" width="40" height="40" alt="Agents" /> Agents
 
 {{{render-section agents}}}
 
-### Vibe-coding apps
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/apps.png" width="40" height="40" alt="Apps" /> Vibe-coding apps
 
 {{{render-section apps}}}
 
-### Agent interfaces
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/interfaces.png" width="40" height="40" alt="Interfaces" /> Agent interfaces
 
 {{{render-section interfaces}}}
 
-### Tools and MCP servers
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/tools.png" width="40" height="40" alt="Tools" /> Tools and MCP servers
 
 {{{render-section tools categories=categories.tools}}}
 
-### Vibe-coding workflows
+### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="40" height="40" alt="Workflows" /> Vibe-coding workflows
 
 {{{render-section workflows}}}
