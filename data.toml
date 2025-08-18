@@ -99,7 +99,7 @@ repo = ""
 open_source = true
 summary = "AI-powered task management system for coding workflows with MCP integration."
 detail = "Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage."
-category = "Memory"
+category = "Task management"
 
 [categories]
 tools = ["Memory", "Task management", "Codebase understanding", "Security", "Other tools"]
