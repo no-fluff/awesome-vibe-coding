@@ -90,7 +90,7 @@ repo = "https://github.com/glebkudr/shotgun_code"
 open_source = true
 summary = "Desktop tool for preparing comprehensive project context for AI coding assistants."
 detail = "Shotgun App enables one-click generation of structured project payloads for LLM interactions, allowing selective file exclusion and supporting whole-repository analysis and modification workflows with ChatGPT, Gemini, and other AI assistants."
-category = "Wibble"
+category = "Codebase understanding"
 
 [[tools]]
 name = "Task Master"
