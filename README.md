@@ -21,6 +21,12 @@
 ### Agents
 
 <details>
+  <summary><strong><a href="https://google-gemini.github.io/gemini-cli/">Gemini CLI</a></strong> Open source terminal-based AI agent with Gemini 2.5 Pro and multimodal capabilities.</summary>
+
+  <blockquote>Gemini CLI brings Google's Gemini AI directly to the terminal with code generation, Google Search integration, file operations, and 1M token context window. Supports multiple authentication methods and offers extensible architecture for developer workflows.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://opencode.ai/">Opencode</a></strong> Open source terminal-based coding agent with multi-provider LLM support.</summary>
 
   <blockquote>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</blockquote>
