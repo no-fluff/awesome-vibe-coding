@@ -107,7 +107,7 @@ function renderItem(item) {
   const hotPrefix = item.hot ? '🔥 ' : '';
   
   return `<details>
-  <summary><strong><a href="${url}">${hotPrefix}${item.name}</a></strong> ${summary}</summary>
+  <summary><strong>${hotPrefix}<a href="${url}">${item.name}</a></strong> ${summary}</summary>
 
   <blockquote>${detail}</blockquote>
 </details>`;

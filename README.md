@@ -27,7 +27,7 @@
 ### Vibe-coding apps
 
 <details>
-  <summary><strong><a href="https://kiro.dev/">🔥 Kiro</a></strong> AI-powered IDE with spec-driven development and autonomous task execution.</summary>
+  <summary><strong>🔥 <a href="https://kiro.dev/">Kiro</a></strong> AI-powered IDE with spec-driven development and autonomous task execution.</summary>
 
   <blockquote>Kiro transforms prompts into structured requirements and implementation tasks, supporting multimodal inputs and agent hooks for automated background workflows with Claude Sonnet integration.</blockquote>
 </details>
