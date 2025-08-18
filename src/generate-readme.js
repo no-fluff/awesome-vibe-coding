@@ -30,7 +30,7 @@ handlebars.registerHelper(
     const categoryLinks = [];
     categories.forEach((category) => {
       if (usedCategories.has(category)) {
-        categoryLinks.push(`* [${category}](#${category.toLowerCase()})`);
+        categoryLinks.push(`* [${category}](#${category.toLowerCase().replace(/\s+/g, '-')})`);
       }
     });
 
