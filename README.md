@@ -1,10 +1,10 @@
 # Awesome Vibe Coding
 
-## Getting started with vibe coding
+<!--## Getting started with vibe coding-->
 
-## The essential resources
+<!--## The essential resources-->
 
-## Advanced vibe coding
+<!--## Advanced vibe coding-->
 
 * [**Agents**](#agents)
     
@@ -14,6 +14,7 @@
     
 * [**Tools and MCP servers**](#tools-and-mcp-servers)
     * [Memory](#memory)
+    * [Task management](#task management)
     * [Security](#security)
 
 ### Agents
@@ -48,6 +49,13 @@
 
 ### Tools and MCP servers
 
+<details>
+  <summary><strong><a href="https://github.com/glebkudr/shotgun_code">Shotgun App</a></strong> Desktop tool for preparing comprehensive project context for AI coding assistants.</summary>
+
+  <blockquote>Shotgun App enables one-click generation of structured project payloads for LLM interactions, allowing selective file exclusion and supporting whole-repository analysis and modification workflows with ChatGPT, Gemini, and other AI assistants.</blockquote>
+</details>
+
+
 #### Memory
 
 <details>
@@ -62,11 +70,7 @@
   <blockquote>Kratos MCP provides persistent memory for AI coding tools using a Four Pillars Framework with SQLite storage, ensuring AI maintains project context across sessions with sub-10ms retrieval times and automatic project isolation.</blockquote>
 </details>
 
-<details>
-  <summary><strong><a href="https://github.com/glebkudr/shotgun_code">Shotgun App</a></strong> Desktop tool for preparing comprehensive project context for AI coding assistants.</summary>
-
-  <blockquote>Shotgun App enables one-click generation of structured project payloads for LLM interactions, allowing selective file exclusion and supporting whole-repository analysis and modification workflows with ChatGPT, Gemini, and other AI assistants.</blockquote>
-</details>
+#### Task management
 
 <details>
   <summary><strong><a href="https://www.task-master.dev/">Task Master</a></strong> AI-powered task management system for coding workflows with MCP integration.</summary>

@@ -46,28 +46,47 @@ handlebars.registerHelper('render-section', function(items, options) {
   if (categories && Array.isArray(categories)) {
     // Group items by category
     const groupedItems = {};
+    const uncategorizedItems = [];
     
     items.forEach(item => {
-      const category = item.category || 'Other';
-      if (!groupedItems[category]) {
-        groupedItems[category] = [];
-      }
-      groupedItems[category].push(item);
-    });
-
-    // Sort categories according to the provided order
-    const sortedCategories = categories.filter(cat => groupedItems[cat]);
-    
-    // Add any remaining categories not in the provided list
-    Object.keys(groupedItems).forEach(cat => {
-      if (!categories.includes(cat)) {
-        sortedCategories.push(cat);
+      if (item.category && categories.includes(item.category)) {
+        // Item has a valid category that exists in the defined categories
+        if (!groupedItems[item.category]) {
+          groupedItems[item.category] = [];
+        }
+        groupedItems[item.category].push(item);
+      } else {
+        // Item has no category or category doesn't exist in defined categories
+        uncategorizedItems.push(item);
       }
     });
 
     let result = '';
-    sortedCategories.forEach(category => {
+    
+    // Render uncategorized items at the top without a category heading
+    if (uncategorizedItems.length > 0) {
+      // Sort uncategorized items with hot entries first, then alphabetically
+      const sortedUncategorized = uncategorizedItems.sort((a, b) => {
+        // Hot items come first
+        if (a.hot && !b.hot) return -1;
+        if (!a.hot && b.hot) return 1;
+        // Within the same hot/non-hot group, sort alphabetically
+        return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+      });
+      
+      sortedUncategorized.forEach(item => {
+        result += renderItem(item) + '\n\n';
+      });
+    }
+    
+    // Render items in defined categories, in the order specified
+    categories.forEach(category => {
       if (groupedItems[category] && groupedItems[category].length > 0) {
+        // Add extra spacing before first category if we have uncategorized items
+        if (result.length > 0 && result.indexOf('####') === -1) {
+          result += '\n';
+        }
+        
         result += `#### ${category}\n\n`;
         
         // Sort items with hot entries first, then alphabetically within each group

@@ -63,7 +63,7 @@ jobs:
             **PRIMARY GOAL**: For every valid submission, you MUST create an actual GitHub Pull Request. This is not optional.
 
             **ISSUE TITLE MANAGEMENT**: Ensure the resource name is included in the issue title; if it is, leave the title alone. Otherwise edit the title to include the resource name.
-            
+
             Examples:
             - "Add Cursor Editor" → Leave as is (resource name already included)
             - "Submit my awesome agent" → Change to "Add [Resource Name]" 
@@ -100,6 +100,8 @@ jobs:
               ```
 
               **IMPORTANT**: NEVER include the `hot` attribute when adding new entries. The `hot` attribute is reserved for highlighting exceptional or trending resources and should only be added manually by maintainers.
+
+              **CATEGORY RULES**: Only add a `category` field to entries if the target section defines categories. For example, `[[apps]]` entries should never have a `category` field since apps don't use categories. Only `[[agents]]` and `[[tools]]` sections use categories. Never create new categories - only use existing ones from the section.
 
               Example correct entry:
               ```toml
