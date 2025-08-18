@@ -16,8 +16,8 @@ I'd like to propose a new workflow for the awesome-vibe-coding list:
 
 ## Are you the author/maintainer? (Either is fine!)
 
-- [x] Yes
-- [ ] No
+- [ ] Yes
+- [x] No
 
 ### Workflow type:
 
