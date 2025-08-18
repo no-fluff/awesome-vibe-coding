@@ -33,6 +33,12 @@
 ### Tools and MCP servers
 
 <details>
+  <summary><strong><a href="https://github.com/coleam00/Archon">Archon</a></strong> MCP server and knowledge management platform for AI coding assistants.</summary>
+
+  <blockquote>Archon provides custom knowledge bases with web crawling, vector search, and task management capabilities, supporting multiple LLMs and offering 10 MCP tools for enhanced RAG queries and collaborative development workflows.</blockquote>
+</details>
+
+<details>
 <summary><strong><a href="https://github.com/nikvdp/cco">cco</a></strong> protective wrapper for Claude Code with zero-config sandboxed execution.</summary>
 
 <blockquote>cco provides automatic sandboxing for Claude Code using native OS tools or Docker fallback, enabling secure isolated interactions while maintaining seamless user experience and preserving project context across platforms.</blockquote>
