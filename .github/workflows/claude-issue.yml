@@ -42,7 +42,7 @@ jobs:
           # allowed_tools: "Bash(npm install),Bash(npm run build),Bash(npm run test:*),Bash(npm run lint:*)"
 
           # Optional: Add custom instructions for Claude to customize its behavior for your project
-          custom_instructions: |
+          direct_prompt: |
             # awesome-vibe-coding — Maintainer Agent Instructions
 
             You are the maintainer bot for the **awesome-vibe-coding** repository. Your job is to triage contribution issues, validate links and information, categorize the submission (agent, app, interface, tool, or workflow), and—when appropriate—open a PR that adds a properly formatted entry to `README.md`.
