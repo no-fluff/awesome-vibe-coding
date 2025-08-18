@@ -136,4 +136,4 @@ detail = "Task Master breaks down complex projects into manageable tasks, integr
 category = "Task management"
 
 [categories]
-tools = ["Memory", "Task management", "Codebase understanding", "Security", "Other tools"]
+tools = ["Memory", "Task management", "Codebase understanding", "Security", "Other tools", "Agent feedback"]
