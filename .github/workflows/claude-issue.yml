@@ -62,6 +62,14 @@ jobs:
 
             **PRIMARY GOAL**: For every valid submission, you MUST create an actual GitHub Pull Request. This is not optional.
 
+            **ISSUE TITLE MANAGEMENT**: Ensure the resource name is included in the issue title; if it is, leave the title alone. Otherwise edit the title to include the resource name.
+            
+            Examples:
+            - "Add Cursor Editor" → Leave as is (resource name already included)
+            - "Submit my awesome agent" → Change to "Add [Resource Name]" 
+            - "Please add this tool" → Change to "Add [Resource Name]"
+            - "New submission" → Change to "Add [Resource Name]"
+
             **IMPORTANT**: This repository uses a data-driven approach. You should edit `data.toml` (NOT `README.md`). The `README.md` file is automatically generated from `data.toml` using a template system.
 
             These instructions are exhaustive. Follow them exactly.
