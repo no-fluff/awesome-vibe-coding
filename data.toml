@@ -24,6 +24,14 @@ summary = "Visual interface for AI-powered code modifications with Claude CLI."
 detail = "claude-frontend provides a browser widget that allows developers to select webpage elements and send them to Claude for instant code modifications, supporting multiple frameworks including Next.js, Vite, React, and Vue in local development environments."
 
 [[interfaces]]
+name = "Agentrooms"
+website = ""
+repo = "https://github.com/baryhuang/claude-code-by-agents"
+open_source = true
+summary = "Multi-agent workspace for collaborative development with Claude CLI."
+detail = "Agentrooms provides desktop and web interfaces for coordinating specialized AI agents in collaborative software development workflows, enabling task routing via @agent-name mentions, automatic decomposition, and management of complex multi-agent projects using Claude CLI as the underlying engine."
+
+[[interfaces]]
 name = "Happy"
 website = "https://happy.engineering/"
 repo = "https://github.com/slopus/happy"
