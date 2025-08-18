@@ -104,26 +104,22 @@ jobs:
               * Extract only the required fields:
 
                 * `Name` (required)
-                * `Website` (required - main URL for the project)
-                * `GitHub repo` (optional - will be auto-discovered if not provided)
+                * `Website` (optional if GitHub repo link is provided)
+                * `GitHub repo` (optional if website link is provided)
               * Normalize whitespace. Trim trailing punctuation from URLs.
               * All other information (features, overview, notes) will be automatically generated from website analysis.
 
             3. **Validate critical information**:
 
               * **Name** must be present and ≥ 2 characters.
-              * **Website** must be provided and accessible.
+              * **Website or GitHub repo URL** must be provided and accessible.
               * No other manual descriptive content is required - features and overview will be auto-generated.
 
             4. **Validate links**:
 
-              * For the required Website URL:
+              * For the Website URL and GitHub repo URL (if provided):
 
-                * Attempt `HEAD`, then `GET` if `HEAD` is blocked.
-                * Follow redirects (HTTP 3xx).
-                * Consider **broken** if final status ≥ 400, DNS fails, TLS fails, or content is obviously unrelated (HTTP 200 page saying "Not found", etc.).
-                * If Website is broken, stop and request a working URL (see "Comment templates").
-                * Attempt to auto-discover GitHub repo from website content if not explicitly provided.
+                - Use WebFetch to retreive content from the links and use the resulting context for the next tasks.
 
             5. **Categorize** (and detect wrong template):
 

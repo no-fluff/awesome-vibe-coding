@@ -50,7 +50,8 @@ jobs:
           # allowed_tools: "Bash(npm install),Bash(npm run build),Bash(npm run test:*),Bash(npm run lint:*)"
 
           # Optional: Add custom instructions for Claude to customize its behavior for your project
-          # custom_instructions: |
+          custom_instructions: |
+            Please review the conversation and respond to the user in a friendly but professional manner.
 
           # Optional: Custom environment variables for Claude
           # claude_env: |
