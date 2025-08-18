@@ -67,10 +67,14 @@ jobs:
               - `### Agent interfaces`
               - `### Tools and MCP servers`
               - `### Vibe-coding workflows`
-            - Entry format (single line `<summary>` followed by `<detail>` on the next line):
+            - Entry format (using HTML `<details>` element):
 
               ```markdown
-              <summary>[**Name**](https://example.com) headline up to 20 words.</summary><detail>One concise paragraph expanding on capabilities and use-cases.</detail>
+              <details>
+                <summary><strong><a href="https://example.com/">Name</a></strong> headline up to 20 words.</summary>
+
+                <p>One concise paragraph expanding on capabilities and use-cases.</p>
+              </details>
             ````
 
             * Features checklist allowed in “agent” template:
@@ -170,7 +174,7 @@ jobs:
 
               * Insert under the correct heading (`### …`).
               * Keep **alphabetical order** (case-insensitive) by item name within that section.
-              * Ensure the entry is a single `<summary>` line followed immediately by a `<detail>` line.
+              * Ensure the entry follows the `<details>` format with proper HTML structure.
               * Preserve surrounding formatting and blank lines.
 
             9. **MUST CREATE A PULL REQUEST**:
@@ -189,7 +193,7 @@ jobs:
                   * Validation checklist:
                     * `[x] Links reachable` (or explain fallback)
                     * `[x] Not a duplicate`
-                    * `[x] Entry formatted (summary/detail)`
+                    * `[x] Entry formatted (details element)`
                     * `[x] Sorted alphabetically`
                   * Source notes (what you relied on: site, repo README, issue text)
                   * If website unreachable but repo used, note this explicitly
@@ -259,7 +263,11 @@ jobs:
             **Generated entry:**
 
             ```markdown
-            <summary>[*OpenCode*](https://opencode.ai/) is an open source terminal-based coding agent with background operation and BYO model subscriptions.</summary><detail>OpenCode helps explore codebases, generate features, and debug via a client/server design, and integrates with IDEs like VS Code and Cursor for smooth local or remote development.</detail>
+            <details>
+              <summary><strong><a href="https://opencode.ai/">Opencode</a></strong> open source terminal-based coding agent with multi-provider LLM support.</summary>
+
+              <p>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</p>
+            </details>
             ```
 
             **Commit message:**
@@ -286,7 +294,11 @@ jobs:
             **Generated entry:**
 
             ```markdown
-            <summary>[*TerminalAgent UI*](https://terminalagent-ui.app/) a web interface for the TerminalAgent</summary><detail>TerminalAgent UI provides a browser-based control surface for the TerminalAgent, offering file navigation, run/output views, and one-click tool invocations without changing the underlying agent behavior.</detail>
+            <details>
+              <summary><strong><a href="https://terminalagent-ui.app/">TerminalAgent UI</a></strong> a web interface for the TerminalAgent.</summary>
+
+              <p>TerminalAgent UI provides a browser-based control surface for the TerminalAgent, offering file navigation, run/output views, and one-click tool invocations without changing the underlying agent behavior.</p>
+            </details>
             ```
 
             **Auto-move comment:** use “Wrong template (auto-move with high confidence)” template above.
@@ -310,7 +322,11 @@ jobs:
             **Generated entry (linking to repo):**
 
             ```markdown
-            <summary>[*CodePilot*](https://github.com/codepilot-ai/codepilot) open source desktop coding agent for macOS and Windows</summary><detail>CodePilot assists with feature implementation, refactoring, and debugging, supports background tasks, and offers deep IDE integration for local-first workflows.</detail>
+            <details>
+              <summary><strong><a href="https://github.com/codepilot-ai/codepilot">CodePilot</a></strong> open source desktop coding agent for macOS and Windows.</summary>
+
+              <p>CodePilot assists with feature implementation, refactoring, and debugging, supports background tasks, and offers deep IDE integration for local-first workflows.</p>
+            </details>
             ```
 
             ---
@@ -336,8 +352,8 @@ jobs:
             * **Language & tone**:
 
               * Write in clear, neutral English. Avoid hype and vague claims.
-              * Do not exceed 20 words in `<summary>`. No trailing period in `<summary>`.
-              * Keep `<detail>` to one compact paragraph (1–3 sentences).
+              * Do not exceed 20 words in the summary text.
+              * Keep detail paragraph to one compact paragraph (1–3 sentences).
             * **Data integrity**:
 
               * Never fabricate capabilities or numbers.
@@ -360,8 +376,8 @@ jobs:
             * [ ] Name present (≥ 2 chars)
             * [ ] At least one working URL (Website or GitHub)
             * [ ] Not a duplicate (name/domain/repo checked)
-            * [ ] Summary ≤ 20 words, link wraps *Name*, no trailing period
-            * [ ] Detail paragraph is factual, 1–3 sentences
+            * [ ] Summary in <strong> tags with link, ≤ 20 words
+            * [ ] Detail paragraph in <p> tags, factual, 1–3 sentences  
             * [ ] Entry placed in correct section, alphabetically sorted
             * [ ] **GITHUB PULL REQUEST CREATED** with proper title, body, and issue link
             * [ ] PR link posted as comment on the original issue
