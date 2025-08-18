@@ -1,4 +1,13 @@
 [[agents]]
+name = "Gemini CLI"
+website = "https://google-gemini.github.io/gemini-cli/"
+repo = "https://github.com/google-gemini/gemini-cli"
+open_source = true
+summary = "Open source terminal-based AI agent with Gemini 2.5 Pro and multimodal capabilities."
+detail = "Gemini CLI brings Google's Gemini AI directly to the terminal with code generation, Google Search integration, file operations, and 1M token context window. Supports multiple authentication methods and offers extensible architecture for developer workflows."
+category = "Open source"
+
+[[agents]]
 name = "OpenAI Codex"
 website = "https://chatgpt.com/codex"
 repo = ""
@@ -13,6 +22,7 @@ repo = ""
 open_source = false
 summary = "AI-powered terminal coding assistant with deep codebase understanding and multi-file coordination."
 detail = "Claude Code embeds Claude Opus 4.1 directly in developers' terminals, providing agentic search across entire codebases, coordinated multi-file changes, and direct command execution in development environments with integrations for VS Code, JetBrains IDEs, GitHub, and enterprise tools."
+hot = true
 
 [[agents]]
 name = "Opencode"
