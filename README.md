@@ -19,6 +19,12 @@
 ### Agents
 
 <details>
+  <summary><strong><a href="https://chatgpt.com/codex">OpenAI Codex</a></strong> Cloud-based autonomous coding agent with multi-task execution and isolated environments.</summary>
+
+  <blockquote>OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://opencode.ai/">Opencode</a></strong> Open source terminal-based coding agent with multi-provider LLM support.</summary>
 
   <blockquote>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</blockquote>
