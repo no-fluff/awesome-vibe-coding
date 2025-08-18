@@ -23,6 +23,14 @@ summary = "Open source terminal-based coding agent with multi-provider LLM suppo
 detail = "Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows."
 
 [[agents]]
+name = "OpenAI Codex CLI"
+website = ""
+repo = "https://github.com/openai/codex"
+open_source = true
+summary = "Experimental terminal-based coding agent with configurable sandbox modes."
+detail = "Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access."
+
+[[agents]]
 name = "Qwen Code"
 website = ""
 repo = "https://github.com/QwenLM/qwen-code"
