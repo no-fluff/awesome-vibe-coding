@@ -67,6 +67,7 @@ jobs:
               - `### Agent interfaces`
               - `### Tools and MCP servers`
               - `### Vibe-coding workflows`
+            - Sorting rule: Add new contributions in alphabetical order by name within each section.
             - Entry format (using HTML `<details>` element):
 
               ```markdown
@@ -89,43 +90,40 @@ jobs:
 
             ## High-level workflow
 
-            1. **Trigger**: Run when a new issue with label `contribution` is created using any of the five templates:
+            1. **Trigger**: Run when a new issue with label `contribution` is created. Template choice is now optional since categorization is auto-detected from website analysis:
 
               * new agent
               * new app
               * new agent interface
               * new workflow
               * new tool
+              * Or any other template - category will be auto-determined
 
             2. **Parse the issue**:
 
-              * Extract:
+              * Extract only the required fields:
 
-                * `Name`
-                * `Website` (optional if GitHub is provided)
-                * `GitHub repo` (optional if Website is provided)
-                * `Are you the developer/maintainer?`
-                * `Is the item open source?`
-                * **Feature checkboxes** (the *provided list only*)
-                * **Free-text feature overview**
-                * **Notes**
+                * `Name` (required)
+                * `Website` (required - main URL for the project)
+                * `GitHub repo` (optional - will be auto-discovered if not provided)
               * Normalize whitespace. Trim trailing punctuation from URLs.
+              * All other information (features, overview, notes) will be automatically generated from website analysis.
 
             3. **Validate critical information**:
 
               * **Name** must be present and ≥ 2 characters.
-              * At least **one** of `Website` or `GitHub repo` must be provided.
-              * There must be **some** descriptive content (either feature checkboxes or free-text overview).
+              * **Website** must be provided and accessible.
+              * No other manual descriptive content is required - features and overview will be auto-generated.
 
             4. **Validate links**:
 
-              * For each provided URL:
+              * For the required Website URL:
 
                 * Attempt `HEAD`, then `GET` if `HEAD` is blocked.
                 * Follow redirects (HTTP 3xx).
-                * Consider **broken** if final status ≥ 400, DNS fails, TLS fails, or content is obviously unrelated (HTTP 200 page saying “Not found”, etc.).
-                * If `Website` is broken but `GitHub repo` works, proceed using the repo URL; mark in PR body that site was unreachable.
-                * If **both** are broken, stop and request fixes (see “Comment templates”).
+                * Consider **broken** if final status ≥ 400, DNS fails, TLS fails, or content is obviously unrelated (HTTP 200 page saying "Not found", etc.).
+                * If Website is broken, stop and request a working URL (see "Comment templates").
+                * Attempt to auto-discover GitHub repo from website content if not explicitly provided.
 
             5. **Categorize** (and detect wrong template):
 
@@ -148,27 +146,28 @@ jobs:
                 * GitHub org/repo match (`owner/repo`).
               * If duplicate is found, comment with details and close with `duplicate` label.
 
-            7. **Summarize from sources**:
+            7. **Auto-generate summary and features from website analysis**:
 
-              * Collect signals from (in order):
+              * **Primary source**: The provided Website URL - comprehensively analyze all available content.
+              * **Supplementary sources** (in order of priority):
 
-                1. `Website` (if reachable),
-                2. `GitHub README` (fallback or supplementary),
-                3. Issue free-text overview,
-                4. Checked feature boxes.
+                1. GitHub repository (auto-discovered or explicitly provided)
+                2. Documentation pages linked from the main site
+                3. README files, feature pages, and getting started guides
               * **Headline (for `<summary>`):**
 
                 * ≤ 20 words.
-                * Format: `[**Name**](URL) …` with **bold** on the name and link to Website if reachable; else link to GitHub repo.
-                * Prefer a crisp differentiator (e.g., “open source terminal agent”, “GUI wrapper for TerminalAgent”, “MCP server for code search”).
+                * Format: `[**Name**](URL) …` with **bold** on the name and link to Website.
+                * Auto-generate a crisp differentiator based on website content analysis (e.g., "open source terminal agent", "GUI wrapper for existing agents", "MCP server for code search").
+                * Determine category clues from website content (look for keywords: "GUI", "interface", "wrapper", "MCP", "plugin", "agent", "coding assistant", etc.).
                 * **Period** at the end of `<summary>`.
               * **Detail paragraph (for `<detail>`):**
 
-                * 1–3 sentences. Informative, non-hype.
-                * Mention 1–3 concrete capabilities and typical use-cases.
-                * Reference notable ecosystem integrations only if confirmed (e.g., “integrates with VS Code and Cursor”).
-                * If a feature checkbox is selected, you may incorporate it (e.g., “supports background agents”).
-                * Avoid unverified numbers (like “supports 75+ LLMs”) unless source states it explicitly.
+                * 1–3 sentences. Auto-generated from website content analysis.
+                * Extract and mention 1–3 concrete capabilities and typical use-cases from the website.
+                * Include notable ecosystem integrations only if explicitly mentioned on the site (e.g., "integrates with VS Code and Cursor").
+                * Auto-detect features like "background agents", "mobile support", "model provider subscriptions" from website content.
+                * Only include verified information from the website - avoid speculation.
 
             8. **Place the entry in `README.md`**:
 
@@ -225,19 +224,20 @@ jobs:
 
             **Missing critical information**
 
-            > Thanks for proposing **{Name or “this project”}**. To proceed, please provide:
+            > Thanks for proposing **{Name or "this project"}**. To proceed, please provide:
             >
-            > * A working **Website** or **GitHub repo** link (at least one is required)
-            > * A short overview (1–3 sentences) describing what it does
-            >   Once added, I’ll draft the PR.
+            > * **Project name** (required)
+            > * A working **Website** link (required - I'll analyze this to auto-generate the summary and features)
+            >   
+            > That's all I need! I'll automatically generate the description, features, and category from your website. Once added, I'll draft the PR.
 
             **Broken links**
 
-            > I couldn’t reach the provided link(s):
+            > I couldn't reach the provided website:
             >
-            > * {URL 1} — {error or status}
-            > * {URL 2} — {error or status}
-            >   Please update with a working Website or GitHub repo. I’ll resume once fixed.
+            > * {Website URL} — {error or status}
+            >   
+            > Please update with a working Website URL. I need to analyze the site to auto-generate the summary and features. I'll resume once fixed.
 
             **Duplicate**
 
@@ -248,17 +248,17 @@ jobs:
 
             ## Examples
 
-            ### Example A — Agent (clean submission)
+            ### Example A — Agent (simplified submission)
 
-            **Issue (agent template):**
+            **Issue (any template):**
 
             * Name: OpenCode
             * Website: [https://opencode.ai/](https://opencode.ai/)
-            * GitHub: [https://github.com/opencode/opencode](https://github.com/opencode/opencode)
-            * Developer/maintainer: Yes
-            * Open source: Yes
-            * Features (checked): Background agents; Supports model provider subscriptions
-            * Overview: “OpenCode is a terminal-based coding agent that integrates with VS Code and Cursor.”
+
+            **Auto-analysis from website:**
+            * Category detected: Agent (based on website content mentioning "terminal-based coding agent")
+            * Features discovered: Background agents, model provider subscriptions, VS Code/Cursor integration
+            * GitHub repo auto-discovered: [https://github.com/opencode/opencode](https://github.com/opencode/opencode)
 
             **Generated entry:**
 
@@ -278,18 +278,25 @@ jobs:
 
             **PR body notes:**
 
-            * Links reachable (site + repo)
-            * Category: Agents (matches submission)
-            * Sources: Website hero + GitHub README + issue overview
+            * Website analyzed and accessible
+            * Category: Agents (auto-detected from website content)
+            * Sources: Website analysis + auto-discovered GitHub README
             * Alphabetical placement validated
 
             ---
 
-            ### Example B — Submitted as “Agent” but is actually an “Agent interface” (auto-move)
+            ### Example B — Auto-categorization from website analysis
 
-            **Clues:** “A web GUI for the TerminalAgent. No additional capabilities; just easier controls.”
+            **Issue:**
 
-            **Action:** Place under `### Agent interfaces`, post auto-move comment, open PR.
+            * Name: TerminalAgent UI
+            * Website: [https://terminalagent-ui.app/](https://terminalagent-ui.app/)
+
+            **Auto-analysis from website:**
+            * Category detected: Agent interface (website mentions "web GUI for TerminalAgent", "easier controls", no core agent capabilities)
+            * Features discovered: Browser-based interface, file navigation, one-click tool invocations
+
+            **Action:** Place under `### Agent interfaces`, no template mismatch comment needed since categorization is auto-detected.
 
             **Generated entry:**
 
@@ -301,33 +308,29 @@ jobs:
             </details>
             ```
 
-            **Auto-move comment:** use “Wrong template (auto-move with high confidence)” template above.
+            ---
+
+            ### Example C — Missing required information
+
+            **Issue:** 
+
+            * Name: CodingHelper
+            * Website: (not provided)
+
+            **Action:** Post "Missing critical information" comment. Add `needs-info`. Do not open PR.
 
             ---
 
-            ### Example C — Missing links
+            ### Example D — Broken website
 
-            **Issue:** No Website and no GitHub link.
+            **Issue:** 
 
-            **Action:** Post “Missing critical information” comment. Add `needs-info`. Do not open PR.
+            * Name: CodePilot
+            * Website: https://codepilot.example.com (returns 404)
 
-            ---
+            **Action:** Post "Broken links" comment. Add `broken-link`. Do not open PR. 
 
-            ### Example D — Broken website, working GitHub
-
-            **Issue:** Website 404; GitHub OK.
-
-            **Action:** Proceed using the GitHub URL in the `<summary>` link. Note in PR body that the website was unreachable.
-
-            **Generated entry (linking to repo):**
-
-            ```markdown
-            <details>
-              <summary><strong><a href="https://github.com/codepilot-ai/codepilot">CodePilot</a></strong> open source desktop coding agent for macOS and Windows.</summary>
-
-              <p>CodePilot assists with feature implementation, refactoring, and debugging, supports background tasks, and offers deep IDE integration for local-first workflows.</p>
-            </details>
-            ```
+            Note: Unlike the old workflow, we cannot fallback to GitHub since website analysis is required for auto-generation.
 
             ---
 
@@ -372,12 +375,13 @@ jobs:
 
             ## Final checklist before opening a PR
 
-            * [ ] Category determined (or confirmed) and correct
             * [ ] Name present (≥ 2 chars)
-            * [ ] At least one working URL (Website or GitHub)
-            * [ ] Not a duplicate (name/domain/repo checked)
-            * [ ] Summary in <strong> tags with link, ≤ 20 words
-            * [ ] Detail paragraph in <p> tags, factual, 1–3 sentences  
+            * [ ] Website URL provided and accessible
+            * [ ] Website analyzed for content and features
+            * [ ] Category auto-determined from website analysis
+            * [ ] Not a duplicate (name/domain checked)
+            * [ ] Summary auto-generated from website, in <strong> tags with link, ≤ 20 words
+            * [ ] Detail paragraph auto-generated from website, in <p> tags, factual, 1–3 sentences  
             * [ ] Entry placed in correct section, alphabetically sorted
             * [ ] **GITHUB PULL REQUEST CREATED** with proper title, body, and issue link
             * [ ] PR link posted as comment on the original issue
