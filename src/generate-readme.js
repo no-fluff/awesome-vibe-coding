@@ -70,10 +70,14 @@ handlebars.registerHelper('render-section', function(items, options) {
       if (groupedItems[category] && groupedItems[category].length > 0) {
         result += `#### ${category}\n\n`;
         
-        // Sort items alphabetically by name within each category
-        const sortedItems = groupedItems[category].sort((a, b) => 
-          a.name.toLowerCase().localeCompare(b.name.toLowerCase())
-        );
+        // Sort items with hot entries first, then alphabetically within each group
+        const sortedItems = groupedItems[category].sort((a, b) => {
+          // Hot items come first
+          if (a.hot && !b.hot) return -1;
+          if (!a.hot && b.hot) return 1;
+          // Within the same hot/non-hot group, sort alphabetically
+          return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+        });
         
         sortedItems.forEach(item => {
           result += renderItem(item) + '\n\n';
@@ -83,10 +87,14 @@ handlebars.registerHelper('render-section', function(items, options) {
     
     return result.trim();
   } else {
-    // No categories, just render items alphabetically
-    const sortedItems = items.sort((a, b) => 
-      a.name.toLowerCase().localeCompare(b.name.toLowerCase())
-    );
+    // No categories, sort with hot entries first, then alphabetically
+    const sortedItems = items.sort((a, b) => {
+      // Hot items come first
+      if (a.hot && !b.hot) return -1;
+      if (!a.hot && b.hot) return 1;
+      // Within the same hot/non-hot group, sort alphabetically
+      return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+    });
     
     return sortedItems.map(item => renderItem(item)).join('\n\n');
   }
@@ -96,9 +104,10 @@ function renderItem(item) {
   const url = item.website || item.repo || '#';
   const summary = item.summary || '';
   const detail = item.detail || '';
+  const hotPrefix = item.hot ? '🔥 ' : '';
   
   return `<details>
-  <summary><strong><a href="${url}">${item.name}</a></strong> ${summary}</summary>
+  <summary><strong><a href="${url}">${hotPrefix}${item.name}</a></strong> ${summary}</summary>
 
   <blockquote>${detail}</blockquote>
 </details>`;

@@ -19,7 +19,7 @@
 ### Agents
 
 <details>
-  <summary><strong><a href="https://opencode.ai/">Opencode</a></strong> Open source terminal-based coding agent with multi-provider LLM support.</summary>
+  <summary><strong><a href="https://opencode.ai/">🔥 Opencode</a></strong> Open source terminal-based coding agent with multi-provider LLM support.</summary>
 
   <blockquote>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</blockquote>
 </details>
@@ -27,7 +27,7 @@
 ### Vibe-coding apps
 
 <details>
-  <summary><strong><a href="https://kiro.dev/">Kiro</a></strong> AI-powered IDE with spec-driven development and autonomous task execution.</summary>
+  <summary><strong><a href="https://kiro.dev/">🔥 Kiro</a></strong> AI-powered IDE with spec-driven development and autonomous task execution.</summary>
 
   <blockquote>Kiro transforms prompts into structured requirements and implementation tasks, supporting multimodal inputs and agent hooks for automated background workflows with Claude Sonnet integration.</blockquote>
 </details>
@@ -35,15 +35,15 @@
 ### Agent interfaces
 
 <details>
-  <summary><strong><a href="https://github.com/tobias-schuemann/claude-frontend">claude-frontend</a></strong> Visual interface for AI-powered code modifications with Claude CLI.</summary>
+  <summary><strong><a href="https://happy.engineering/">🔥 Happy</a></strong> Mobile client for Claude Code with remote access and cross-device synchronization.</summary>
 
-  <blockquote>claude-frontend provides a browser widget that allows developers to select webpage elements and send them to Claude for instant code modifications, supporting multiple frameworks including Next.js, Vite, React, and Vue in local development environments.</blockquote>
+  <blockquote>Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms.</blockquote>
 </details>
 
 <details>
-  <summary><strong><a href="https://happy.engineering/">Happy</a></strong> Mobile client for Claude Code with remote access and cross-device synchronization.</summary>
+  <summary><strong><a href="https://github.com/tobias-schuemann/claude-frontend">claude-frontend</a></strong> Visual interface for AI-powered code modifications with Claude CLI.</summary>
 
-  <blockquote>Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms.</blockquote>
+  <blockquote>claude-frontend provides a browser widget that allows developers to select webpage elements and send them to Claude for instant code modifications, supporting multiple frameworks including Next.js, Vite, React, and Vue in local development environments.</blockquote>
 </details>
 
 ### Tools and MCP servers
@@ -77,7 +77,7 @@
 #### Security
 
 <details>
-  <summary><strong><a href="https://github.com/nikvdp/cco">cco</a></strong> Protective wrapper for Claude Code with zero-config sandboxed execution.</summary>
+  <summary><strong><a href="https://github.com/nikvdp/cco">🔥 cco</a></strong> Protective wrapper for Claude Code with zero-config sandboxed execution.</summary>
 
   <blockquote>cco provides automatic sandboxing for Claude Code using native OS tools or Docker fallback, enabling secure isolated interactions while maintaining seamless user experience and preserving project context across platforms.</blockquote>
 </details>
