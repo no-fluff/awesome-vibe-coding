@@ -1,0 +1,27 @@
+# Awesome Vibe Coding
+
+## Getting started with vibe coding
+
+## The essential resources
+
+## Advanced vibe coding
+
+### Agents
+
+{{{render-section agents}}}
+
+### Vibe-coding apps
+
+{{{render-section apps}}}
+
+### Agent interfaces
+
+{{{render-section interfaces}}}
+
+### Tools and MCP servers
+
+{{{render-section tools categories=categories.tools}}}
+
+### Vibe-coding workflows
+
+{{{render-section workflows}}}

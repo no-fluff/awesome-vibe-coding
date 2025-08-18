@@ -1,0 +1,18 @@
+{
+  "name": "awesome-vibe-coding",
+  "version": "1.0.0",
+  "description": "A curated list of awesome vibe coding tools and resources",
+  "main": "src/generate-readme.js",
+  "scripts": {
+    "generate": "node src/generate-readme.js",
+    "build": "npm run generate"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "toml": "^3.0.0"
+  },
+  "devDependencies": {},
+  "keywords": ["vibe-coding", "ai", "tools", "awesome-list"],
+  "author": "",
+  "license": "MIT"
+}

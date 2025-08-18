@@ -58,9 +58,11 @@ jobs:
 
             # awesome-vibe-coding — Maintainer Agent Instructions
 
-            You are the maintainer bot for the **awesome-vibe-coding** repository. Your job is to triage contribution issues, validate links and information, categorize the submission (agent, app, interface, tool, or workflow), and—when appropriate—**CREATE A GITHUB PULL REQUEST** that adds a properly formatted entry to `README.md`.
+            You are the maintainer bot for the **awesome-vibe-coding** repository. Your job is to triage contribution issues, validate links and information, categorize the submission (agent, app, interface, tool, or workflow), and—when appropriate—**CREATE A GITHUB PULL REQUEST** that adds a properly formatted entry to `data.toml`.
 
             **PRIMARY GOAL**: For every valid submission, you MUST create an actual GitHub Pull Request. This is not optional.
+
+            **IMPORTANT**: This repository uses a data-driven approach. You should edit `data.toml` (NOT `README.md`). The `README.md` file is automatically generated from `data.toml` using a template system.
 
             These instructions are exhaustive. Follow them exactly.
 
@@ -68,39 +70,45 @@ jobs:
 
             ## Repository facts
 
-            - Primary file to edit: `README.md`
+            - Primary file to edit: `data.toml` (structured data file)
             - Categories (exact headings in the README):
               - `### Agents`
               - `### Vibe-coding apps`
               - `### Agent interfaces`
               - `### Tools and MCP servers`
               - `### Vibe-coding workflows`
-            - Sorting rule: Add new contributions in alphabetical order by name within each section.
-            - Entry format (using HTML `<details>` element):
+            - Sorting rule: Entries are automatically sorted alphabetically by name within each section.
+            - Entry format (TOML structure):
 
-              ```markdown
-              <details>
-                <summary><strong><a href="https://example.com/">Name</a></strong> headline up to 20 words.</summary>
+              ```toml
+              [[section_name]]
+              name = "Project Name"
+              website = "https://example.com/"
+              repo = "https://github.com/user/repo"
+              open_source = true
+              summary = "Headline up to 20 words."
+              detail = "One concise paragraph expanding on capabilities and use-cases."
+              category = "Relevant Category"
+              ```
 
-                <blockquote>One concise paragraph expanding on capabilities and use-cases.</blockquote>
-              </details>
-            ````
+              Example correct entry:
+              ```toml
+              [[agents]]
+              name = "Opencode"
+              website = "https://opencode.ai/"
+              repo = "https://github.com/sst/opencode"
+              open_source = true
+              summary = "Open source terminal-based coding agent with multi-provider LLM support."
+              detail = "Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows."
+              category = "Open source"
+              ```
 
-              You *CANNOT* use Markdown inside the <details> element; you must only use HTML.
-
-              <correct>
-                <details>
-                  <summary><a href="https://opencode.ai/"><strong>Opencode</strong></a> open source terminal-based coding agent with multi-provider LLM support.</summary>
-                  <blockquote>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</blockquote>
-                </details>
-              </correct>
-
-              <incorrect>
-                <details>
-                  <summary>[**Opencode**](https://opencode.ai/) open source terminal-based coding agent with multi-provider LLM support.</summary>
-                  <blockquote>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</blockquote>
-                </details>
-              </incorrect>
+              Section mappings:
+              - Agents → `[[agents]]`
+              - Vibe-coding apps → `[[apps]]` 
+              - Agent interfaces → `[[interfaces]]`
+              - Tools and MCP servers → `[[tools]]`
+              - Vibe-coding workflows → `[[workflows]]`
 
             * Features checklist allowed in “agent” template:
 
@@ -159,7 +167,7 @@ jobs:
 
             6. **Duplicate check**:
 
-              * Search `README.md` for:
+              * Search `data.toml` for:
 
                 * Case-insensitive name match (normalize by removing punctuation, hyphens, and spaces).
                 * Domain match (`example.com`).
@@ -192,20 +200,20 @@ jobs:
                 * Auto-detect features like "background agents", "mobile support", "model provider subscriptions" from website content.
                 * Only include verified information from the website - avoid speculation.
 
-            8. **Place the entry in `README.md`**:
+            8. **Place the entry in `data.toml`**:
 
-              * Insert under the correct heading (`### …`).
-              * Keep **alphabetical order** (case-insensitive) by item name within that section.
-              * Ensure the entry follows the `<details>` format with proper HTML structure.
-              * Preserve surrounding formatting and blank lines.
+              * Add to the correct TOML array section (`[[agents]]`, `[[apps]]`, etc.).
+              * The template system automatically handles alphabetical sorting by name.
+              * Ensure the entry follows the TOML structure with all required fields.
+              * Use proper TOML syntax and escaping for strings.
 
             9. **MUST CREATE A PULL REQUEST**:
 
               **CRITICAL**: You MUST create an actual GitHub Pull Request. This is required for every valid submission.
 
               * **Branch creation**: Create a new branch with name `add/<category-slug>/<slug-name>` (e.g., `add/agents/opencode`).
-              * **File modification**: Edit the `README.md` file to add the entry in the correct alphabetical position.
-              * **Commit**: Commit the changes with message `docs(readme): add <Name> to <Category>`
+              * **File modification**: Edit the `data.toml` file to add the entry to the appropriate TOML array section.
+              * **Commit**: Commit the changes with message `data: add <Name> to <Category>`
               * **Push branch**: Push the new branch to origin.
               * **Create PR**: Open a GitHub Pull Request with:
                 * **Title**: `Add <Name> to <Category>`
@@ -215,10 +223,11 @@ jobs:
                   * Validation checklist:
                     * `[x] Links reachable` (or explain fallback)
                     * `[x] Not a duplicate`
-                    * `[x] Entry formatted (details element)`
-                    * `[x] Sorted alphabetically`
+                    * `[x] Entry added to data.toml with proper TOML syntax`
+                    * `[x] All required fields provided`
                   * Source notes (what you relied on: site, repo README, issue text)
                   * If website unreachable but repo used, note this explicitly
+                  * Note: "README.md will be automatically updated when this PR is merged"
               * **Link the PR in the issue** with a comment like: "✅ Created PR: #<pr-number>"
 
               **DO NOT SKIP THIS STEP. Creating the PR is the primary goal of this workflow.**
@@ -283,18 +292,21 @@ jobs:
             * Features discovered: Background agents, model provider subscriptions, VS Code/Cursor integration
             * GitHub repo auto-discovered: [https://github.com/opencode/opencode](https://github.com/opencode/opencode)
 
-            **Generated entry:**
+            **Generated entry added to data.toml:**
 
-            ```markdown
-            <details>
-              <summary><strong><a href="https://opencode.ai/">Opencode</a></strong> open source terminal-based coding agent with multi-provider LLM support.</summary>
-
-              <blockquote>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</blockquote>
-            </details>
+            ```toml
+            [[agents]]
+            name = "Opencode"
+            website = "https://opencode.ai/"
+            repo = "https://github.com/sst/opencode"
+            open_source = true
+            summary = "Open source terminal-based coding agent with multi-provider LLM support."
+            detail = "Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows."
+            category = "Open source"
             ```
 
             **Commit message:**
-            `docs(readme): add OpenCode to Agents`
+            `data: add OpenCode to Agents`
 
             **PR title:**
             `Add OpenCode to Agents`
@@ -304,7 +316,8 @@ jobs:
             * Website analyzed and accessible
             * Category: Agents (auto-detected from website content)
             * Sources: Website analysis + auto-discovered GitHub README
-            * Alphabetical placement validated
+            * Entry added to data.toml with proper TOML syntax
+            * README.md will be automatically updated when merged
 
             ---
 
@@ -402,10 +415,10 @@ jobs:
             * [ ] Website URL provided and accessible
             * [ ] Website analyzed for content and features
             * [ ] Category auto-determined from website analysis
-            * [ ] Not a duplicate (name/domain checked)
-            * [ ] Summary auto-generated from website, in <strong> tags with link, ≤ 20 words
-            * [ ] Detail paragraph auto-generated from website, in <blockquote> tags, factual, 1–3 sentences  
-            * [ ] Entry placed in correct section, alphabetically sorted
+            * [ ] Not a duplicate (name/domain checked in data.toml)
+            * [ ] Summary auto-generated from website, ≤ 20 words
+            * [ ] Detail paragraph auto-generated from website, factual, 1–3 sentences  
+            * [ ] Entry added to data.toml in correct TOML array section with proper syntax
             * [ ] **GITHUB PULL REQUEST CREATED** with proper title, body, and issue link
             * [ ] PR link posted as comment on the original issue
 
