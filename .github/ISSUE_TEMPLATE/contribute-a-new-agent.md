@@ -47,6 +47,6 @@ OpenCode is an open source terminal-based agent which supports 75+ LLM providers
 ---
 
 <!--
- - Contributions should be fully functioning
+ - Contributions should be fully functioning and publicly available
  - Your contribution will be edited by our AI agents, and may be moved to a different category
 -->

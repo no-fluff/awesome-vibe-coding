@@ -57,6 +57,6 @@ AgentShell is a TUI that orchestrates multi-agent workflows with streaming outpu
 ---
 
 <!--
- - Contributions should be fully functioning
+ - Contributions should be fully functioning and publicly available
  - Your contribution will be edited by our AI agents, and may be moved to a different category
 -->

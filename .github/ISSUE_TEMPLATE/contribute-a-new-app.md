@@ -61,6 +61,6 @@ VibeStudio is a desktop and web app that connects to OpenAI, Anthropic, and loca
 ---
 
 <!--
- - Contributions should be fully functioning
+ - Contributions should be fully functioning and publicly available
  - Your contribution will be edited by our AI agents, and may be moved to a different category
 -->

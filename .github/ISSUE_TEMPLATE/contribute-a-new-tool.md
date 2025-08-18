@@ -60,6 +60,6 @@ PromptGuard is a testing toolkit for LLM apps, with adapters for Jest/Vitest and
 ---
 
 <!--
- - Contributions should be fully functioning
+ - Contributions should be fully functioning and publicly available
  - Your contribution will be edited by our AI agents, and may be moved to a different category
 -->

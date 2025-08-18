@@ -56,6 +56,6 @@ Trunk-based AI pairing: a daily agent pairing cadence with small PRs, automated 
 ---
 
 <!--
- - Contributions should be fully functioning or clearly reproducible
+ - Contributions should be fully functioning and publicly available
  - Your contribution will be edited by our AI agents, and may be moved to a different category
 -->
