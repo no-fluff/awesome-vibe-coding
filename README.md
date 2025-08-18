@@ -21,6 +21,12 @@
 ### Agents
 
 <details>
+  <summary><strong><a href="https://www.anthropic.com/claude-code">Claude Code</a></strong> AI-powered terminal coding assistant with deep codebase understanding and multi-file coordination.</summary>
+
+  <blockquote>Claude Code embeds Claude Opus 4.1 directly in developers' terminals, providing agentic search across entire codebases, coordinated multi-file changes, and direct command execution in development environments with integrations for VS Code, JetBrains IDEs, GitHub, and enterprise tools.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://opencode.ai/">Opencode</a></strong> Open source terminal-based coding agent with multi-provider LLM support.</summary>
 
   <blockquote>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</blockquote>
