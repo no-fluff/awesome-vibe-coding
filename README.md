@@ -167,3 +167,15 @@
   <blockquote>BMAD-METHOD combines agentic planning with context-engineered development, using specialized AI agents (Analyst, Product Manager, Architect, Scrum Master) to create detailed PRDs and hyper-detailed development stories that embed full implementation context and architectural guidance directly in story files.</blockquote>
 </details>
 
+<br />
+
+## Contributing
+
+We welcome contributions to awesome-vibe-coding! If you'd like to suggest a new resource:
+
+1. Open an issue on GitHub
+2. Choose the appropriate resource type (e.g., Agent, Tool, Workflow)
+3. Provide the required information as outlined in our contribution guidelines
+
+Your suggestions help keep this list comprehensive and up-to-date for the vibe-coding community.
+
