@@ -34,6 +34,12 @@
 </details>
 
 <details>
+<summary><strong><a href="https://github.com/ceorkm/kratos-mcp">Kratos MCP</a></strong> memory system MCP server for AI coding tools with 95.8% context accuracy.</summary>
+
+<blockquote>Kratos MCP provides persistent memory for AI coding tools using a Four Pillars Framework with SQLite storage, ensuring AI maintains project context across sessions with sub-10ms retrieval times and automatic project isolation.</blockquote>
+</details>
+
+<details>
 <summary><a href="https://www.task-master.dev/"><strong>Task Master</strong></a> AI-powered task management system for coding workflows with MCP integration.</summary>
 <blockquote>Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage.</blockquote>
 </details>
