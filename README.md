@@ -25,6 +25,12 @@
 
 ### Tools and MCP servers
 
+<details>
+<summary><strong><a href="https://github.com/nikvdp/cco">cco</a></strong> protective wrapper for Claude Code with zero-config sandboxed execution.</summary>
+
+<blockquote>cco provides automatic sandboxing for Claude Code using native OS tools or Docker fallback, enabling secure isolated interactions while maintaining seamless user experience and preserving project context across platforms.</blockquote>
+</details>
+
 ### Vibe-coding workflows
 
 <details>
