@@ -16,6 +16,12 @@
 
 ### Vibe-coding apps
 
+<details>
+  <summary><strong><a href="https://happy.engineering/">Happy</a></strong> mobile client for Claude Code with remote access and cross-device synchronization.</summary>
+
+  <blockquote>Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms.</blockquote>
+</details>
+
 ### Agent interfaces
 
 ### Tools and MCP servers
