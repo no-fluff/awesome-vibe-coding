@@ -21,5 +21,5 @@
 
 <details>
 <summary><a href="https://www.task-master.dev/"><strong>Task Master</strong></a> AI-powered task management system for coding workflows with MCP integration.</summary>
-<p>Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage.</p>
+<blockquote>Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage.</blockquote>
 </details>
