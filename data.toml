@@ -1,4 +1,13 @@
 [[agents]]
+name = "OpenAI Codex"
+website = "https://chatgpt.com/codex"
+repo = ""
+open_source = false
+summary = "Cloud-based autonomous coding agent with multi-task execution and isolated environments."
+detail = "OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions."
+category = "Commercial"
+
+[[agents]]
 name = "Opencode"
 website = "https://opencode.ai/"
 repo = "https://github.com/sst/opencode"
