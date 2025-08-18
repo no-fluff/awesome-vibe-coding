@@ -8,6 +8,15 @@ detail = "Opencode supports 75+ LLM providers and integrates with IDEs including
 category = "Open source"
 
 [[apps]]
+name = "Agentrooms"
+website = ""
+repo = "https://github.com/baryhuang/claude-code-by-agents"
+open_source = true
+summary = "Multi-agent collaborative workspace for coordinating AI development workflows."
+detail = "Agentrooms enables automatic task decomposition and coordination across local and remote AI agents through @mentions, providing orchestration endpoints and file-based dependency management for complex multi-step collaborative workflows."
+category = "Open source"
+
+[[apps]]
 name = "Kiro"
 website = "https://kiro.dev/"
 repo = ""
