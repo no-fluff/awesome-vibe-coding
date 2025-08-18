@@ -6,22 +6,19 @@
 
 <!--## Advanced vibe coding-->
 
-* [**Agents**](#agents)
-    
-* [**Vibe-coding apps**](#vibe-coding-apps)
-    
-* [**Agent interfaces**](#agent-interfaces)
-    
-* [**Tools and MCP servers**](#tools-and-mcp-servers)
-    * [Memory](#memory)
-    * [Task management](#task management)
-    * [Codebase understanding](#codebase understanding)
-    * [Security](#security)
-    * [Other tools](#other tools)
+- [**Agents**](#agents)
+- [**Vibe-coding apps**](#vibe-coding-apps)
+- [**Agent interfaces**](#agent-interfaces)
+- [**Tools and MCP servers**](#tools-and-mcp-servers)
+  - [Memory](#memory)
+  - [Task management](#task management)
+  - [Codebase understanding](#codebase understanding)
+  - [Security](#security)
+  - [Other tools](#other tools)
 
 <br />
 
-### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/agents.png" width="36" height="36" alt="Agents" align="absmiddle" />&nbsp; Agents
+## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/agents.png" width="36" height="36" alt="Agents" align="absmiddle" />&nbsp; Agents
 
 <details>
   <summary><strong>🔥 <a href="https://www.anthropic.com/claude-code">Claude Code</a></strong> AI-powered terminal coding assistant with deep codebase understanding and multi-file coordination.</summary>
@@ -61,7 +58,7 @@
 
 <br />
 
-### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/apps.png" width="36" height="36" alt="Apps" align="absmiddle" />&nbsp; Vibe-coding apps
+## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/apps.png" width="36" height="36" alt="Apps" align="absmiddle" />&nbsp; Vibe-coding apps
 
 <details>
   <summary><strong>🔥 <a href="https://kiro.dev/">Kiro</a></strong> AI-powered IDE with spec-driven development and autonomous task execution.</summary>
@@ -71,7 +68,7 @@
 
 <br />
 
-### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/interfaces.png" width="36" height="36" alt="Interfaces" align="absmiddle" />&nbsp; Agent interfaces
+## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/interfaces.png" width="36" height="36" alt="Interfaces" align="absmiddle" />&nbsp; Agent interfaces
 
 <details>
   <summary><strong><a href="https://github.com/baryhuang/claude-code-by-agents">Agentrooms</a></strong> Multi-agent workspace for collaborative development with Claude CLI.</summary>
@@ -99,9 +96,9 @@
 
 <br />
 
-### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/tools.png" width="36" height="36" alt="Tools" align="absmiddle" />&nbsp; Tools and MCP servers
+## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/tools.png" width="36" height="36" alt="Tools" align="absmiddle" />&nbsp; Tools and MCP servers
 
-#### ⚪&nbsp; Memory
+### ⚪&nbsp; Memory
 
 <details>
   <summary><strong><a href="https://github.com/coleam00/Archon">Archon</a></strong> MCP server and knowledge management platform for AI coding assistants.</summary>
@@ -117,7 +114,7 @@
 
 <br />
 
-#### ⚪&nbsp; Task management
+### ⚪&nbsp; Task management
 
 <details>
   <summary><strong><a href="https://www.task-master.dev/">Task Master</a></strong> AI-powered task management system for coding workflows with MCP integration.</summary>
@@ -127,7 +124,7 @@
 
 <br />
 
-#### ⚪&nbsp; Codebase understanding
+### ⚪&nbsp; Codebase understanding
 
 <details>
   <summary><strong><a href="https://github.com/glebkudr/shotgun_code">Shotgun App</a></strong> Desktop tool for preparing comprehensive project context for AI coding assistants.</summary>
@@ -137,7 +134,7 @@
 
 <br />
 
-#### ⚪&nbsp; Security
+### ⚪&nbsp; Security
 
 <details>
   <summary><strong><a href="https://github.com/nikvdp/cco">cco</a></strong> Protective wrapper for Claude Code with zero-config sandboxed execution.</summary>
@@ -147,7 +144,7 @@
 
 <br />
 
-#### ⚪&nbsp; Other tools
+### ⚪&nbsp; Other tools
 
 <details>
   <summary><strong>🔥 <a href="https://github.com/microsoft/playwright-mcp">playwright-mcp</a></strong> MCP server providing browser automation capabilities using Playwright's accessibility tree.</summary>
@@ -160,4 +157,3 @@
 <br />
 
 ### <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="36" height="36" alt="Workflows" align="absmiddle" />&nbsp; Vibe-coding workflows
-
