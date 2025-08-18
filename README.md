@@ -14,7 +14,6 @@
     
 * [**Tools and MCP servers**](#tools-and-mcp-servers)
     * [Memory](#memory)
-    * [Task management](#task management)
     * [Security](#security)
 
 ### Agents
@@ -69,8 +68,6 @@
 
   <blockquote>Kratos MCP provides persistent memory for AI coding tools using a Four Pillars Framework with SQLite storage, ensuring AI maintains project context across sessions with sub-10ms retrieval times and automatic project isolation.</blockquote>
 </details>
-
-#### Task management
 
 <details>
   <summary><strong><a href="https://www.task-master.dev/">Task Master</a></strong> AI-powered task management system for coding workflows with MCP integration.</summary>
