@@ -14,6 +14,7 @@
     
 * [**Tools and MCP servers**](#tools-and-mcp-servers)
     * [Memory](#memory)
+    * [Codebase understanding](#codebase understanding)
     * [Security](#security)
 
 ### Agents
@@ -66,13 +67,6 @@
 
 ### Tools and MCP servers
 
-<details>
-  <summary><strong><a href="https://github.com/glebkudr/shotgun_code">Shotgun App</a></strong> Desktop tool for preparing comprehensive project context for AI coding assistants.</summary>
-
-  <blockquote>Shotgun App enables one-click generation of structured project payloads for LLM interactions, allowing selective file exclusion and supporting whole-repository analysis and modification workflows with ChatGPT, Gemini, and other AI assistants.</blockquote>
-</details>
-
-
 #### Memory
 
 <details>
@@ -91,6 +85,14 @@
   <summary><strong><a href="https://www.task-master.dev/">Task Master</a></strong> AI-powered task management system for coding workflows with MCP integration.</summary>
 
   <blockquote>Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage.</blockquote>
+</details>
+
+#### Codebase understanding
+
+<details>
+  <summary><strong><a href="https://github.com/glebkudr/shotgun_code">Shotgun App</a></strong> Desktop tool for preparing comprehensive project context for AI coding assistants.</summary>
+
+  <blockquote>Shotgun App enables one-click generation of structured project payloads for LLM interactions, allowing selective file exclusion and supporting whole-repository analysis and modification workflows with ChatGPT, Gemini, and other AI assistants.</blockquote>
 </details>
 
 #### Security
