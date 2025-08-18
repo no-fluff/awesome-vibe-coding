@@ -145,5 +145,13 @@ summary = "AI-powered task management system for coding workflows with MCP integ
 detail = "Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage."
 category = "Task management"
 
+[[workflows]]
+name = "BMAD-METHOD"
+website = ""
+repo = "https://github.com/bmad-code-org/BMAD-METHOD"
+open_source = true
+summary = "AI-driven agile development framework with specialized agent orchestration and context engineering."
+detail = "BMAD-METHOD combines agentic planning with context-engineered development, using specialized AI agents (Analyst, Product Manager, Architect, Scrum Master) to create detailed PRDs and hyper-detailed development stories that embed full implementation context and architectural guidance directly in story files."
+
 [categories]
 tools = ["Memory", "Task management", "Codebase understanding", "Security", "Other tools", "Agent feedback"]
