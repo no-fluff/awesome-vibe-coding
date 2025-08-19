@@ -1,7 +1,7 @@
 ---
-name: Contribute a new agent
-about: Propose a new agent for awesome-vibe-coding!
-title: New agent proposal
+name: Contribute a new cloud-only agent
+about: Propose a new hosted, cloud-only agent for awesome-vibe-coding!
+title: New cloud-only agent proposal
 labels: contribution
 assignees: ""
 ---
