@@ -95,7 +95,7 @@ handlebars.registerHelper("render-section", function (items, options) {
           result += "\n";
         }
 
-        result += `### ${category}\n\n`;
+        result += `### &bull; ${category}\n\n`;
 
         // Sort items with hot entries first, then alphabetically within each group
         const sortedItems = groupedItems[category].sort((a, b) => {
