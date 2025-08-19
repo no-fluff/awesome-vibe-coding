@@ -238,6 +238,12 @@
   <blockquote>Lovable enables users to create applications and websites by chatting with AI, offering collaborative workspaces, GitHub sync, and Supabase integrations. The platform supports various project types from prototypes to production apps with deployment options and MCP server capabilities for enhanced AI development workflows.</blockquote>
 </details>
 
+<details>
+  <summary><strong><a href="https://v0.app/">v0</a></strong> AI-powered interface builder that generates React applications from text prompts and designs.</summary>
+
+  <blockquote>v0 converts natural language descriptions into full-stack applications with UI, content, backend, and logic. Features agentic capabilities for research and planning, generates code using Next.js, React, and Tailwind CSS, and integrates with GitHub and Vercel for seamless deployment.</blockquote>
+</details>
+
 ## Contributing
 
 We're excited to have your contributions to awesome-vibe-coding! If you'd like to suggest a new resource, whether something you've built or something you find useful:
