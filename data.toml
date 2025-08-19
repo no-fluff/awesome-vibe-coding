@@ -17,14 +17,6 @@ detail = "Kilo Code provides multiple agent modes (Orchestrator, Architect, Code
 category = "Open source"
 
 [[agents]]
-name = "OpenAI Codex"
-website = "https://chatgpt.com/codex"
-repo = ""
-open_source = false
-summary = "Cloud-based autonomous coding agent with multi-task execution and isolated environments."
-detail = "OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions."
-
-[[agents]]
 name = "Cline"
 website = "https://cline.bot/"
 repo = "https://github.com/cline/cline"
@@ -41,14 +33,6 @@ open_source = false
 summary = "AI-powered terminal coding assistant with deep codebase understanding and multi-file coordination."
 detail = "Claude Code embeds Claude Opus 4.1 directly in developers' terminals, providing agentic search across entire codebases, coordinated multi-file changes, and direct command execution in development environments with integrations for VS Code, JetBrains IDEs, GitHub, and enterprise tools."
 hot = true
-
-[[agents]]
-name = "Devin"
-website = "https://devin.ai/"
-repo = ""
-open_source = false
-summary = "Autonomous AI software engineer that completes complex engineering tasks across codebases."
-detail = "Devin handles code migration, refactoring, bug fixes, and development tasks with autonomous testing and PR creation, integrating with GitHub, Slack, Jira, and other platforms while learning from examples to improve performance over time."
 
 [[agents]]
 name = "Opencode"
@@ -166,6 +150,14 @@ open_source = true
 summary = "Web-based terminal proxy enabling browser access to Mac terminals with remote capabilities."
 detail = "VibeTunnel turns any browser into a Mac terminal interface with zero configuration, supporting multiple terminal sessions, Git follow mode, and remote access via Tailscale or ngrok. Features AI agent monitoring and dynamic terminal titles for enhanced development workflows."
 
+[[interfaces]]
+name = "Vibe Kanban"
+website = "https://www.vibekanban.com/"
+repo = "https://github.com/BloopAI/vibe-kanban"
+open_source = true
+summary = "Kanban-style interface for managing and orchestrating multiple AI coding agents."
+detail = "Vibe Kanban provides a web-based dashboard for switching between different coding agents, executing multiple agents in parallel or sequence, and tracking task statuses. Built with Rust and TypeScript, it centralizes agent configuration and supports agents like Claude Code, Gemini CLI, and Codex."
+
 [[tools]]
 name = "Archon"
 website = "https://github.com/coleam00/Archon"
@@ -252,6 +244,22 @@ repo = ""
 open_source = false
 summary = "AI-powered web development platform for creating apps and websites through conversational interaction."
 detail = "Lovable enables users to create applications and websites by chatting with AI, offering collaborative workspaces, GitHub sync, and Supabase integrations. The platform supports various project types from prototypes to production apps with deployment options and MCP server capabilities for enhanced AI development workflows."
+
+[[hosted-agents]]
+name = "OpenAI Codex"
+website = "https://chatgpt.com/codex"
+repo = ""
+open_source = false
+summary = "Cloud-based autonomous coding agent with multi-task execution and isolated environments."
+detail = "OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions."
+
+[[hosted-agents]]
+name = "Devin"
+website = "https://devin.ai/"
+repo = ""
+open_source = false
+summary = "Autonomous AI software engineer that completes complex engineering tasks across codebases."
+detail = "Devin handles code migration, refactoring, bug fixes, and development tasks with autonomous testing and PR creation, integrating with GitHub, Slack, Jira, and other platforms while learning from examples to improve performance over time."
 
 [categories]
 tools = ["Memory", "Task management", "Codebase understanding", "Security", "Agent feedback", "Design", "Other tools"]

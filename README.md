@@ -46,12 +46,6 @@
 </details>
 
 <details>
-  <summary><strong><a href="https://devin.ai/">Devin</a></strong> Autonomous AI software engineer that completes complex engineering tasks across codebases.</summary>
-
-  <blockquote>Devin handles code migration, refactoring, bug fixes, and development tasks with autonomous testing and PR creation, integrating with GitHub, Slack, Jira, and other platforms while learning from examples to improve performance over time.</blockquote>
-</details>
-
-<details>
   <summary><strong><a href="https://google-gemini.github.io/gemini-cli/">Gemini CLI</a> <a href="https://github.com/google-gemini/gemini-cli"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Open source terminal-based AI agent with Gemini 2.5 Pro and multimodal capabilities.</summary>
 
   <blockquote>Gemini CLI brings Google's Gemini AI directly to the terminal with code generation, Google Search integration, file operations, and 1M token context window. Supports multiple authentication methods and offers extensible architecture for developer workflows.</blockquote>
@@ -61,12 +55,6 @@
   <summary><strong><a href="https://kilocode.ai/">Kilo Code</a> <a href="https://github.com/Kilo-Org/kilocode"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Open source VS Code AI coding agent with 400+ model support and multi-mode development assistance.</summary>
 
   <blockquote>Kilo Code provides multiple agent modes (Orchestrator, Architect, Code, Debug) with automatic context searching, memory bank for project retention, and hallucination-free code generation. Supports 400+ AI models via OpenRouter without requiring API keys and includes browser automation capabilities.</blockquote>
-</details>
-
-<details>
-  <summary><strong><a href="https://chatgpt.com/codex">OpenAI Codex</a></strong> Cloud-based autonomous coding agent with multi-task execution and isolated environments.</summary>
-
-  <blockquote>OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions.</blockquote>
 </details>
 
 <details>
@@ -145,6 +133,12 @@
   <summary><strong><a href="https://happy.engineering/">Happy</a> <a href="https://github.com/slopus/happy"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Mobile client for Claude Code with remote access and cross-device synchronization.</summary>
 
   <blockquote>Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms.</blockquote>
+</details>
+
+<details>
+  <summary><strong><a href="https://www.vibekanban.com/">Vibe Kanban</a> <a href="https://github.com/BloopAI/vibe-kanban"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Kanban-style interface for managing and orchestrating multiple AI coding agents.</summary>
+
+  <blockquote>Vibe Kanban provides a web-based dashboard for switching between different coding agents, executing multiple agents in parallel or sequence, and tracking task statuses. Built with Rust and TypeScript, it centralizes agent configuration and supports agents like Claude Code, Gemini CLI, and Codex.</blockquote>
 </details>
 
 <br />
@@ -244,9 +238,21 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://devin.ai/">Devin</a></strong> Autonomous AI software engineer that completes complex engineering tasks across codebases.</summary>
+
+  <blockquote>Devin handles code migration, refactoring, bug fixes, and development tasks with autonomous testing and PR creation, integrating with GitHub, Slack, Jira, and other platforms while learning from examples to improve performance over time.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://lovable.dev/">Lovable</a></strong> AI-powered web development platform for creating apps and websites through conversational interaction.</summary>
 
   <blockquote>Lovable enables users to create applications and websites by chatting with AI, offering collaborative workspaces, GitHub sync, and Supabase integrations. The platform supports various project types from prototypes to production apps with deployment options and MCP server capabilities for enhanced AI development workflows.</blockquote>
+</details>
+
+<details>
+  <summary><strong><a href="https://chatgpt.com/codex">OpenAI Codex</a></strong> Cloud-based autonomous coding agent with multi-task execution and isolated environments.</summary>
+
+  <blockquote>OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions.</blockquote>
 </details>
 
 <details>
