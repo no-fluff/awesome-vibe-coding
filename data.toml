@@ -33,6 +33,15 @@ summary = "Open source terminal-based coding agent with multi-provider LLM suppo
 detail = "Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows."
 
 [[agents]]
+name = "OpenHands"
+website = "https://www.all-hands.dev/"
+repo = "https://github.com/All-Hands-AI/OpenHands"
+open_source = true
+summary = "Open source AI software development agent platform with autonomous coding capabilities."
+detail = "OpenHands enables AI agents to perform developer tasks autonomously including code modification, terminal commands, web browsing, and API calls. Supports multiple LLM providers with recommended Claude Sonnet 4 integration and offers both GUI and CLI interfaces for flexible development workflows."
+category = "Open source"
+
+[[agents]]
 name = "OpenAI Codex CLI"
 website = ""
 repo = "https://github.com/openai/codex"
