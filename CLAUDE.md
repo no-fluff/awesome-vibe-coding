@@ -9,7 +9,7 @@ The `data.toml` file contains five main sections corresponding to the categories
 ### Section Mappings
 
 - **Agents** → `[[agents]]`
-- **Vibe-coding apps** → `[[apps]]` 
+- **Vibe-coding apps** → `[[apps]]`
 - **Agent interfaces** → `[[interfaces]]`
 - **Tools and MCP servers** → `[[tools]]`
 - **Vibe-coding workflows** → `[[workflows]]`
@@ -48,18 +48,23 @@ category = "Relevant Category"
 ## Category Classifications
 
 ### Agents
+
 Core coding agents that use LLMs to write/modify code. Typically CLI/daemon/desktop/server applications that expose tools for code editing, running, testing, and repository operations.
 
 ### Vibe-coding Apps
+
 Applications that build significant product features on top of agents, such as project management, planning, product roadmapping, collaboration, and dashboards.
 
 ### Agent Interfaces
+
 Primarily GUI/UX wrappers around existing agents that add convenience rather than core capabilities. Keywords include "GUI", "Electron app", "web UI for...".
 
 ### Tools and MCP Servers
+
 Plugins, subagents, slash commands, MCP servers, and IDE extensions that extend agents but are not standalone coding agents.
 
 ### Vibe-coding Workflows
+
 Prompts, configurations, playbooks, or step-by-step methods that change how agents build software.
 
 ## Example Entry
@@ -83,3 +88,4 @@ category = "Open source"
 4. **Only edit `data.toml`** - never edit `README.md` directly as it's auto-generated
 5. **Be factual and concise** - avoid hype and unverified claims
 6. **Use existing categories** from the category classifications above
+7. **Cloud-only agents are not open source** - if they can run on your own hardware they should be in the main "agents" section
