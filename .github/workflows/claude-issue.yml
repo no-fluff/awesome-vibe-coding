@@ -146,6 +146,7 @@ jobs:
               * new agent interface
               * new workflow
               * new tool
+              * new cloud-only agent (ALWAYS maps to `[[hosted-agents]]` section)
               * Or any other template - category will be auto-determined
 
             2. **Parse the issue**:
@@ -249,7 +250,9 @@ jobs:
 
               **DO NOT SKIP THIS STEP. Creating the PR is the primary goal of this workflow.**
 
-            10. **Labels & lifecycle**:
+            10. **Show the TOML entry**: For every valid entry that you add to data.toml, always include a code block in your response showing the exact TOML entry you've added. This helps contributors see exactly what was added to the repository.
+
+            11. **Labels & lifecycle**:
 
                 * On success: add `accepted` to the issue, reference the PR.
                 * On missing info: add `needs-info`; do **not** open PR.
