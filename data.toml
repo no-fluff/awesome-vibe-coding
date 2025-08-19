@@ -25,6 +25,14 @@ detail = "Claude Code embeds Claude Opus 4.1 directly in developers' terminals, 
 hot = true
 
 [[agents]]
+name = "Devin"
+website = "https://devin.ai/"
+repo = ""
+open_source = false
+summary = "Autonomous AI software engineer that completes complex engineering tasks across codebases."
+detail = "Devin handles code migration, refactoring, bug fixes, and development tasks with autonomous testing and PR creation, integrating with GitHub, Slack, Jira, and other platforms while learning from examples to improve performance over time."
+
+[[agents]]
 name = "Opencode"
 website = "https://opencode.ai/"
 repo = "https://github.com/sst/opencode"
