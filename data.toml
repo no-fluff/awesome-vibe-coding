@@ -17,14 +17,6 @@ detail = "Kilo Code provides multiple agent modes (Orchestrator, Architect, Code
 category = "Open source"
 
 [[agents]]
-name = "OpenAI Codex"
-website = "https://chatgpt.com/codex"
-repo = ""
-open_source = false
-summary = "Cloud-based autonomous coding agent with multi-task execution and isolated environments."
-detail = "OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions."
-
-[[agents]]
 name = "Cline"
 website = "https://cline.bot/"
 repo = "https://github.com/cline/cline"
@@ -244,6 +236,14 @@ repo = ""
 open_source = false
 summary = "AI-powered web development platform for creating apps and websites through conversational interaction."
 detail = "Lovable enables users to create applications and websites by chatting with AI, offering collaborative workspaces, GitHub sync, and Supabase integrations. The platform supports various project types from prototypes to production apps with deployment options and MCP server capabilities for enhanced AI development workflows."
+
+[[hosted-agents]]
+name = "OpenAI Codex"
+website = "https://chatgpt.com/codex"
+repo = ""
+open_source = false
+summary = "Cloud-based autonomous coding agent with multi-task execution and isolated environments."
+detail = "OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions."
 
 [categories]
 tools = ["Memory", "Task management", "Codebase understanding", "Security", "Agent feedback", "Design", "Other tools"]
