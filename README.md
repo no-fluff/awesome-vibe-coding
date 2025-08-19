@@ -18,6 +18,8 @@
     * [Codebase understanding](#codebase-understanding)
     * [Security](#security)
     * [Agent feedback](#agent-feedback)
+* [**Cloud-only agents**](#cloud-only-agents)
+    
 * [Contributing](#contributing)
 
 <br />
