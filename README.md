@@ -244,6 +244,8 @@
   <blockquote>v0 converts natural language descriptions into full-stack applications with UI, content, backend, and logic. Features agentic capabilities for research and planning, generates code using Next.js, React, and Tailwind CSS, and integrates with GitHub and Vercel for seamless deployment.</blockquote>
 </details>
 
+<br />
+
 ## Contributing
 
 We're excited to have your contributions to awesome-vibe-coding! If you'd like to suggest a new resource, whether something you've built or something you find useful:
