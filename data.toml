@@ -158,6 +158,14 @@ open_source = true
 summary = "Mobile client for Claude Code with remote access and cross-device synchronization."
 detail = "Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms."
 
+[[interfaces]]
+name = "VibeTunnel"
+website = "https://vt.sh/"
+repo = "https://github.com/amantus-ai/vibetunnel"
+open_source = true
+summary = "Web-based terminal proxy enabling browser access to Mac terminals with remote capabilities."
+detail = "VibeTunnel turns any browser into a Mac terminal interface with zero configuration, supporting multiple terminal sessions, Git follow mode, and remote access via Tailscale or ngrok. Features AI agent monitoring and dynamic terminal titles for enhanced development workflows."
+
 [[tools]]
 name = "Archon"
 website = "https://github.com/coleam00/Archon"
