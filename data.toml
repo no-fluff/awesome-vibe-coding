@@ -246,4 +246,4 @@ summary = "AI-powered web development platform for creating apps and websites th
 detail = "Lovable enables users to create applications and websites by chatting with AI, offering collaborative workspaces, GitHub sync, and Supabase integrations. The platform supports various project types from prototypes to production apps with deployment options and MCP server capabilities for enhanced AI development workflows."
 
 [categories]
-tools = ["Memory", "Task management", "Codebase understanding", "Security", "Other tools", "Agent feedback", "Design"]
+tools = ["Memory", "Task management", "Codebase understanding", "Security", "Agent feedback", "Design", "Other tools"]

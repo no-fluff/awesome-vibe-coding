@@ -30,7 +30,9 @@ handlebars.registerHelper(
     const categoryLinks = [];
     categories.forEach((category) => {
       if (usedCategories.has(category)) {
-        categoryLinks.push(`* [${category}](#${category.toLowerCase().replace(/\s+/g, '-')})`);
+        categoryLinks.push(
+          `* [${category}](#${category.toLowerCase().replace(/\s+/g, "-")})`
+        );
       }
     });
 
@@ -93,7 +95,7 @@ handlebars.registerHelper("render-section", function (items, options) {
           result += "\n";
         }
 
-        result += `### &nbsp;&nbsp;${category}\n\n`;
+        result += `### &bull; ${category}\n\n`;
 
         // Sort items with hot entries first, then alphabetically within each group
         const sortedItems = groupedItems[category].sort((a, b) => {
@@ -133,11 +135,11 @@ function renderItem(item) {
   const summary = item.summary || "";
   const detail = item.detail || "";
   const hotPrefix = item.hot ? "🔥 " : "";
-  
+
   // Add GitHub icon link if repo exists
-  const githubIcon = item.repo ? 
-    ` <a href="${item.repo}"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a>` : 
-    "";
+  const githubIcon = item.repo
+    ? ` <a href="${item.repo}"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a>`
+    : "";
 
   return `<details>
   <summary><strong>${hotPrefix}<a href="${url}">${item.name}</a>${githubIcon}</strong> ${summary}</summary>

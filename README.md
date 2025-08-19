@@ -152,7 +152,7 @@
 
 *Everything you can plug into a coding agent.*
 
-### &nbsp;&nbsp;Memory
+### &bull; Memory
 
 <details>
   <summary><strong><a href="https://github.com/coleam00/Archon">Archon</a> <a href="https://github.com/coleam00/Archon"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> MCP server and knowledge management platform for AI coding assistants.</summary>
@@ -168,7 +168,7 @@
 
 <br />
 
-### &nbsp;&nbsp;Task management
+### &bull; Task management
 
 <details>
   <summary><strong><a href="https://www.task-master.dev/">Task Master</a></strong> AI-powered task management system for coding workflows with MCP integration.</summary>
@@ -178,7 +178,7 @@
 
 <br />
 
-### &nbsp;&nbsp;Codebase understanding
+### &bull; Codebase understanding
 
 <details>
   <summary><strong><a href="https://github.com/glebkudr/shotgun_code">Shotgun App</a> <a href="https://github.com/glebkudr/shotgun_code"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Desktop tool for preparing comprehensive project context for AI coding assistants.</summary>
@@ -188,7 +188,7 @@
 
 <br />
 
-### &nbsp;&nbsp;Security
+### &bull; Security
 
 <details>
   <summary><strong><a href="https://github.com/nikvdp/cco">cco</a> <a href="https://github.com/nikvdp/cco"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Protective wrapper for Claude Code with zero-config sandboxed execution.</summary>
@@ -198,7 +198,7 @@
 
 <br />
 
-### &nbsp;&nbsp;Agent feedback
+### &bull; Agent feedback
 
 <details>
   <summary><strong>🔥 <a href="https://github.com/microsoft/playwright-mcp">playwright-mcp</a> <a href="https://github.com/microsoft/playwright-mcp"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> MCP server providing browser automation capabilities using Playwright's accessibility tree.</summary>
@@ -243,6 +243,8 @@
 
   <blockquote>v0 converts natural language descriptions into full-stack applications with UI, content, backend, and logic. Features agentic capabilities for research and planning, generates code using Next.js, React, and Tailwind CSS, and integrates with GitHub and Vercel for seamless deployment.</blockquote>
 </details>
+
+<br />
 
 ## Contributing
 
