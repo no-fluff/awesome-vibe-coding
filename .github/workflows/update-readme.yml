@@ -2,6 +2,8 @@ name: Update README from Template
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'data.toml'
       - 'README.template'
