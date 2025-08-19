@@ -111,6 +111,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://claudecodeui.siteboon.ai/">Claude Code UI</a> <a href="https://github.com/siteboon/claudecodeui"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Web and mobile interface for Claude Code with responsive design and Git integration.</summary>
+
+  <blockquote>Claude Code UI provides a multi-device interface with project browser, file explorer with syntax highlighting, session management, and security-focused tool permissions. Supports Claude Sonnet 4, Opus 4.1, and GPT-5 models with React-based responsive design for desktop and mobile development workflows.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://github.com/tobias-schuemann/claude-frontend">claude-frontend</a> <a href="https://github.com/tobias-schuemann/claude-frontend"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Visual interface for AI-powered code modifications with Claude CLI.</summary>
 
   <blockquote>claude-frontend provides a browser widget that allows developers to select webpage elements and send them to Claude for instant code modifications, supporting multiple frameworks including Next.js, Vite, React, and Vue in local development environments.</blockquote>
