@@ -64,12 +64,6 @@
 </details>
 
 <details>
-  <summary><strong><a href="https://chatgpt.com/codex">OpenAI Codex</a></strong> Cloud-based autonomous coding agent with multi-task execution and isolated environments.</summary>
-
-  <blockquote>OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions.</blockquote>
-</details>
-
-<details>
   <summary><strong><a href="https://github.com/openai/codex">OpenAI Codex CLI</a> <a href="https://github.com/openai/codex"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Experimental terminal-based coding agent with configurable sandbox modes.</summary>
 
   <blockquote>Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access.</blockquote>
@@ -247,6 +241,12 @@
   <summary><strong><a href="https://lovable.dev/">Lovable</a></strong> AI-powered web development platform for creating apps and websites through conversational interaction.</summary>
 
   <blockquote>Lovable enables users to create applications and websites by chatting with AI, offering collaborative workspaces, GitHub sync, and Supabase integrations. The platform supports various project types from prototypes to production apps with deployment options and MCP server capabilities for enhanced AI development workflows.</blockquote>
+</details>
+
+<details>
+  <summary><strong><a href="https://chatgpt.com/codex">OpenAI Codex</a></strong> Cloud-based autonomous coding agent with multi-task execution and isolated environments.</summary>
+
+  <blockquote>OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions.</blockquote>
 </details>
 
 <details>
