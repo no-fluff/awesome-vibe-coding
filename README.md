@@ -114,6 +114,12 @@
   <blockquote>Kiro transforms prompts into structured requirements and implementation tasks, supporting multimodal inputs and agent hooks for automated background workflows with Claude Sonnet integration.</blockquote>
 </details>
 
+<details>
+  <summary><strong><a href="https://lovable.dev/">Lovable</a></strong> AI-powered web development platform for creating apps and websites through conversational interaction.</summary>
+
+  <blockquote>Lovable enables users to create applications and websites by chatting with AI, offering collaborative workspaces, GitHub sync, and Supabase integrations. The platform supports various project types from prototypes to production apps with deployment options and MCP server capabilities for enhanced AI development workflows.</blockquote>
+</details>
+
 <br />
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/interfaces.png" width="36" height="36" alt="Interfaces" align="absmiddle" />&nbsp; Agent interfaces
