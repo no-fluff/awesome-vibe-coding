@@ -126,6 +126,14 @@ summary = "AI-powered code editor with predictive tab completion and natural lan
 detail = "Cursor is an AI-enhanced code editor that provides intelligent tab completion, codebase understanding, and natural language code modification capabilities. Imports VSCode extensions and themes while offering seamless AI integration for enhanced developer productivity."
 
 [[interfaces]]
+name = "Claude Code UI"
+website = "https://claudecodeui.siteboon.ai/"
+repo = "https://github.com/siteboon/claudecodeui"
+open_source = true
+summary = "Web and mobile interface for Claude Code with responsive design and Git integration."
+detail = "Claude Code UI provides a multi-device interface with project browser, file explorer with syntax highlighting, session management, and security-focused tool permissions. Supports Claude Sonnet 4, Opus 4.1, and GPT-5 models with React-based responsive design for desktop and mobile development workflows."
+
+[[interfaces]]
 name = "Happy"
 website = "https://happy.engineering/"
 repo = "https://github.com/slopus/happy"
