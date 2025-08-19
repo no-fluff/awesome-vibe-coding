@@ -43,6 +43,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://kilocode.ai/">Kilo Code</a> <a href="https://github.com/Kilo-Org/kilocode"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Open source VS Code AI coding agent with 400+ model support and multi-mode development assistance.</summary>
+
+  <blockquote>Kilo Code provides multiple agent modes (Orchestrator, Architect, Code, Debug) with automatic context searching, memory bank for project retention, and hallucination-free code generation. Supports 400+ AI models via OpenRouter without requiring API keys and includes browser automation capabilities.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://chatgpt.com/codex">OpenAI Codex</a></strong> Cloud-based autonomous coding agent with multi-task execution and isolated environments.</summary>
 
   <blockquote>OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions.</blockquote>
