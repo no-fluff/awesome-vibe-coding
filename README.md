@@ -31,12 +31,6 @@
 </details>
 
 <details>
-  <summary><strong><a href="https://bolt.new/">Bolt.new</a></strong> Cloud-based AI coding agent for building and deploying full-stack web applications through conversational prompts.</summary>
-
-  <blockquote>Bolt.new provides a complete browser-based development environment with AI-powered code generation, supporting React, Vue, Next.js, and other modern frameworks. Features full npm ecosystem access, integrated terminal, automatic deployment to .bolt.host domains, and AI control over the entire development environment including filesystem and package management.</blockquote>
-</details>
-
-<details>
   <summary><strong><a href="https://cline.bot/">Cline</a> <a href="https://github.com/cline/cline"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Open source AI coding agent for VS Code with autonomous capabilities and multi-model support.</summary>
 
   <blockquote>Cline operates as a VS Code extension with autonomous file editing, terminal command execution, and browser automation capabilities. Features client-side architecture for security, supports multiple AI providers including Claude and Gemini, and offers transparent AI decision-making with human approval workflows.</blockquote>
@@ -112,12 +106,6 @@
   <summary><strong>🔥 <a href="https://kiro.dev/">Kiro</a></strong> AI-powered IDE with spec-driven development and autonomous task execution.</summary>
 
   <blockquote>Kiro transforms prompts into structured requirements and implementation tasks, supporting multimodal inputs and agent hooks for automated background workflows with Claude Sonnet integration.</blockquote>
-</details>
-
-<details>
-  <summary><strong><a href="https://lovable.dev/">Lovable</a></strong> AI-powered web development platform for creating apps and websites through conversational interaction.</summary>
-
-  <blockquote>Lovable enables users to create applications and websites by chatting with AI, offering collaborative workspaces, GitHub sync, and Supabase integrations. The platform supports various project types from prototypes to production apps with deployment options and MCP server capabilities for enhanced AI development workflows.</blockquote>
 </details>
 
 <br />
@@ -236,7 +224,17 @@
 
 *These closed-source agents are hosted for you.*
 
+<details>
+  <summary><strong><a href="https://bolt.new/">Bolt.new</a></strong> Cloud-based AI coding agent for building and deploying full-stack web applications through conversational prompts.</summary>
 
+  <blockquote>Bolt.new provides a complete browser-based development environment with AI-powered code generation, supporting React, Vue, Next.js, and other modern frameworks. Features full npm ecosystem access, integrated terminal, automatic deployment to .bolt.host domains, and AI control over the entire development environment including filesystem and package management.</blockquote>
+</details>
+
+<details>
+  <summary><strong><a href="https://lovable.dev/">Lovable</a></strong> AI-powered web development platform for creating apps and websites through conversational interaction.</summary>
+
+  <blockquote>Lovable enables users to create applications and websites by chatting with AI, offering collaborative workspaces, GitHub sync, and Supabase integrations. The platform supports various project types from prototypes to production apps with deployment options and MCP server capabilities for enhanced AI development workflows.</blockquote>
+</details>
 
 ## Contributing
 
