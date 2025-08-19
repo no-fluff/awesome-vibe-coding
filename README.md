@@ -46,12 +46,6 @@
 </details>
 
 <details>
-  <summary><strong><a href="https://devin.ai/">Devin</a></strong> Autonomous AI software engineer that completes complex engineering tasks across codebases.</summary>
-
-  <blockquote>Devin handles code migration, refactoring, bug fixes, and development tasks with autonomous testing and PR creation, integrating with GitHub, Slack, Jira, and other platforms while learning from examples to improve performance over time.</blockquote>
-</details>
-
-<details>
   <summary><strong><a href="https://google-gemini.github.io/gemini-cli/">Gemini CLI</a> <a href="https://github.com/google-gemini/gemini-cli"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Open source terminal-based AI agent with Gemini 2.5 Pro and multimodal capabilities.</summary>
 
   <blockquote>Gemini CLI brings Google's Gemini AI directly to the terminal with code generation, Google Search integration, file operations, and 1M token context window. Supports multiple authentication methods and offers extensible architecture for developer workflows.</blockquote>
@@ -235,6 +229,12 @@
   <summary><strong><a href="https://bolt.new/">Bolt.new</a></strong> Cloud-based AI coding agent for building and deploying full-stack web applications through conversational prompts.</summary>
 
   <blockquote>Bolt.new provides a complete browser-based development environment with AI-powered code generation, supporting React, Vue, Next.js, and other modern frameworks. Features full npm ecosystem access, integrated terminal, automatic deployment to .bolt.host domains, and AI control over the entire development environment including filesystem and package management.</blockquote>
+</details>
+
+<details>
+  <summary><strong><a href="https://devin.ai/">Devin</a></strong> Autonomous AI software engineer that completes complex engineering tasks across codebases.</summary>
+
+  <blockquote>Devin handles code migration, refactoring, bug fixes, and development tasks with autonomous testing and PR creation, integrating with GitHub, Slack, Jira, and other platforms while learning from examples to improve performance over time.</blockquote>
 </details>
 
 <details>
