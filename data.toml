@@ -101,7 +101,7 @@ summary = "AI-powered IDE with spec-driven development and autonomous task execu
 detail = "Kiro transforms prompts into structured requirements and implementation tasks, supporting multimodal inputs and agent hooks for automated background workflows with Claude Sonnet integration."
 hot = true
 
-[[apps]]
+[[hosted-agents]]
 name = "v0"
 website = "https://v0.app/"
 repo = ""
