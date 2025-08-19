@@ -204,7 +204,7 @@
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="36" height="36" alt="Workflows" align="absmiddle" />&nbsp; Vibe-coding workflows
 
-<p>Agent rules and processes to help you ship faster, higher-quality code.</p>
+*Agent rules and processes to help you ship higher-quality code, faster.*
 
 <details>
   <summary><strong><a href="https://github.com/bmad-code-org/BMAD-METHOD">BMAD-METHOD</a> <a href="https://github.com/bmad-code-org/BMAD-METHOD"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> AI-driven agile development framework with specialized agent orchestration and context engineering.</summary>
@@ -214,15 +214,11 @@
 
 <br />
 
-## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="36" height="36" alt="Workflows" align="absmiddle" />&nbsp; Cloud-only agents
+## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/hosted-agents.png" width="36" height="36" alt="Workflows" align="absmiddle" />&nbsp; Cloud-only agents
 
 *These closed-source agents are hosted for you.*
 
-<details>
-  <summary><strong><a href="https://github.com/bmad-code-org/BMAD-METHOD">BMAD-METHOD</a> <a href="https://github.com/bmad-code-org/BMAD-METHOD"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> AI-driven agile development framework with specialized agent orchestration and context engineering.</summary>
 
-  <blockquote>BMAD-METHOD combines agentic planning with context-engineered development, using specialized AI agents (Analyst, Product Manager, Architect, Scrum Master) to create detailed PRDs and hyper-detailed development stories that embed full implementation context and architectural guidance directly in story files.</blockquote>
-</details>
 
 ## Contributing
 
