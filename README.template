@@ -26,11 +26,15 @@
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/apps.png" width="36" height="36" alt="Apps" align="absmiddle" />&nbsp; Vibe-coding apps
 
+*Soup-to-nuts apps for vibing.*
+
 {{{render-section apps}}}
 
 <br />
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/interfaces.png" width="36" height="36" alt="Interfaces" align="absmiddle" />&nbsp; Agent interfaces
+
+*Use your AI agent outside the terminal.*
 
 {{{render-section interfaces}}}
 
@@ -38,15 +42,25 @@
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/tools.png" width="36" height="36" alt="Tools" align="absmiddle" />&nbsp; Tools and MCP servers
 
+*Everything you can plug into a coding agent.*
+
 {{{render-section tools categories=categories.tools}}}
 
 <br />
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="36" height="36" alt="Workflows" align="absmiddle" />&nbsp; Vibe-coding workflows
 
+*Agent rules and processes to help you ship higher-quality code, faster.*
+
 {{{render-section workflows}}}
 
 <br />
+
+## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/hosted-agents.png" width="36" height="36" alt="Workflows" align="absmiddle" />&nbsp; Cloud-only agents
+
+*These closed-source agents are hosted for you.*
+
+{{{render-section hosted-agents}}}
 
 ## Contributing
 

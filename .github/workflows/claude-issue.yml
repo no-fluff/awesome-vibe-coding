@@ -71,7 +71,7 @@ jobs:
             - "New submission" → Change to "Add [Resource Name]"
 
             **IMPORTANT**: This repository uses a data-driven approach. You should edit `data.toml` (NOT `README.md`). The `README.md` file is automatically generated from `data.toml` using a template system.
-            
+
             **CRITICAL**: NEVER update or edit the README.md file directly. It is auto-generated from data.toml and any manual changes will be overwritten. Always make changes to data.toml instead.
 
             These instructions are exhaustive. Follow them exactly.
@@ -123,6 +123,7 @@ jobs:
               - Agent interfaces → `[[interfaces]]`
               - Tools and MCP servers → `[[tools]]`
               - Vibe-coding workflows → `[[workflows]]`
+              - Cloud-only agents → `[[hosted-agents]]`
 
             * Features checklist allowed in “agent” template:
 

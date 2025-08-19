@@ -94,6 +94,8 @@
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/apps.png" width="36" height="36" alt="Apps" align="absmiddle" />&nbsp; Vibe-coding apps
 
+*Soup-to-nuts apps for vibing.*
+
 <details>
   <summary><strong>🔥 <a href="https://kiro.dev/">Kiro</a></strong> AI-powered IDE with spec-driven development and autonomous task execution.</summary>
 
@@ -103,6 +105,8 @@
 <br />
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/interfaces.png" width="36" height="36" alt="Interfaces" align="absmiddle" />&nbsp; Agent interfaces
+
+*Use your AI agent outside the terminal.*
 
 <details>
   <summary><strong><a href="https://github.com/baryhuang/claude-code-by-agents">Agentrooms</a> <a href="https://github.com/baryhuang/claude-code-by-agents"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Multi-agent workspace for collaborative development with Claude CLI.</summary>
@@ -137,6 +141,8 @@
 <br />
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/tools.png" width="36" height="36" alt="Tools" align="absmiddle" />&nbsp; Tools and MCP servers
+
+*Everything you can plug into a coding agent.*
 
 ### &nbsp;&nbsp;Memory
 
@@ -198,6 +204,8 @@
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="36" height="36" alt="Workflows" align="absmiddle" />&nbsp; Vibe-coding workflows
 
+<p>Agent rules and processes to help you ship faster, higher-quality code.</p>
+
 <details>
   <summary><strong><a href="https://github.com/bmad-code-org/BMAD-METHOD">BMAD-METHOD</a> <a href="https://github.com/bmad-code-org/BMAD-METHOD"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> AI-driven agile development framework with specialized agent orchestration and context engineering.</summary>
 
@@ -205,6 +213,16 @@
 </details>
 
 <br />
+
+## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="36" height="36" alt="Workflows" align="absmiddle" />&nbsp; Cloud-only agents
+
+*These closed-source agents are hosted for you.*
+
+<details>
+  <summary><strong><a href="https://github.com/bmad-code-org/BMAD-METHOD">BMAD-METHOD</a> <a href="https://github.com/bmad-code-org/BMAD-METHOD"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> AI-driven agile development framework with specialized agent orchestration and context engineering.</summary>
+
+  <blockquote>BMAD-METHOD combines agentic planning with context-engineered development, using specialized AI agents (Analyst, Product Manager, Architect, Scrum Master) to create detailed PRDs and hyper-detailed development stories that embed full implementation context and architectural guidance directly in story files.</blockquote>
+</details>
 
 ## Contributing
 
