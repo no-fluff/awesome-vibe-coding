@@ -211,7 +211,7 @@ repo = "https://github.com/superdesigndev/superdesign"
 open_source = true
 summary = "Open source AI design agent for generating UI mockups and components inside IDEs."
 detail = "Superdesign integrates directly into VS Code, Cursor, Windsurf, and Claude Code to generate UI screens, wireframes, and reusable components from natural language prompts. Enables parallel design exploration and rapid prototyping within development environments, eliminating context switching between design and coding workflows."
-category = "Other tools"
+category = "Design"
 
 [[tools]]
 name = "Task Master"
@@ -246,4 +246,4 @@ summary = "AI-powered web development platform for creating apps and websites th
 detail = "Lovable enables users to create applications and websites by chatting with AI, offering collaborative workspaces, GitHub sync, and Supabase integrations. The platform supports various project types from prototypes to production apps with deployment options and MCP server capabilities for enhanced AI development workflows."
 
 [categories]
-tools = ["Memory", "Task management", "Codebase understanding", "Security", "Other tools", "Agent feedback"]
+tools = ["Memory", "Task management", "Codebase understanding", "Security", "Other tools", "Agent feedback", "Design"]
