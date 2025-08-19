@@ -141,6 +141,12 @@
   <blockquote>Vibe Kanban provides a web-based dashboard for switching between different coding agents, executing multiple agents in parallel or sequence, and tracking task statuses. Built with Rust and TypeScript, it centralizes agent configuration and supports agents like Claude Code, Gemini CLI, and Codex.</blockquote>
 </details>
 
+<details>
+  <summary><strong><a href="https://vt.sh/">VibeTunnel</a> <a href="https://github.com/amantus-ai/vibetunnel"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Web-based terminal proxy enabling browser access to Mac terminals with remote capabilities.</summary>
+
+  <blockquote>VibeTunnel turns any browser into a Mac terminal interface with zero configuration, supporting multiple terminal sessions, Git follow mode, and remote access via Tailscale or ngrok. Features AI agent monitoring and dynamic terminal titles for enhanced development workflows.</blockquote>
+</details>
+
 <br />
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/tools.png" width="36" height="36" alt="Tools" align="absmiddle" />&nbsp; Tools and MCP servers
