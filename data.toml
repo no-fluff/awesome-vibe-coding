@@ -43,6 +43,14 @@ detail = "Claude Code embeds Claude Opus 4.1 directly in developers' terminals, 
 hot = true
 
 [[agents]]
+name = "Cursor"
+website = "https://cursor.com"
+repo = ""
+open_source = false
+summary = "AI-powered code editor with predictive tab completion and natural language code editing."
+detail = "Cursor is an AI-enhanced code editor that provides intelligent tab completion, codebase understanding, and natural language code modification capabilities. Imports VSCode extensions and themes while offering seamless AI integration for enhanced developer productivity."
+
+[[agents]]
 name = "Devin"
 website = "https://devin.ai/"
 repo = ""
