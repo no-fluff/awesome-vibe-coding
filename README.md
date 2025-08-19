@@ -117,6 +117,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://cursor.com">Cursor</a></strong> AI-powered code editor with predictive tab completion and natural language code editing.</summary>
+
+  <blockquote>Cursor is an AI-enhanced code editor that provides intelligent tab completion, codebase understanding, and natural language code modification capabilities. Imports VSCode extensions and themes while offering seamless AI integration for enhanced developer productivity.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://happy.engineering/">Happy</a> <a href="https://github.com/slopus/happy"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Mobile client for Claude Code with remote access and cross-device synchronization.</summary>
 
   <blockquote>Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms.</blockquote>
