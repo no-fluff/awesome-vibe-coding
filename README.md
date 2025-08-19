@@ -31,6 +31,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://bolt.new/">Bolt.new</a></strong> Cloud-based AI coding agent for building and deploying full-stack web applications through conversational prompts.</summary>
+
+  <blockquote>Bolt.new provides a complete browser-based development environment with AI-powered code generation, supporting React, Vue, Next.js, and other modern frameworks. Features full npm ecosystem access, integrated terminal, automatic deployment to .bolt.host domains, and AI control over the entire development environment including filesystem and package management.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://cline.bot/">Cline</a> <a href="https://github.com/cline/cline"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Open source AI coding agent for VS Code with autonomous capabilities and multi-model support.</summary>
 
   <blockquote>Cline operates as a VS Code extension with autonomous file editing, terminal command execution, and browser automation capabilities. Features client-side architecture for security, supports multiple AI providers including Claude and Gemini, and offers transparent AI decision-making with human approval workflows.</blockquote>
