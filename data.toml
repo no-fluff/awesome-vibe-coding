@@ -108,6 +108,14 @@ summary = "AI-powered IDE with spec-driven development and autonomous task execu
 detail = "Kiro transforms prompts into structured requirements and implementation tasks, supporting multimodal inputs and agent hooks for automated background workflows with Claude Sonnet integration."
 hot = true
 
+[[apps]]
+name = "Lovable"
+website = "https://lovable.dev/"
+repo = ""
+open_source = false
+summary = "AI-powered web development platform for creating apps and websites through conversational interaction."
+detail = "Lovable enables users to create applications and websites by chatting with AI, offering collaborative workspaces, GitHub sync, and Supabase integrations. The platform supports various project types from prototypes to production apps with deployment options and MCP server capabilities for enhanced AI development workflows."
+
 [[interfaces]]
 name = "claude-frontend"
 website = ""
