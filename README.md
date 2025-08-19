@@ -18,6 +18,7 @@
     * [Codebase understanding](#codebase-understanding)
     * [Security](#security)
     * [Agent feedback](#agent-feedback)
+* [Contributing](#contributing)
 
 <br />
 
@@ -30,7 +31,7 @@
 </details>
 
 <details>
-  <summary><strong><a href="https://google-gemini.github.io/gemini-cli/">Gemini CLI</a></strong> Open source terminal-based AI agent with Gemini 2.5 Pro and multimodal capabilities.</summary>
+  <summary><strong><a href="https://google-gemini.github.io/gemini-cli/">Gemini CLI</a> <a href="https://github.com/google-gemini/gemini-cli"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Open source terminal-based AI agent with Gemini 2.5 Pro and multimodal capabilities.</summary>
 
   <blockquote>Gemini CLI brings Google's Gemini AI directly to the terminal with code generation, Google Search integration, file operations, and 1M token context window. Supports multiple authentication methods and offers extensible architecture for developer workflows.</blockquote>
 </details>
@@ -42,13 +43,13 @@
 </details>
 
 <details>
-  <summary><strong><a href="https://github.com/openai/codex">OpenAI Codex CLI</a></strong> Experimental terminal-based coding agent with configurable sandbox modes.</summary>
+  <summary><strong><a href="https://github.com/openai/codex">OpenAI Codex CLI</a> <a href="https://github.com/openai/codex"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Experimental terminal-based coding agent with configurable sandbox modes.</summary>
 
   <blockquote>Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access.</blockquote>
 </details>
 
 <details>
-  <summary><strong><a href="https://opencode.ai/">Opencode</a></strong> Open source terminal-based coding agent with multi-provider LLM support.</summary>
+  <summary><strong><a href="https://opencode.ai/">Opencode</a> <a href="https://github.com/sst/opencode"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Open source terminal-based coding agent with multi-provider LLM support.</summary>
 
   <blockquote>Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.</blockquote>
 </details>
@@ -61,6 +62,9 @@
 
 <details>
   <summary><strong><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></strong> AI coding assistant CLI for exploring, developing, and automating software workflows.</summary>
+</details>
+<details>
+  <summary><strong><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a> <a href="https://github.com/QwenLM/qwen-code"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> AI coding assistant CLI for exploring, developing, and automating software workflows.</summary>
 
   <blockquote>Qwen Code is an intelligent command-line tool that helps developers understand, refactor, and generate code using advanced AI models. It provides workflow automation, code analysis, and supports multiple authentication methods across different regional providers.</blockquote>
 </details>
@@ -80,25 +84,25 @@
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/interfaces.png" width="36" height="36" alt="Interfaces" align="absmiddle" />&nbsp; Agent interfaces
 
 <details>
-  <summary><strong><a href="https://github.com/baryhuang/claude-code-by-agents">Agentrooms</a></strong> Multi-agent workspace for collaborative development with Claude CLI.</summary>
+  <summary><strong><a href="https://github.com/baryhuang/claude-code-by-agents">Agentrooms</a> <a href="https://github.com/baryhuang/claude-code-by-agents"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Multi-agent workspace for collaborative development with Claude CLI.</summary>
 
   <blockquote>Agentrooms provides desktop and web interfaces for coordinating specialized AI agents in collaborative software development workflows, enabling task routing via @agent-name mentions, automatic decomposition, and management of complex multi-agent projects using Claude CLI as the underlying engine.</blockquote>
 </details>
 
 <details>
-  <summary><strong><a href="https://github.com/tobias-schuemann/claude-frontend">claude-frontend</a></strong> Visual interface for AI-powered code modifications with Claude CLI.</summary>
+  <summary><strong><a href="https://github.com/tobias-schuemann/claude-frontend">claude-frontend</a> <a href="https://github.com/tobias-schuemann/claude-frontend"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Visual interface for AI-powered code modifications with Claude CLI.</summary>
 
   <blockquote>claude-frontend provides a browser widget that allows developers to select webpage elements and send them to Claude for instant code modifications, supporting multiple frameworks including Next.js, Vite, React, and Vue in local development environments.</blockquote>
 </details>
 
 <details>
-  <summary><strong><a href="https://claudiacode.com/">Claudia</a></strong> Desktop GUI for Claude Code with session management and custom agent creation.</summary>
+  <summary><strong><a href="https://claudiacode.com/">Claudia</a> <a href="https://github.com/getAsterisk/claudia"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Desktop GUI for Claude Code with session management and custom agent creation.</summary>
 
   <blockquote>Claudia provides a visual command center for Claude Code featuring project browsers, session history tracking, custom AI agents with background execution, usage analytics, and process isolation for secure AI-assisted development workflows.</blockquote>
 </details>
 
 <details>
-  <summary><strong><a href="https://happy.engineering/">Happy</a></strong> Mobile client for Claude Code with remote access and cross-device synchronization.</summary>
+  <summary><strong><a href="https://happy.engineering/">Happy</a> <a href="https://github.com/slopus/happy"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Mobile client for Claude Code with remote access and cross-device synchronization.</summary>
 
   <blockquote>Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms.</blockquote>
 </details>
@@ -110,13 +114,13 @@
 ### &nbsp;&nbsp;Memory
 
 <details>
-  <summary><strong><a href="https://github.com/coleam00/Archon">Archon</a></strong> MCP server and knowledge management platform for AI coding assistants.</summary>
+  <summary><strong><a href="https://github.com/coleam00/Archon">Archon</a> <a href="https://github.com/coleam00/Archon"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> MCP server and knowledge management platform for AI coding assistants.</summary>
 
   <blockquote>Archon provides custom knowledge bases with web crawling, vector search, and task management capabilities, supporting multiple LLMs and offering 10 MCP tools for enhanced RAG queries and collaborative development workflows.</blockquote>
 </details>
 
 <details>
-  <summary><strong><a href="https://github.com/ceorkm/kratos-mcp">Kratos MCP</a></strong> Memory system MCP server for AI coding tools with 95.8% context accuracy.</summary>
+  <summary><strong><a href="https://github.com/ceorkm/kratos-mcp">Kratos MCP</a> <a href="https://github.com/ceorkm/kratos-mcp"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Memory system MCP server for AI coding tools with 95.8% context accuracy.</summary>
 
   <blockquote>Kratos MCP provides persistent memory for AI coding tools using a Four Pillars Framework with SQLite storage, ensuring AI maintains project context across sessions with sub-10ms retrieval times and automatic project isolation.</blockquote>
 </details>
@@ -136,7 +140,7 @@
 ### &nbsp;&nbsp;Codebase understanding
 
 <details>
-  <summary><strong><a href="https://github.com/glebkudr/shotgun_code">Shotgun App</a></strong> Desktop tool for preparing comprehensive project context for AI coding assistants.</summary>
+  <summary><strong><a href="https://github.com/glebkudr/shotgun_code">Shotgun App</a> <a href="https://github.com/glebkudr/shotgun_code"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Desktop tool for preparing comprehensive project context for AI coding assistants.</summary>
 
   <blockquote>Shotgun App enables one-click generation of structured project payloads for LLM interactions, allowing selective file exclusion and supporting whole-repository analysis and modification workflows with ChatGPT, Gemini, and other AI assistants.</blockquote>
 </details>
@@ -146,7 +150,7 @@
 ### &nbsp;&nbsp;Security
 
 <details>
-  <summary><strong><a href="https://github.com/nikvdp/cco">cco</a></strong> Protective wrapper for Claude Code with zero-config sandboxed execution.</summary>
+  <summary><strong><a href="https://github.com/nikvdp/cco">cco</a> <a href="https://github.com/nikvdp/cco"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Protective wrapper for Claude Code with zero-config sandboxed execution.</summary>
 
   <blockquote>cco provides automatic sandboxing for Claude Code using native OS tools or Docker fallback, enabling secure isolated interactions while maintaining seamless user experience and preserving project context across platforms.</blockquote>
 </details>
@@ -156,7 +160,7 @@
 ### &nbsp;&nbsp;Agent feedback
 
 <details>
-  <summary><strong>🔥 <a href="https://github.com/microsoft/playwright-mcp">playwright-mcp</a></strong> MCP server providing browser automation capabilities using Playwright's accessibility tree.</summary>
+  <summary><strong>🔥 <a href="https://github.com/microsoft/playwright-mcp">playwright-mcp</a> <a href="https://github.com/microsoft/playwright-mcp"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> MCP server providing browser automation capabilities using Playwright's accessibility tree.</summary>
 
   <blockquote>playwright-mcp enables LLMs to interact with web pages through structured accessibility snapshots rather than pixel-based input, offering deterministic browser automation with clicking, typing, navigation, and screenshot tools for precise web interactions.</blockquote>
 </details>
@@ -168,7 +172,7 @@
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="36" height="36" alt="Workflows" align="absmiddle" />&nbsp; Vibe-coding workflows
 
 <details>
-  <summary><strong><a href="https://github.com/bmad-code-org/BMAD-METHOD">BMAD-METHOD</a></strong> AI-driven agile development framework with specialized agent orchestration and context engineering.</summary>
+  <summary><strong><a href="https://github.com/bmad-code-org/BMAD-METHOD">BMAD-METHOD</a> <a href="https://github.com/bmad-code-org/BMAD-METHOD"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> AI-driven agile development framework with specialized agent orchestration and context engineering.</summary>
 
   <blockquote>BMAD-METHOD combines agentic planning with context-engineered development, using specialized AI agents (Analyst, Product Manager, Architect, Scrum Master) to create detailed PRDs and hyper-detailed development stories that embed full implementation context and architectural guidance directly in story files.</blockquote>
 </details>
@@ -177,11 +181,11 @@
 
 ## Contributing
 
-We welcome contributions to awesome-vibe-coding! If you'd like to suggest a new resource:
+We're excited to have your contributions to awesome-vibe-coding! If you'd like to suggest a new resource, whether something you've built or something you find useful:
 
 1. Open an issue on GitHub
 2. Choose the appropriate resource type (e.g., Agent, Tool, Workflow)
-3. Provide the required information as outlined in our contribution guidelines
+3. Fill in what information you can -- at minimum, all the AI agent needs is the name and website/GitHub repo link.
 
-Your suggestions help keep this list comprehensive and up-to-date for the vibe-coding community.
+
 
