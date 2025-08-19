@@ -205,6 +205,15 @@ category = "Agent feedback"
 hot = true
 
 [[tools]]
+name = "Superdesign"
+website = "https://www.superdesign.dev/"
+repo = "https://github.com/superdesigndev/superdesign"
+open_source = true
+summary = "Open source AI design agent for generating UI mockups and components inside IDEs."
+detail = "Superdesign integrates directly into VS Code, Cursor, Windsurf, and Claude Code to generate UI screens, wireframes, and reusable components from natural language prompts. Enables parallel design exploration and rapid prototyping within development environments, eliminating context switching between design and coding workflows."
+category = "Design"
+
+[[tools]]
 name = "Task Master"
 website = "https://www.task-master.dev/"
 repo = ""
