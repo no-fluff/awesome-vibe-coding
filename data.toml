@@ -8,6 +8,15 @@ detail = "Gemini CLI brings Google's Gemini AI directly to the terminal with cod
 category = "Open source"
 
 [[agents]]
+name = "Kilo Code"
+website = "https://kilocode.ai/"
+repo = "https://github.com/Kilo-Org/kilocode"
+open_source = true
+summary = "Open source VS Code AI coding agent with 400+ model support and multi-mode development assistance."
+detail = "Kilo Code provides multiple agent modes (Orchestrator, Architect, Code, Debug) with automatic context searching, memory bank for project retention, and hallucination-free code generation. Supports 400+ AI models via OpenRouter without requiring API keys and includes browser automation capabilities."
+category = "Open source"
+
+[[agents]]
 name = "OpenAI Codex"
 website = "https://chatgpt.com/codex"
 repo = ""
