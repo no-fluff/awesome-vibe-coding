@@ -37,6 +37,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://cursor.com">Cursor</a></strong> AI-powered code editor with predictive tab completion and natural language code editing.</summary>
+
+  <blockquote>Cursor is an AI-enhanced code editor that provides intelligent tab completion, codebase understanding, and natural language code modification capabilities. Imports VSCode extensions and themes while offering seamless AI integration for enhanced developer productivity.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://devin.ai/">Devin</a></strong> Autonomous AI software engineer that completes complex engineering tasks across codebases.</summary>
 
   <blockquote>Devin handles code migration, refactoring, bug fixes, and development tasks with autonomous testing and PR creation, integrating with GitHub, Slack, Jira, and other platforms while learning from examples to improve performance over time.</blockquote>
@@ -114,12 +120,6 @@
   <summary><strong><a href="https://claudiacode.com/">Claudia</a> <a href="https://github.com/getAsterisk/claudia"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Desktop GUI for Claude Code with session management and custom agent creation.</summary>
 
   <blockquote>Claudia provides a visual command center for Claude Code featuring project browsers, session history tracking, custom AI agents with background execution, usage analytics, and process isolation for secure AI-assisted development workflows.</blockquote>
-</details>
-
-<details>
-  <summary><strong><a href="https://cursor.com">Cursor</a></strong> AI-powered code editor with predictive tab completion and natural language code editing.</summary>
-
-  <blockquote>Cursor is an AI-enhanced code editor that provides intelligent tab completion, codebase understanding, and natural language code modification capabilities. Imports VSCode extensions and themes while offering seamless AI integration for enhanced developer productivity.</blockquote>
 </details>
 
 <details>
