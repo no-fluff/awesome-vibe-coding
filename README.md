@@ -30,6 +30,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://devin.ai/">Devin</a></strong> Autonomous AI software engineer that completes complex engineering tasks across codebases.</summary>
+
+  <blockquote>Devin handles code migration, refactoring, bug fixes, and development tasks with autonomous testing and PR creation, integrating with GitHub, Slack, Jira, and other platforms while learning from examples to improve performance over time.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://google-gemini.github.io/gemini-cli/">Gemini CLI</a></strong> Open source terminal-based AI agent with Gemini 2.5 Pro and multimodal capabilities.</summary>
 
   <blockquote>Gemini CLI brings Google's Gemini AI directly to the terminal with code generation, Google Search integration, file operations, and 1M token context window. Supports multiple authentication methods and offers extensible architecture for developer workflows.</blockquote>
