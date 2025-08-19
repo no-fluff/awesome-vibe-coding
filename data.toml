@@ -117,11 +117,11 @@ summary = "Multi-agent workspace for collaborative development with Claude CLI."
 detail = "Agentrooms provides desktop and web interfaces for coordinating specialized AI agents in collaborative software development workflows, enabling task routing via @agent-name mentions, automatic decomposition, and management of complex multi-agent projects using Claude CLI as the underlying engine."
 
 
-[[interfaces]]
+[[agents]]
 name = "Cursor"
 website = "https://cursor.com"
 repo = ""
-open_source = true
+open_source = false
 summary = "AI-powered code editor with predictive tab completion and natural language code editing."
 detail = "Cursor is an AI-enhanced code editor that provides intelligent tab completion, codebase understanding, and natural language code modification capabilities. Imports VSCode extensions and themes while offering seamless AI integration for enhanced developer productivity."
 
