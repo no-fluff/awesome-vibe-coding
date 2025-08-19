@@ -101,6 +101,14 @@ summary = "AI-powered IDE with spec-driven development and autonomous task execu
 detail = "Kiro transforms prompts into structured requirements and implementation tasks, supporting multimodal inputs and agent hooks for automated background workflows with Claude Sonnet integration."
 hot = true
 
+[[apps]]
+name = "v0"
+website = "https://v0.app/"
+repo = ""
+open_source = false
+summary = "AI-powered interface builder that generates React applications from text prompts and designs."
+detail = "v0 converts natural language descriptions into full-stack applications with UI, content, backend, and logic. Features agentic capabilities for research and planning, generates code using Next.js, React, and Tailwind CSS, and integrates with GitHub and Vercel for seamless deployment."
+
 [[interfaces]]
 name = "claude-frontend"
 website = ""
