@@ -133,9 +133,14 @@ function renderItem(item) {
   const summary = item.summary || "";
   const detail = item.detail || "";
   const hotPrefix = item.hot ? "🔥 " : "";
+  
+  // Add GitHub icon link if repo exists
+  const githubIcon = item.repo ? 
+    ` <a href="${item.repo}"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a>` : 
+    "";
 
   return `<details>
-  <summary><strong>${hotPrefix}<a href="${url}">${item.name}</a></strong> ${summary}</summary>
+  <summary><strong>${hotPrefix}<a href="${url}">${item.name}</a>${githubIcon}</strong> ${summary}</summary>
 
   <blockquote>${detail}</blockquote>
 </details>`;
