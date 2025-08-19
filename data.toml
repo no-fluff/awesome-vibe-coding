@@ -118,6 +118,14 @@ detail = "Agentrooms provides desktop and web interfaces for coordinating specia
 
 
 [[interfaces]]
+name = "Cursor"
+website = "https://cursor.com"
+repo = ""
+open_source = true
+summary = "AI-powered code editor with predictive tab completion and natural language code editing."
+detail = "Cursor is an AI-enhanced code editor that provides intelligent tab completion, codebase understanding, and natural language code modification capabilities. Imports VSCode extensions and themes while offering seamless AI integration for enhanced developer productivity."
+
+[[interfaces]]
 name = "Happy"
 website = "https://happy.engineering/"
 repo = "https://github.com/slopus/happy"
