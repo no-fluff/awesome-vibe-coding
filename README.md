@@ -31,6 +31,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://cline.bot/">Cline</a> <a href="https://github.com/cline/cline"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Open source AI coding agent for VS Code with autonomous capabilities and multi-model support.</summary>
+
+  <blockquote>Cline operates as a VS Code extension with autonomous file editing, terminal command execution, and browser automation capabilities. Features client-side architecture for security, supports multiple AI providers including Claude and Gemini, and offers transparent AI decision-making with human approval workflows.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://devin.ai/">Devin</a></strong> Autonomous AI software engineer that completes complex engineering tasks across codebases.</summary>
 
   <blockquote>Devin handles code migration, refactoring, bug fixes, and development tasks with autonomous testing and PR creation, integrating with GitHub, Slack, Jira, and other platforms while learning from examples to improve performance over time.</blockquote>
