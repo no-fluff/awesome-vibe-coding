@@ -18,6 +18,7 @@
     * [Codebase understanding](#codebase-understanding)
     * [Security](#security)
     * [Agent feedback](#agent-feedback)
+* [Contributing](#contributing)
 
 <br />
 
@@ -171,11 +172,11 @@
 
 ## Contributing
 
-We welcome contributions to awesome-vibe-coding! If you'd like to suggest a new resource:
+We're excited to have your contributions to awesome-vibe-coding! If you'd like to suggest a new resource, whether something you've built or something you find useful:
 
 1. Open an issue on GitHub
 2. Choose the appropriate resource type (e.g., Agent, Tool, Workflow)
-3. Provide the required information as outlined in our contribution guidelines
+3. Fill in what information you can -- at minimum, all the AI agent needs is the name and website/GitHub repo link.
 
-Your suggestions help keep this list comprehensive and up-to-date for the vibe-coding community.
+
 
