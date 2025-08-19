@@ -83,6 +83,15 @@ open_source = true
 summary = "AI coding assistant CLI for exploring, developing, and automating software workflows."
 detail = "Qwen Code is an intelligent command-line tool that helps developers understand, refactor, and generate code using advanced AI models. It provides workflow automation, code analysis, and supports multiple authentication methods across different regional providers."
 
+[[agents]]
+name = "Zed"
+website = "https://zed.dev/"
+repo = "https://github.com/zed-industries/zed"
+open_source = true
+summary = "High-performance collaborative code editor with AI-powered agentic editing capabilities."
+detail = "Zed is a next-generation code editor built in Rust that enables fluent collaboration between humans and AI. Features native AI integration for code generation and transformation with upcoming LLM support, multiplayer editing, and custom language models for edit prediction."
+category = "Open source"
+
 [[apps]]
 name = "Kiro"
 website = "https://kiro.dev/"
