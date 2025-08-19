@@ -16,6 +16,15 @@ summary = "Cloud-based autonomous coding agent with multi-task execution and iso
 detail = "OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions."
 
 [[agents]]
+name = "Cline"
+website = "https://cline.bot/"
+repo = "https://github.com/cline/cline"
+open_source = true
+summary = "Open source AI coding agent for VS Code with autonomous capabilities and multi-model support."
+detail = "Cline operates as a VS Code extension with autonomous file editing, terminal command execution, and browser automation capabilities. Features client-side architecture for security, supports multiple AI providers including Claude and Gemini, and offers transparent AI decision-making with human approval workflows."
+category = "Open source"
+
+[[agents]]
 name = "Claude Code"
 website = "https://www.anthropic.com/claude-code"
 repo = ""
