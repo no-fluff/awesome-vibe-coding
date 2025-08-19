@@ -142,6 +142,14 @@ open_source = true
 summary = "Mobile client for Claude Code with remote access and cross-device synchronization."
 detail = "Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms."
 
+[[interfaces]]
+name = "Vibe Kanban"
+website = "https://www.vibekanban.com/"
+repo = "https://github.com/BloopAI/vibe-kanban"
+open_source = true
+summary = "Kanban-style interface for managing and orchestrating multiple AI coding agents."
+detail = "Vibe Kanban provides a web-based dashboard for switching between different coding agents, executing multiple agents in parallel or sequence, and tracking task statuses. Built with Rust and TypeScript, it centralizes agent configuration and supports agents like Claude Code, Gemini CLI, and Codex."
+
 [[tools]]
 name = "Archon"
 website = "https://github.com/coleam00/Archon"
