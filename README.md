@@ -54,6 +54,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://www.all-hands.dev/">OpenHands</a></strong> Open source AI software development agent platform with autonomous coding capabilities.</summary>
+
+  <blockquote>OpenHands enables AI agents to perform developer tasks autonomously including code modification, terminal commands, web browsing, and API calls. Supports multiple LLM providers with recommended Claude Sonnet 4 integration and offers both GUI and CLI interfaces for flexible development workflows.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></strong> AI coding assistant CLI for exploring, developing, and automating software workflows.</summary>
 
   <blockquote>Qwen Code is an intelligent command-line tool that helps developers understand, refactor, and generate code using advanced AI models. It provides workflow automation, code analysis, and supports multiple authentication methods across different regional providers.</blockquote>
