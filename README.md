@@ -37,6 +37,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://cursor.com">Cursor</a></strong> AI-powered code editor with predictive tab completion and natural language code editing.</summary>
+
+  <blockquote>Cursor is an AI-enhanced code editor that provides intelligent tab completion, codebase understanding, and natural language code modification capabilities. Imports VSCode extensions and themes while offering seamless AI integration for enhanced developer productivity.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://devin.ai/">Devin</a></strong> Autonomous AI software engineer that completes complex engineering tasks across codebases.</summary>
 
   <blockquote>Devin handles code migration, refactoring, bug fixes, and development tasks with autonomous testing and PR creation, integrating with GitHub, Slack, Jira, and other platforms while learning from examples to improve performance over time.</blockquote>
