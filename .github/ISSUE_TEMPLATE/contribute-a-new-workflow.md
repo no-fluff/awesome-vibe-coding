@@ -8,11 +8,11 @@ assignees: ""
 
 I'd like to propose a new workflow for the awesome-vibe-coding list:
 
-### Name: <workflow name>
+### Name: 
 
-### GitHub repo or gist (optional):
+### GitHub repo or gist (optional): 
 
-### Website or article (optional):
+### Website or article (optional): 
 
 ## Are you the author/maintainer? (Either is fine!)
 

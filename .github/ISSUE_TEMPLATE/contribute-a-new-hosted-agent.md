@@ -8,9 +8,9 @@ assignees: ""
 
 I'd like to propose a new cloud-only agent for the awesome-vibe-coding list:
 
-### Name: <agent name>
+### Name: 
 
-### Website:
+### Website: 
 
 ## Are you the developer/maintainer? (Either is fine!)
 

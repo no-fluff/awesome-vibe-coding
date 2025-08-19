@@ -8,11 +8,11 @@ assignees: ""
 
 I'd like to propose a new tool for the awesome-vibe-coding list:
 
-### Name: <tool name>
+### Name: 
 
-### GitHub repo (optional):
+### GitHub repo (optional): 
 
-### Website (optional if GitHub repo is provided):
+### Website (optional if GitHub repo is provided): 
 
 ## Are you the developer/maintainer? (Either is fine!)
 
