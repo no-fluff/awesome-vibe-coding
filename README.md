@@ -18,6 +18,7 @@
     * [Codebase understanding](#codebase-understanding)
     * [Security](#security)
     * [Agent feedback](#agent-feedback)
+    * [Design](#design)
 * [**Cloud-only agents**](#cloud-only-agents)
     
 * [Contributing](#contributing)
@@ -204,6 +205,16 @@
   <summary><strong>🔥 <a href="https://github.com/microsoft/playwright-mcp">playwright-mcp</a> <a href="https://github.com/microsoft/playwright-mcp"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> MCP server providing browser automation capabilities using Playwright's accessibility tree.</summary>
 
   <blockquote>playwright-mcp enables LLMs to interact with web pages through structured accessibility snapshots rather than pixel-based input, offering deterministic browser automation with clicking, typing, navigation, and screenshot tools for precise web interactions.</blockquote>
+</details>
+
+<br />
+
+### &bull; Design
+
+<details>
+  <summary><strong><a href="https://www.superdesign.dev/">Superdesign</a> <a href="https://github.com/superdesigndev/superdesign"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Open source AI design agent for generating UI mockups and components inside IDEs.</summary>
+
+  <blockquote>Superdesign integrates directly into VS Code, Cursor, Windsurf, and Claude Code to generate UI screens, wireframes, and reusable components from natural language prompts. Enables parallel design exploration and rapid prototyping within development environments, eliminating context switching between design and coding workflows.</blockquote>
 </details>
 
 <br />
