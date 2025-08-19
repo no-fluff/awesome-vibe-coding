@@ -90,6 +90,12 @@
   <blockquote>Qwen Code is an intelligent command-line tool that helps developers understand, refactor, and generate code using advanced AI models. It provides workflow automation, code analysis, and supports multiple authentication methods across different regional providers.</blockquote>
 </details>
 
+<details>
+  <summary><strong><a href="https://zed.dev/">Zed</a> <a href="https://github.com/zed-industries/zed"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> High-performance collaborative code editor with AI-powered agentic editing capabilities.</summary>
+
+  <blockquote>Zed is a next-generation code editor built in Rust that enables fluent collaboration between humans and AI. Features native AI integration for code generation and transformation with upcoming LLM support, multiplayer editing, and custom language models for edit prediction.</blockquote>
+</details>
+
 <br />
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/apps.png" width="36" height="36" alt="Apps" align="absmiddle" />&nbsp; Vibe-coding apps
