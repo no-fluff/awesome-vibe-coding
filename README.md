@@ -14,7 +14,6 @@
     
 * [**Tools and MCP servers**](#tools-and-mcp-servers)
     * [Memory](#memory)
-    * [Task management](#task-management)
     * [Codebase understanding](#codebase-understanding)
     * [Security](#security)
     * [Agent feedback](#agent-feedback)
@@ -169,16 +168,6 @@
 
 <br />
 
-### &bull; Task management
-
-<details>
-  <summary><strong><a href="https://www.task-master.dev/">Task Master</a></strong> AI-powered task management system for coding workflows with MCP integration.</summary>
-
-  <blockquote>Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage.</blockquote>
-</details>
-
-<br />
-
 ### &bull; Codebase understanding
 
 <details>
@@ -235,6 +224,12 @@
   <summary><strong><a href="https://github.com/automazeio/ccpm">Claude Code PM</a> <a href="https://github.com/automazeio/ccpm"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> GitHub Issues-based project management system for AI-powered parallel development workflows.</summary>
 
   <blockquote>Claude Code PM transforms product requirements into GitHub Issues with traceable task breakdown, enabling 5-8 parallel AI agent streams instead of sequential work. Features automatic context preservation, reduces context switching by 89%, and accelerates feature delivery up to 3x while maintaining 75% reduction in bug rates.</blockquote>
+</details>
+
+<details>
+  <summary><strong><a href="https://www.task-master.dev/">Task Master</a></strong> AI-powered task management system for coding workflows with MCP integration.</summary>
+
+  <blockquote>Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage.</blockquote>
 </details>
 
 <br />
