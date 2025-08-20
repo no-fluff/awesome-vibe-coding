@@ -98,12 +98,18 @@ function renderSection(items, sectionId, categoriesConfig) {
 }
 
 function renderCategories(sectionKey, data, categoriesConfig) {
-  if (!categoriesConfig[sectionKey]) {
+  // Only the tools section has categories in data.toml
+  if (!categoriesConfig || !categoriesConfig[sectionKey]) {
     return '';
   }
 
   const items = data[sectionKey];
   const categories = categoriesConfig[sectionKey];
+  
+  if (!Array.isArray(categories)) {
+    return '';
+  }
+  
   const usedCategories = new Set();
 
   // Find which categories are actually used

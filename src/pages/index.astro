@@ -71,10 +71,21 @@ function renderItem(item) {
 
 function renderCategories(sectionId) {
   const sectionCategories = categories[sectionId];
-  if (!sectionCategories || sectionId === 'hosted-agents') return '';
+  if (!sectionCategories || !Array.isArray(sectionCategories)) return '';
   
-  const categoryLinks = Object.keys(sectionCategories)
-    .sort()
+  // Find which categories are actually used
+  const usedCategories = new Set();
+  if (data[sectionId] && Array.isArray(data[sectionId])) {
+    data[sectionId].forEach((item) => {
+      if (item.category && sectionCategories.includes(item.category)) {
+        usedCategories.add(item.category);
+      }
+    });
+  }
+  
+  // Generate category links for used categories only
+  const categoryLinks = sectionCategories
+    .filter(cat => usedCategories.has(cat))
     .map(cat => `<li><a href="#${cat.toLowerCase().replace(/\s+/g, '-')}">${cat}</a></li>`)
     .join('\n    ');
   
