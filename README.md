@@ -231,6 +231,12 @@
   <blockquote>BMAD-METHOD combines agentic planning with context-engineered development, using specialized AI agents (Analyst, Product Manager, Architect, Scrum Master) to create detailed PRDs and hyper-detailed development stories that embed full implementation context and architectural guidance directly in story files.</blockquote>
 </details>
 
+<details>
+  <summary><strong><a href="https://github.com/automazeio/ccpm">Claude Code PM</a> <a href="https://github.com/automazeio/ccpm"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> GitHub Issues-based project management system for AI-powered parallel development workflows.</summary>
+
+  <blockquote>Claude Code PM transforms product requirements into GitHub Issues with traceable task breakdown, enabling 5-8 parallel AI agent streams instead of sequential work. Features automatic context preservation, reduces context switching by 89%, and accelerates feature delivery up to 3x while maintaining 75% reduction in bug rates.</blockquote>
+</details>
+
 <br />
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/hosted-agents.png" width="36" height="36" alt="Workflows" align="absmiddle" />&nbsp; Cloud-only agents

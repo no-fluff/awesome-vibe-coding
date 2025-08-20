@@ -9,7 +9,7 @@ on:
 
 # Allow this job to clone the repo and create a page deployment
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -25,6 +25,14 @@ jobs:
             # path: . # The root location of your Astro project inside the repository. (optional)
             # node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
             # package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
+      
+      - name: Commit updated README.md
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --staged --quiet || git commit -m "Update README.md from data.toml changes"
+          git push || echo "No changes to push"
 
   deploy:
     needs: build
