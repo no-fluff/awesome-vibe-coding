@@ -278,4 +278,3 @@ We're excited to have your contributions to awesome-vibe-coding! If you'd like t
 3. Fill in what information you can -- at minimum, all the AI agent needs is the name and website/GitHub repo link.
 
 
-

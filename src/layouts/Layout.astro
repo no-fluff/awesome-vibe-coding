@@ -1,0 +1,162 @@
+---
+export interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A curated list of awesome vibe coding tools and resources" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --color-text: #1c1917;
+    --color-link: #0969da;
+    --color-link-hover: #0860ca;
+    --color-border: #d0d7de;
+    --color-bg-subtle: #f6f8fa;
+    --color-bg-accent: #ddf4ff;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-text: #e6edf3;
+      --color-link: #58a6ff;
+      --color-link-hover: #79b8ff;
+      --color-border: #30363d;
+      --color-bg-subtle: #161b22;
+      --color-bg-accent: #1f2937;
+    }
+  }
+
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  }
+
+  body {
+    margin: 0;
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    color: var(--color-text);
+    background-color: #ffffff;
+    line-height: 1.6;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #0d1117;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  h1 {
+    font-size: 2rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  a {
+    color: var(--color-link);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--color-link-hover);
+    text-decoration: underline;
+  }
+
+  ul, ol {
+    padding-left: 2rem;
+  }
+
+  li {
+    margin-top: 0.25rem;
+  }
+
+  code {
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: var(--color-bg-subtle);
+    border-radius: 3px;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+  }
+
+  img {
+    max-width: 100%;
+    box-sizing: content-box;
+  }
+
+  details {
+    margin-bottom: 0.5rem;
+  }
+
+  details summary {
+    cursor: pointer;
+    list-style: none;
+  }
+
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details[open] summary {
+    margin-bottom: 0.5rem;
+  }
+
+  details blockquote {
+    margin: 0.5rem 0 0.5rem 1rem;
+    padding-left: 1rem;
+    border-left: 0.25rem solid var(--color-border);
+    color: #656d76;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    details blockquote {
+      color: #8b949e;
+    }
+  }
+
+  article > ul {
+    padding-left: 1.5rem;
+  }
+
+  article > ul > li > p {
+    margin: 0.25rem 0;
+  }
+
+  article > ul > li > ul {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+</style>

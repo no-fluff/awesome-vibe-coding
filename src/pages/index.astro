@@ -1,0 +1,179 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { loadData } from '../lib/data-loader.js';
+
+const { data, categories } = loadData();
+
+const sections = [
+  {
+    id: 'agents',
+    title: 'Agents',
+    icon: 'agents.png',
+    description: null,
+    data: data.agents || []
+  },
+  {
+    id: 'apps',
+    title: 'Vibe-coding apps',
+    icon: 'apps.png',
+    description: 'Soup-to-nuts apps for vibing.',
+    data: data.apps || []
+  },
+  {
+    id: 'interfaces',
+    title: 'Agent interfaces',
+    icon: 'interfaces.png',
+    description: 'Use your AI agent outside the terminal.',
+    data: data.interfaces || []
+  },
+  {
+    id: 'tools',
+    title: 'Tools and MCP servers',
+    icon: 'tools.png',
+    description: 'Everything you can plug into a coding agent.',
+    data: data.tools || []
+  },
+  {
+    id: 'workflows',
+    title: 'Vibe-coding workflows',
+    icon: 'workflows.png',
+    description: 'Agent rules and processes to help you ship higher-quality code, faster.',
+    data: data.workflows || []
+  },
+  {
+    id: 'hosted-agents',
+    title: 'Cloud-only agents',
+    icon: 'hosted-agents.png',
+    description: 'These closed-source agents are hosted for you.',
+    data: data['hosted-agents'] || []
+  }
+];
+
+function renderItem(item) {
+  const hotEmoji = item.hot ? '🔥 ' : '';
+  const hasWebsite = !!item.website;
+  const hasRepo = !!item.repo;
+  
+  // Use the website URL for the name link, otherwise use the repo URL
+  const nameUrl = item.website || item.repo;
+  
+  // GitHub icon SVG
+  const githubIcon = '<img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" />';
+  
+  return `
+    <details>
+      <summary><strong>${hotEmoji}${nameUrl ? `<a href="${nameUrl}">${item.name}</a>` : item.name}${hasRepo && hasWebsite ? ` <a href="${item.repo}">${githubIcon}</a>` : ''}${hasRepo && !hasWebsite ? ` <a href="${item.repo}">${githubIcon}</a>` : ''}</strong> ${item.summary}</summary>
+      
+      <blockquote>${item.detail || item.summary}</blockquote>
+    </details>
+  `;
+}
+
+function renderCategories(sectionId) {
+  const sectionCategories = categories[sectionId];
+  if (!sectionCategories || sectionId === 'hosted-agents') return '';
+  
+  const categoryLinks = Object.keys(sectionCategories)
+    .sort()
+    .map(cat => `<li><a href="#${cat.toLowerCase().replace(/\s+/g, '-')}">${cat}</a></li>`)
+    .join('\n    ');
+  
+  return categoryLinks ? `\n    <ul>\n    ${categoryLinks}\n    </ul>` : '';
+}
+
+function renderSection(section) {
+  if (!section.data || section.data.length === 0) return '';
+  
+  // For tools section, group by categories
+  if (section.id === 'tools') {
+    const categoryGroups = {};
+    section.data.forEach(item => {
+      const cat = item.category || 'Uncategorized';
+      if (!categoryGroups[cat]) {
+        categoryGroups[cat] = [];
+      }
+      categoryGroups[cat].push(item);
+    });
+    
+    let html = '';
+    Object.keys(categoryGroups).sort().forEach(category => {
+      const anchorId = category.toLowerCase().replace(/\s+/g, '-');
+      html += `<h3 id="${anchorId}">• ${category}</h3>\n\n`;
+      categoryGroups[category].forEach(item => {
+        html += renderItem(item) + '\n\n';
+      });
+    });
+    
+    return html;
+  }
+  
+  // For other sections, just render items directly
+  let html = '';
+  section.data.forEach(item => {
+    html += renderItem(item) + '\n\n';
+  });
+  
+  return html;
+}
+---
+
+<Layout title="Awesome Vibe Coding">
+  <article>
+    <h1>Awesome Vibe Coding</h1>
+    
+    <ul>
+      <li>
+        <p><a href="#agents"><strong>Agents</strong></a></p>{renderCategories('agents') && <Fragment set:html={renderCategories('agents')} />}
+      </li>
+      <li>
+        <p><a href="#vibe-coding-apps"><strong>Vibe-coding apps</strong></a></p>{renderCategories('apps') && <Fragment set:html={renderCategories('apps')} />}
+      </li>
+      <li>
+        <p><a href="#agent-interfaces"><strong>Agent interfaces</strong></a></p>{renderCategories('interfaces') && <Fragment set:html={renderCategories('interfaces')} />}
+      </li>
+      <li>
+        <p><a href="#tools-and-mcp-servers"><strong>Tools and MCP servers</strong></a></p>{renderCategories('tools') && <Fragment set:html={renderCategories('tools')} />}
+      </li>
+      <li>
+        <p><a href="#cloud-only-agents"><strong>Cloud-only agents</strong></a></p>{renderCategories('hosted-agents') && <Fragment set:html={renderCategories('hosted-agents')} />}
+      </li>
+      <li>
+        <p><a href="#contributing"><strong>Contributing</strong></a></p>
+      </li>
+    </ul>
+
+    <br />
+
+    {sections.map(section => (
+      <>
+        <h2 id={section.id === 'hosted-agents' ? 'cloud-only-agents' : section.id === 'apps' ? 'vibe-coding-apps' : section.id === 'interfaces' ? 'agent-interfaces' : section.id === 'tools' ? 'tools-and-mcp-servers' : section.id === 'workflows' ? 'vibe-coding-workflows' : section.id}>
+          <img 
+            src={`https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/${section.icon}`} 
+            width="36" 
+            height="36" 
+            alt={section.title} 
+            align="absmiddle" 
+          />&nbsp; {section.title}
+        </h2>
+        
+        {section.description && (
+          <p><em>{section.description}</em></p>
+        )}
+        
+        <Fragment set:html={renderSection(section)} />
+        
+        <br />
+      </>
+    ))}
+
+    <h2 id="contributing">Contributing</h2>
+    
+    <p>We're excited to have your contributions to awesome-vibe-coding! If you'd like to suggest a new resource, whether something you've built or something you find useful:</p>
+    
+    <ol>
+      <li>Open an issue on GitHub</li>
+      <li>Choose the appropriate resource type (e.g., Agent, Tool, Workflow)</li>
+      <li>Fill in what information you can -- at minimum, all the AI agent needs is the name and website/GitHub repo link.</li>
+    </ol>
+  </article>
+</Layout>

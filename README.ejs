@@ -7,22 +7,22 @@
 <!--## Advanced vibe coding -->
 
 * [**Agents**](#agents)
-    {{{dynamic-categories "agents" this}}}
+    <%- renderCategories('agents', data, categories) %>
 * [**Vibe-coding apps**](#vibe-coding-apps)
-    {{{dynamic-categories "apps" this}}}
+    <%- renderCategories('apps', data, categories) %>
 * [**Agent interfaces**](#agent-interfaces)
-    {{{dynamic-categories "interfaces" this}}}
+    <%- renderCategories('interfaces', data, categories) %>
 * [**Tools and MCP servers**](#tools-and-mcp-servers)
-    {{{dynamic-categories "tools" this}}}
+    <%- renderCategories('tools', data, categories) %>
 * [**Cloud-only agents**](#cloud-only-agents)
-    {{{dynamic-categories "hosted-agents" this}}}
+    <%- renderCategories('hosted-agents', data, categories) %>
 * [Contributing](#contributing)
 
 <br />
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/agents.png" width="36" height="36" alt="Agents" align="absmiddle" />&nbsp; Agents
 
-{{{render-section agents}}}
+<%- renderSection(data.agents, 'agents', categories) %>
 
 <br />
 
@@ -30,7 +30,7 @@
 
 *Soup-to-nuts apps for vibing.*
 
-{{{render-section apps}}}
+<%- renderSection(data.apps, 'apps', categories) %>
 
 <br />
 
@@ -38,7 +38,7 @@
 
 *Use your AI agent outside the terminal.*
 
-{{{render-section interfaces}}}
+<%- renderSection(data.interfaces, 'interfaces', categories) %>
 
 <br />
 
@@ -46,7 +46,7 @@
 
 *Everything you can plug into a coding agent.*
 
-{{{render-section tools categories=categories.tools}}}
+<%- renderSection(data.tools, 'tools', categories) %>
 
 <br />
 
@@ -54,7 +54,7 @@
 
 *Agent rules and processes to help you ship higher-quality code, faster.*
 
-{{{render-section workflows}}}
+<%- renderSection(data.workflows, 'workflows', categories) %>
 
 <br />
 
@@ -62,7 +62,7 @@
 
 *These closed-source agents are hosted for you.*
 
-{{{render-section hosted-agents}}}
+<%- renderSection(data['hosted-agents'], 'hosted-agents', categories) %>
 
 <br />
 
@@ -73,6 +73,5 @@ We're excited to have your contributions to awesome-vibe-coding! If you'd like t
 1. Open an issue on GitHub
 2. Choose the appropriate resource type (e.g., Agent, Tool, Workflow)
 3. Fill in what information you can -- at minimum, all the AI agent needs is the name and website/GitHub repo link.
-
 
 
