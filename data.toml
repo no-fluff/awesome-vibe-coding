@@ -213,14 +213,13 @@ summary = "Open source AI design agent for generating UI mockups and components 
 detail = "Superdesign integrates directly into VS Code, Cursor, Windsurf, and Claude Code to generate UI screens, wireframes, and reusable components from natural language prompts. Enables parallel design exploration and rapid prototyping within development environments, eliminating context switching between design and coding workflows."
 category = "Design"
 
-[[tools]]
+[[workflows]]
 name = "Task Master"
 website = "https://www.task-master.dev/"
 repo = ""
 open_source = true
 summary = "AI-powered task management system for coding workflows with MCP integration."
 detail = "Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage."
-category = "Task management"
 
 [[workflows]]
 name = "BMAD-METHOD"
