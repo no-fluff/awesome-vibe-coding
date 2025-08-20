@@ -1,7 +1,5 @@
 # Awesome Vibe Coding
 
-Keep up-to-date by adding a star: <a class="github-button" href="https://github.com/no-fluff/awesome-vibe-coding" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" aria-label="Star no-fluff/awesome-vibe-coding on GitHub">Star</a>
-
 <!--## Getting started with vibe coding -->
 
 <!--## The essential resources -->
