@@ -159,6 +159,15 @@ summary = "Kanban-style interface for managing and orchestrating multiple AI cod
 detail = "Vibe Kanban provides a web-based dashboard for switching between different coding agents, executing multiple agents in parallel or sequence, and tracking task statuses. Built with Rust and TypeScript, it centralizes agent configuration and supports agents like Claude Code, Gemini CLI, and Codex."
 
 [[tools]]
+name = "Claude Squad"
+website = "https://smtg-ai.github.io/claude-squad/"
+repo = "https://github.com/smtg-ai/claude-squad"
+open_source = true
+summary = "Terminal application for managing multiple AI coding agents in isolated git workspaces."
+detail = "Claude Squad coordinates multiple AI agents like Claude Code, Codex, and Aider using tmux sessions and git worktrees for isolation. Features background task completion, session management, change review workflows, and automatic GitHub branch operations for streamlined multi-agent development."
+category = "Task management"
+
+[[tools]]
 name = "Archon"
 website = "https://github.com/coleam00/Archon"
 repo = "https://github.com/coleam00/Archon"
