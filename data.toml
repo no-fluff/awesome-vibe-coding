@@ -159,6 +159,15 @@ summary = "Kanban-style interface for managing and orchestrating multiple AI cod
 detail = "Vibe Kanban provides a web-based dashboard for switching between different coding agents, executing multiple agents in parallel or sequence, and tracking task statuses. Built with Rust and TypeScript, it centralizes agent configuration and supports agents like Claude Code, Gemini CLI, and Codex."
 
 [[tools]]
+name = "Code Conductor"
+website = ""
+repo = "https://github.com/ryanmac/code-conductor"
+open_source = true
+summary = "Multi-agent orchestration tool enabling parallel AI coding workflows with git worktree isolation."
+detail = "Code Conductor orchestrates multiple AI coding agents simultaneously across isolated git worktrees to eliminate sequential bottlenecks. Features automatic task claiming, zero merge conflicts through workspace isolation, and streamlined GitHub Actions workflows for autonomous agent development."
+category = "Other tools"
+
+[[tools]]
 name = "Archon"
 website = "https://github.com/coleam00/Archon"
 repo = "https://github.com/coleam00/Archon"
