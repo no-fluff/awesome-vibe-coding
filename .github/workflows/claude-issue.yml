@@ -13,10 +13,24 @@ on:
 jobs:
   claude:
     if: |
-      (github.event_name == 'issues') ||
-      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
-      (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude')) ||
-      (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude'))
+      (github.event_name == 'issues' && github.event.action == 'opened') ||
+      (github.event_name == 'issues' && github.event.action == 'edited' && 
+       (github.event.sender.type == 'User' && 
+        (github.event.issue.author_association == 'OWNER' || 
+         github.event.issue.author_association == 'MEMBER' || 
+         github.event.issue.author_association == 'COLLABORATOR'))) ||
+      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude') && 
+       (github.event.comment.author_association == 'OWNER' || 
+        github.event.comment.author_association == 'MEMBER' || 
+        github.event.comment.author_association == 'COLLABORATOR')) ||
+      (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude') && 
+       (github.event.comment.author_association == 'OWNER' || 
+        github.event.comment.author_association == 'MEMBER' || 
+        github.event.comment.author_association == 'COLLABORATOR')) ||
+      (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude') && 
+       (github.event.review.author_association == 'OWNER' || 
+        github.event.review.author_association == 'MEMBER' || 
+        github.event.review.author_association == 'COLLABORATOR'))
     runs-on: ubuntu-latest
     permissions:
       contents: write
