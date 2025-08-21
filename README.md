@@ -168,6 +168,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://github.com/pi22by7/In-Memoria">In Memoria</a> <a href="https://github.com/pi22by7/In-Memoria"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Persistent intelligence infrastructure MCP server that learns coding patterns for AI agents.</summary>
+
+  <blockquote>In Memoria provides a Model Context Protocol server with Rust-based engines for AST parsing, pattern learning, and semantic code analysis. Learns developer-specific coding styles, naming conventions, and architectural decisions, offering 17 tools for codebase analysis and context-aware recommendations across AI coding assistants.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://github.com/ceorkm/kratos-mcp">Kratos MCP</a> <a href="https://github.com/ceorkm/kratos-mcp"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Memory system MCP server for AI coding tools with 95.8% context accuracy.</summary>
 
   <blockquote>Kratos MCP provides persistent memory for AI coding tools using a Four Pillars Framework with SQLite storage, ensuring AI maintains project context across sessions with sub-10ms retrieval times and automatic project isolation.</blockquote>
