@@ -77,6 +77,14 @@ detail = "Zed is a next-generation code editor built in Rust that enables fluent
 category = "Open source"
 
 [[apps]]
+name = "Claudable"
+website = ""
+repo = "https://github.com/opactorai/Claudable"
+open_source = true
+summary = "AI-powered web application builder with natural language development and instant deployment."
+detail = "Claudable enables users to create web applications through natural language descriptions using Claude Code and Cursor CLI agents. Features instant live preview, one-click Vercel deployment, automatic GitHub version control, and Supabase database integration with beautiful UI generation using Tailwind CSS and shadcn/ui."
+
+[[apps]]
 name = "Kiro"
 website = "https://kiro.dev/"
 repo = ""
