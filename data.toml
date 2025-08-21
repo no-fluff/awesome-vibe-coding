@@ -203,6 +203,15 @@ detail = "Code Conductor orchestrates multiple AI coding agents simultaneously a
 category = "Task management"
 
 [[tools]]
+name = "Dmux"
+website = ""
+repo = "https://github.com/justin-schroeder/dmux"
+open_source = true
+summary = "CLI tool for simplified parallel development with AI agents using tmux and git worktrees."
+detail = "Dmux enables developers to run multiple parallel development agents simultaneously with isolated git worktrees and tmux panes for each task. Features AI-powered branch naming and commit management, Claude Code integration, and one-command merge workflows for streamlined multi-agent development."
+category = "Task management"
+
+[[tools]]
 name = "Kratos MCP"
 website = ""
 repo = "https://github.com/ceorkm/kratos-mcp"
