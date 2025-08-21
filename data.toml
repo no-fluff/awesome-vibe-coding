@@ -110,6 +110,14 @@ summary = "Desktop GUI for Claude Code with session management and custom agent 
 detail = "Claudia provides a visual command center for Claude Code featuring project browsers, session history tracking, custom AI agents with background execution, usage analytics, and process isolation for secure AI-assisted development workflows."
 
 [[interfaces]]
+name = "Conductor"
+website = "https://conductor.build/"
+repo = ""
+open_source = false
+summary = "Desktop application for parallel management and orchestration of Claude Code agents."
+detail = "Conductor enables running multiple Claude Code agents simultaneously with isolated workspaces, progress monitoring, and git worktree management. Built for developers seeking to maximize AI-assisted coding productivity through parallel agent workflows."
+
+[[interfaces]]
 name = "Agentrooms"
 website = ""
 repo = "https://github.com/baryhuang/claude-code-by-agents"
