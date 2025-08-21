@@ -203,6 +203,15 @@ detail = "Code Conductor orchestrates multiple AI coding agents simultaneously a
 category = "Task management"
 
 [[tools]]
+name = "In Memoria"
+website = ""
+repo = "https://github.com/pi22by7/In-Memoria"
+open_source = true
+summary = "Persistent intelligence infrastructure MCP server that learns coding patterns for AI agents."
+detail = "In Memoria provides a Model Context Protocol server with Rust-based engines for AST parsing, pattern learning, and semantic code analysis. Learns developer-specific coding styles, naming conventions, and architectural decisions, offering 17 tools for codebase analysis and context-aware recommendations across AI coding assistants."
+category = "Memory"
+
+[[tools]]
 name = "Kratos MCP"
 website = ""
 repo = "https://github.com/ceorkm/kratos-mcp"
