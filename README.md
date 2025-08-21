@@ -99,6 +99,12 @@
   <blockquote>Kiro transforms prompts into structured requirements and implementation tasks, supporting multimodal inputs and agent hooks for automated background workflows with Claude Sonnet integration.</blockquote>
 </details>
 
+<details>
+  <summary><strong><a href="https://github.com/opactorai/Claudable">Claudable</a> <a href="https://github.com/opactorai/Claudable"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> AI-powered web application builder with natural language development and instant deployment.</summary>
+
+  <blockquote>Claudable enables users to create web applications through natural language descriptions using Claude Code and Cursor CLI agents. Features instant live preview, one-click Vercel deployment, automatic GitHub version control, and Supabase database integration with beautiful UI generation using Tailwind CSS and shadcn/ui.</blockquote>
+</details>
+
 <br />
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/interfaces.png" width="36" height="36" alt="Interfaces" align="absmiddle" />&nbsp; Agent interfaces
