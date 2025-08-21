@@ -126,7 +126,7 @@ function renderCategories(sectionKey, data, categoriesConfig) {
   categories.forEach((category) => {
     if (usedCategories.has(category)) {
       categoryLinks.push(
-        `* [${category}](#${category.toLowerCase().replace(/\s+/g, '-')})`
+        `* [${category}](#-${category.toLowerCase().replace(/\s+/g, '-')})`
       );
     }
   });

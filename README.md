@@ -13,12 +13,12 @@
 * [**Agent interfaces**](#-agent-interfaces)
     
 * [**Tools and MCP servers**](#-tools-and-mcp-servers)
-    * [Memory](#memory)
-    * [Task management](#task-management)
-    * [Codebase understanding](#codebase-understanding)
-    * [Security](#security)
-    * [Agent feedback](#agent-feedback)
-    * [Design](#design)
+    * [Memory](#-memory)
+    * [Task management](#-task-management)
+    * [Codebase understanding](#-codebase-understanding)
+    * [Security](#-security)
+    * [Agent feedback](#-agent-feedback)
+    * [Design](#-design)
 * [**Vibe-coding workflows**](#-vibe-coding-workflows)
     
 * [**Cloud-only agents**](#-cloud-only-agents)
