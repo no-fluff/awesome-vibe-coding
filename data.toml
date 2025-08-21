@@ -102,6 +102,14 @@ summary = "AI-powered interface builder that generates React applications from t
 detail = "v0 converts natural language descriptions into full-stack applications with UI, content, backend, and logic. Features agentic capabilities for research and planning, generates code using Next.js, React, and Tailwind CSS, and integrates with GitHub and Vercel for seamless deployment."
 
 [[interfaces]]
+name = "Crystal"
+website = ""
+repo = "https://github.com/stravu/crystal"
+open_source = true
+summary = "Desktop Electron app for managing multiple Claude Code sessions in parallel git worktrees."
+detail = "Crystal enables developers to run multiple Claude Code AI sessions simultaneously with isolated git worktrees for each session. Features persistent conversation tracking, built-in git operations, change visualization, and desktop notifications for streamlined parallel AI-assisted development workflows."
+
+[[interfaces]]
 name = "claude-frontend"
 website = ""
 repo = "https://github.com/tobias-schuemann/claude-frontend"
