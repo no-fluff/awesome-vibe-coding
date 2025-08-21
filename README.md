@@ -197,6 +197,18 @@
   <blockquote>Claude Squad coordinates multiple AI agents like Claude Code, Codex, and Aider using tmux sessions and git worktrees for isolation. Features background task completion, session management, change review workflows, and automatic GitHub branch operations for streamlined multi-agent development.</blockquote>
 </details>
 
+<details>
+  <summary><strong><a href="https://github.com/ryanmac/code-conductor">Code Conductor</a> <a href="https://github.com/ryanmac/code-conductor"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Multi-agent orchestration tool enabling parallel AI coding workflows with git worktree isolation.</summary>
+
+  <blockquote>Code Conductor orchestrates multiple AI coding agents simultaneously across isolated git worktrees to eliminate sequential bottlenecks. Features automatic task claiming, zero merge conflicts through workspace isolation, and streamlined GitHub Actions workflows for autonomous agent development.</blockquote>
+</details>
+
+<details>
+  <summary><strong><a href="https://github.com/justin-schroeder/dmux">Dmux</a> <a href="https://github.com/justin-schroeder/dmux"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> CLI tool for simplified parallel development with AI agents using tmux and git worktrees.</summary>
+
+  <blockquote>Dmux enables developers to run multiple parallel development agents simultaneously with isolated git worktrees and tmux panes for each task. Features AI-powered branch naming and commit management, Claude Code integration, and one-command merge workflows for streamlined multi-agent development.</blockquote>
+</details>
+
 <br />
 
 ### &bull; Codebase understanding
