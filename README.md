@@ -14,6 +14,7 @@
     
 * [**Tools and MCP servers**](#tools-and-mcp-servers)
     * [Memory](#memory)
+    * [Task management](#task-management)
     * [Codebase understanding](#codebase-understanding)
     * [Security](#security)
     * [Agent feedback](#agent-feedback)
@@ -164,6 +165,16 @@
   <summary><strong><a href="https://github.com/ceorkm/kratos-mcp">Kratos MCP</a> <a href="https://github.com/ceorkm/kratos-mcp"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Memory system MCP server for AI coding tools with 95.8% context accuracy.</summary>
 
   <blockquote>Kratos MCP provides persistent memory for AI coding tools using a Four Pillars Framework with SQLite storage, ensuring AI maintains project context across sessions with sub-10ms retrieval times and automatic project isolation.</blockquote>
+</details>
+
+<br />
+
+### &bull; Task management
+
+<details>
+  <summary><strong><a href="https://smtg-ai.github.io/claude-squad/">Claude Squad</a> <a href="https://github.com/smtg-ai/claude-squad"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Terminal application for managing multiple AI coding agents in isolated git workspaces.</summary>
+
+  <blockquote>Claude Squad coordinates multiple AI agents like Claude Code, Codex, and Aider using tmux sessions and git worktrees for isolation. Features background task completion, session management, change review workflows, and automatic GitHub branch operations for streamlined multi-agent development.</blockquote>
 </details>
 
 <br />
