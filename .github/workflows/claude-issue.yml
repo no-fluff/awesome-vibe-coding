@@ -99,11 +99,21 @@ jobs:
               summary = "Headline up to 20 words."
               detail = "One concise paragraph expanding on capabilities and use-cases."
               category = "Relevant Category"
+              agents = ["claude-code", "cursor"]  # Optional, not needed for [[agents]] entries
               ```
 
               **IMPORTANT**: NEVER include the `hot` attribute when adding new entries. The `hot` attribute is reserved for highlighting exceptional or trending resources and should only be added manually by maintainers.
 
               **CATEGORY RULES**: Only add a `category` field to entries if the target section defines categories. For example, `[[apps]]` entries should never have a `category` field since apps don't use categories. Only `[[agents]]` and `[[tools]]` sections use categories. Never create new categories - only use existing ones from the section.
+
+              **AGENTS ARRAY FIELD**: 
+              - The `agents` field is optional and indicates which coding agents the entry is compatible with
+              - DO NOT add the `agents` field to `[[agents]]` or `[[hosted-agents]]` entries (it's redundant for agent entries)
+              - For other sections (`[[apps]]`, `[[interfaces]]`, `[[tools]]`, `[[workflows]]`), add the field when applicable:
+                - Add `"claude-code"` if the entry is compatible with Claude Code
+                - Add `"cursor"` if the entry is compatible with Cursor
+                - MCP servers (`[[tools]]` entries) are typically compatible with both agents, so include both values
+              - Example: `agents = ["claude-code", "cursor"]`
 
               Example correct entry:
               ```toml
@@ -115,6 +125,7 @@ jobs:
               summary = "Open source terminal-based coding agent with multi-provider LLM support."
               detail = "Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows."
               category = "Open source"
+              # Note: agents field not needed for [[agents]] entries
               ```
 
               Section mappings:
@@ -217,6 +228,16 @@ jobs:
                 * Include notable ecosystem integrations only if explicitly mentioned on the site (e.g., "integrates with VS Code and Cursor").
                 * Auto-detect features like "background agents", "mobile support", "model provider subscriptions" from website content.
                 * Only include verified information from the website - avoid speculation.
+
+              * **Agents field (for non-agent entries):**
+
+                * DO NOT add to `[[agents]]` or `[[hosted-agents]]` entries (redundant for agent entries)
+                * For other sections (`[[apps]]`, `[[interfaces]]`, `[[tools]]`, `[[workflows]]`), analyze website content for agent compatibility:
+                  - Look for mentions of "Claude Code", "works with Claude", "Claude compatible" → add `"claude-code"`
+                  - Look for mentions of "Cursor", "Cursor IDE", "Cursor compatible" → add `"cursor"`
+                  - MCP servers typically support both agents → add both `"claude-code"` and `"cursor"`
+                * Format: `agents = ["claude-code", "cursor"]`
+                * Only include if explicitly mentioned or clearly implied (e.g., MCP servers)
 
             8. **Place the entry in `data.toml`**:
 
@@ -323,6 +344,7 @@ jobs:
             summary = "Open source terminal-based coding agent with multi-provider LLM support."
             detail = "Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows."
             category = "Open source"
+            # Note: agents field not needed for [[agents]] entries
             ```
 
             **Commit message:**
@@ -354,14 +376,16 @@ jobs:
 
             **Action:** Place under `### Agent interfaces`, no template mismatch comment needed since categorization is auto-detected.
 
-            **Generated entry:**
+            **Generated entry added to data.toml:**
 
-            ```markdown
-            <details>
-              <summary><strong><a href="https://terminalagent-ui.app/">TerminalAgent UI</a></strong> a web interface for the TerminalAgent.</summary>
-
-              <blockquote>TerminalAgent UI provides a browser-based control surface for the TerminalAgent, offering file navigation, run/output views, and one-click tool invocations without changing the underlying agent behavior.</blockquote>
-            </details>
+            ```toml
+            [[interfaces]]
+            name = "TerminalAgent UI"
+            website = "https://terminalagent-ui.app/"
+            open_source = true
+            summary = "Web interface for the TerminalAgent."
+            detail = "TerminalAgent UI provides a browser-based control surface for the TerminalAgent, offering file navigation, run/output views, and one-click tool invocations without changing the underlying agent behavior."
+            agents = ["claude-code"]  # Compatible with Claude Code based on website analysis
             ```
 
             ---
@@ -390,7 +414,33 @@ jobs:
 
             ---
 
-            ### Example E — Duplicate
+            ### Example E — MCP Server Tool
+
+            **Issue:**
+
+            * Name: Code Search MCP
+            * Website: https://github.com/user/code-search-mcp
+
+            **Auto-analysis from website:**
+            * Category detected: Tools and MCP servers (repository mentions "MCP server for code search")
+            * Features discovered: Semantic code search, multiple language support
+
+            **Generated entry added to data.toml:**
+
+            ```toml
+            [[tools]]
+            name = "Code Search MCP"
+            repo = "https://github.com/user/code-search-mcp"
+            open_source = true
+            summary = "MCP server for semantic code search across repositories."
+            detail = "Code Search MCP provides semantic search capabilities across multiple programming languages, enabling agents to find relevant code snippets and function definitions using natural language queries."
+            category = "MCP servers"
+            agents = ["claude-code", "cursor"]  # MCP servers typically support both agents
+            ```
+
+            ---
+
+            ### Example F — Duplicate
 
             **Issue:** “DevFlow” where README already lists DevFlow.
 
@@ -439,6 +489,7 @@ jobs:
             * [ ] Summary auto-generated from website, ≤ 20 words
             * [ ] Detail paragraph auto-generated from website, factual, 1–3 sentences  
             * [ ] Entry added to data.toml in correct TOML array section with proper syntax
+            * [ ] For non-agent entries (apps/interfaces/tools/workflows): agents field added when applicable
             * [ ] **GITHUB PULL REQUEST CREATED** with proper title, body, and issue link
             * [ ] PR link posted as comment on the original issue
 

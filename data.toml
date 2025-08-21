@@ -108,6 +108,7 @@ repo = "https://github.com/tobias-schuemann/claude-frontend"
 open_source = true
 summary = "Visual interface for AI-powered code modifications with Claude CLI."
 detail = "claude-frontend provides a browser widget that allows developers to select webpage elements and send them to Claude for instant code modifications, supporting multiple frameworks including Next.js, Vite, React, and Vue in local development environments."
+agents = ["claude-code"]
 
 [[interfaces]]
 name = "Claudia"
@@ -116,6 +117,7 @@ repo = "https://github.com/getAsterisk/claudia"
 open_source = true
 summary = "Desktop GUI for Claude Code with session management and custom agent creation."
 detail = "Claudia provides a visual command center for Claude Code featuring project browsers, session history tracking, custom AI agents with background execution, usage analytics, and process isolation for secure AI-assisted development workflows."
+agents = ["claude-code"]
 
 [[interfaces]]
 name = "Conductor"
@@ -124,6 +126,7 @@ repo = ""
 open_source = false
 summary = "Desktop application for parallel management and orchestration of Claude Code agents."
 detail = "Conductor enables running multiple Claude Code agents simultaneously with isolated workspaces, progress monitoring, and git worktree management. Built for developers seeking to maximize AI-assisted coding productivity through parallel agent workflows."
+agents = ["claude-code"]
 
 [[interfaces]]
 name = "Agentrooms"
@@ -132,6 +135,7 @@ repo = "https://github.com/baryhuang/claude-code-by-agents"
 open_source = true
 summary = "Multi-agent workspace for collaborative development with Claude CLI."
 detail = "Agentrooms provides desktop and web interfaces for coordinating specialized AI agents in collaborative software development workflows, enabling task routing via @agent-name mentions, automatic decomposition, and management of complex multi-agent projects using Claude CLI as the underlying engine."
+agents = ["claude-code"]
 
 
 [[agents]]
@@ -149,6 +153,7 @@ repo = "https://github.com/siteboon/claudecodeui"
 open_source = true
 summary = "Web and mobile interface for Claude Code with responsive design and Git integration."
 detail = "Claude Code UI provides a multi-device interface with project browser, file explorer with syntax highlighting, session management, and security-focused tool permissions. Supports Claude Sonnet 4, Opus 4.1, and GPT-5 models with React-based responsive design for desktop and mobile development workflows."
+agents = ["claude-code"]
 
 [[interfaces]]
 name = "Happy"
@@ -157,6 +162,7 @@ repo = "https://github.com/slopus/happy"
 open_source = true
 summary = "Mobile client for Claude Code with remote access and cross-device synchronization."
 detail = "Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms."
+agents = ["claude-code"]
 
 [[interfaces]]
 name = "VibeTunnel"
@@ -165,6 +171,7 @@ repo = "https://github.com/amantus-ai/vibetunnel"
 open_source = true
 summary = "Web-based terminal proxy enabling browser access to Mac terminals with remote capabilities."
 detail = "VibeTunnel turns any browser into a Mac terminal interface with zero configuration, supporting multiple terminal sessions, Git follow mode, and remote access via Tailscale or ngrok. Features AI agent monitoring and dynamic terminal titles for enhanced development workflows."
+agents = ["claude-code"]
 
 [[interfaces]]
 name = "Vibe Kanban"
@@ -173,6 +180,7 @@ repo = "https://github.com/BloopAI/vibe-kanban"
 open_source = true
 summary = "Kanban-style interface for managing and orchestrating multiple AI coding agents."
 detail = "Vibe Kanban provides a web-based dashboard for switching between different coding agents, executing multiple agents in parallel or sequence, and tracking task statuses. Built with Rust and TypeScript, it centralizes agent configuration and supports agents like Claude Code, Gemini CLI, and Codex."
+agents = ["claude-code"]
 
 [[tools]]
 name = "Claude Squad"
@@ -182,6 +190,7 @@ open_source = true
 summary = "Terminal application for managing multiple AI coding agents in isolated git workspaces."
 detail = "Claude Squad coordinates multiple AI agents like Claude Code, Codex, and Aider using tmux sessions and git worktrees for isolation. Features background task completion, session management, change review workflows, and automatic GitHub branch operations for streamlined multi-agent development."
 category = "Task management"
+agents = ["claude-code"]
 
 [[tools]]
 name = "Archon"
@@ -191,6 +200,7 @@ open_source = true
 summary = "MCP server and knowledge management platform for AI coding assistants."
 detail = "Archon provides custom knowledge bases with web crawling, vector search, and task management capabilities, supporting multiple LLMs and offering 10 MCP tools for enhanced RAG queries and collaborative development workflows."
 category = "Memory"
+agents = ["claude-code", "cursor"]
 
 [[tools]]
 name = "cco"
@@ -200,6 +210,7 @@ open_source = true
 summary = "Protective wrapper for Claude Code with zero-config sandboxed execution."
 detail = "cco provides automatic sandboxing for Claude Code using native OS tools or Docker fallback, enabling secure isolated interactions while maintaining seamless user experience and preserving project context across platforms."
 category = "Security"
+agents = ["claude-code"]
 
 [[tools]]
 name = "Code Conductor"
@@ -209,6 +220,7 @@ open_source = true
 summary = "Multi-agent orchestration tool enabling parallel AI coding workflows with git worktree isolation."
 detail = "Code Conductor orchestrates multiple AI coding agents simultaneously across isolated git worktrees to eliminate sequential bottlenecks. Features automatic task claiming, zero merge conflicts through workspace isolation, and streamlined GitHub Actions workflows for autonomous agent development."
 category = "Task management"
+agents = ["claude-code"]
 
 [[tools]]
 name = "Dmux"
@@ -236,6 +248,7 @@ open_source = true
 summary = "Memory system MCP server for AI coding tools with 95.8% context accuracy."
 detail = "Kratos MCP provides persistent memory for AI coding tools using a Four Pillars Framework with SQLite storage, ensuring AI maintains project context across sessions with sub-10ms retrieval times and automatic project isolation."
 category = "Memory"
+agents = ["claude-code", "cursor"]
 
 [[tools]]
 name = "Shotgun App"
@@ -245,6 +258,7 @@ open_source = true
 summary = "Desktop tool for preparing comprehensive project context for AI coding assistants."
 detail = "Shotgun App enables one-click generation of structured project payloads for LLM interactions, allowing selective file exclusion and supporting whole-repository analysis and modification workflows with ChatGPT, Gemini, and other AI assistants."
 category = "Codebase understanding"
+agents = ["cursor"]
 
 [[tools]]
 name = "playwright-mcp"
@@ -255,6 +269,7 @@ summary = "MCP server providing browser automation capabilities using Playwright
 detail = "playwright-mcp enables LLMs to interact with web pages through structured accessibility snapshots rather than pixel-based input, offering deterministic browser automation with clicking, typing, navigation, and screenshot tools for precise web interactions."
 category = "Agent feedback"
 hot = true
+agents = ["claude-code", "cursor"]
 
 [[tools]]
 name = "Superdesign"
@@ -264,6 +279,7 @@ open_source = true
 summary = "Open source AI design agent for generating UI mockups and components inside IDEs."
 detail = "Superdesign integrates directly into VS Code, Cursor, Windsurf, and Claude Code to generate UI screens, wireframes, and reusable components from natural language prompts. Enables parallel design exploration and rapid prototyping within development environments, eliminating context switching between design and coding workflows."
 category = "Design"
+agents = ["claude-code", "cursor"]
 
 [[workflows]]
 name = "Task Master"
@@ -272,6 +288,7 @@ repo = ""
 open_source = true
 summary = "AI-powered task management system for coding workflows with MCP integration."
 detail = "Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage."
+agents = ["claude-code", "cursor"]
 
 [[workflows]]
 name = "BMAD-METHOD"
@@ -280,6 +297,7 @@ repo = "https://github.com/bmad-code-org/BMAD-METHOD"
 open_source = true
 summary = "AI-driven agile development framework with specialized agent orchestration and context engineering."
 detail = "BMAD-METHOD combines agentic planning with context-engineered development, using specialized AI agents (Analyst, Product Manager, Architect, Scrum Master) to create detailed PRDs and hyper-detailed development stories that embed full implementation context and architectural guidance directly in story files."
+agents = ["claude-code", "cursor"]
 
 [[workflows]]
 name = "Claude Code PM"
@@ -288,6 +306,7 @@ repo = "https://github.com/automazeio/ccpm"
 open_source = true
 summary = "GitHub Issues-based project management system for AI-powered parallel development workflows."
 detail = "Claude Code PM transforms product requirements into GitHub Issues with traceable task breakdown, enabling 5-8 parallel AI agent streams instead of sequential work. Features automatic context preservation, reduces context switching by 89%, and accelerates feature delivery up to 3x while maintaining 75% reduction in bug rates."
+agents = ["claude-code"]
 
 [[hosted-agents]]
 name = "Bolt.new"
