@@ -194,6 +194,15 @@ detail = "cco provides automatic sandboxing for Claude Code using native OS tool
 category = "Security"
 
 [[tools]]
+name = "Code Conductor"
+website = ""
+repo = "https://github.com/ryanmac/code-conductor"
+open_source = true
+summary = "Multi-agent orchestration tool enabling parallel AI coding workflows with git worktree isolation."
+detail = "Code Conductor orchestrates multiple AI coding agents simultaneously across isolated git worktrees to eliminate sequential bottlenecks. Features automatic task claiming, zero merge conflicts through workspace isolation, and streamlined GitHub Actions workflows for autonomous agent development."
+category = "Task management"
+
+[[tools]]
 name = "Kratos MCP"
 website = ""
 repo = "https://github.com/ceorkm/kratos-mcp"
