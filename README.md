@@ -144,6 +144,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://github.com/stravu/crystal">Crystal</a> <a href="https://github.com/stravu/crystal"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Desktop Electron app for managing multiple Claude Code sessions in parallel git worktrees.</summary>
+
+  <blockquote>Crystal enables developers to run multiple Claude Code AI sessions simultaneously with isolated git worktrees for each session. Features persistent conversation tracking, built-in git operations, change visualization, and desktop notifications for streamlined parallel AI-assisted development workflows.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://happy.engineering/">Happy</a> <a href="https://github.com/slopus/happy"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Mobile client for Claude Code with remote access and cross-device synchronization.</summary>
 
   <blockquote>Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms.</blockquote>
