@@ -183,6 +183,14 @@ detail = "VibeTunnel turns any browser into a Mac terminal interface with zero c
 agents = ["claude-code"]
 
 [[interfaces]]
+name = "VibeTree"
+repo = "https://github.com/sahithvibudhi/vibe-tree"
+open_source = true
+summary = "Desktop application for parallel AI-assisted development across multiple git worktrees."
+detail = "VibeTree enables developers to work on multiple features simultaneously using parallel git worktrees with integrated Claude support. Features persistent terminal sessions, VS Code and Cursor integration, and streamlined workflow management to eliminate context switching in AI-assisted development."
+agents = ["claude-code", "cursor"]
+
+[[interfaces]]
 name = "Vibe Kanban"
 website = "https://www.vibekanban.com/"
 repo = "https://github.com/BloopAI/vibe-kanban"
