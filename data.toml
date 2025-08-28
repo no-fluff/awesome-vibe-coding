@@ -289,6 +289,15 @@ hot = true
 agents = ["claude-code", "cursor"]
 
 [[tools]]
+name = "Claude Checkpoints"
+website = "https://claude-checkpoints.com/"
+open_source = false
+summary = "Automatic version control and backup tool for AI coding workflows with MCP integration."
+detail = "Claude Checkpoints provides comprehensive project tracking during AI-assisted development by creating automatic snapshots, offering visual diff viewing, and enabling instant project restoration. The macOS desktop application integrates with Claude Desktop via MCP server to provide safety and confidence during coding workflows with seamless task monitoring and recovery capabilities."
+category = "Backups and change management"
+agents = ["claude-code"]
+
+[[tools]]
 name = "Superdesign"
 website = "https://www.superdesign.dev/"
 repo = "https://github.com/superdesigndev/superdesign"
@@ -357,4 +366,4 @@ summary = "Autonomous AI software engineer that completes complex engineering ta
 detail = "Devin handles code migration, refactoring, bug fixes, and development tasks with autonomous testing and PR creation, integrating with GitHub, Slack, Jira, and other platforms while learning from examples to improve performance over time."
 
 [categories]
-tools = ["Memory", "Task management", "Codebase understanding", "Security", "Agent feedback", "Design", "Other tools"]
+tools = ["Memory", "Task management", "Codebase understanding", "Security", "Agent feedback", "Design", "Backups and change management", "Other tools"]
