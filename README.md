@@ -19,6 +19,7 @@
     * [Security](#-security)
     * [Agent feedback](#-agent-feedback)
     * [Design](#-design)
+    * [Backups and change management](#-backups-and-change-management)
 * [**Vibe-coding workflows**](#-vibe-coding-workflows)
     
 * [**Cloud-only agents**](#-cloud-only-agents)
@@ -259,6 +260,16 @@
   <summary><strong><a href="https://www.superdesign.dev/">Superdesign</a> <a href="https://github.com/superdesigndev/superdesign"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Open source AI design agent for generating UI mockups and components inside IDEs.</summary>
 
   <blockquote>Superdesign integrates directly into VS Code, Cursor, Windsurf, and Claude Code to generate UI screens, wireframes, and reusable components from natural language prompts. Enables parallel design exploration and rapid prototyping within development environments, eliminating context switching between design and coding workflows.</blockquote>
+</details>
+
+<br />
+
+### &bull; Backups and change management
+
+<details>
+  <summary><strong><a href="https://claude-checkpoints.com/">Claude Checkpoints</a></strong> Automatic version control and backup tool for AI coding workflows with MCP integration.</summary>
+
+  <blockquote>Claude Checkpoints provides comprehensive project tracking during AI-assisted development by creating automatic snapshots, offering visual diff viewing, and enabling instant project restoration. The macOS desktop application integrates with Claude Desktop via MCP server to provide safety and confidence during coding workflows with seamless task monitoring and recovery capabilities.</blockquote>
 </details>
 
 <br />
