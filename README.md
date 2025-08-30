@@ -227,6 +227,12 @@
 ### &bull; Codebase understanding
 
 <details>
+  <summary><strong><a href="https://github.com/ericbuess/claude-code-project-index">Claude Code Project Index</a> <a href="https://github.com/ericbuess/claude-code-project-index"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> CLI tool that generates architectural awareness for AI coding assistants through project indexing.</summary>
+
+  <blockquote>Claude Code Project Index automatically creates PROJECT_INDEX.json files with project structure, functions, classes, and call relationships. Supports multiple programming languages and provides three usage modes for enhanced codebase understanding in AI-assisted development workflows.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://github.com/glebkudr/shotgun_code">Shotgun App</a> <a href="https://github.com/glebkudr/shotgun_code"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Desktop tool for preparing comprehensive project context for AI coding assistants.</summary>
 
   <blockquote>Shotgun App enables one-click generation of structured project payloads for LLM interactions, allowing selective file exclusion and supporting whole-repository analysis and modification workflows with ChatGPT, Gemini, and other AI assistants.</blockquote>
