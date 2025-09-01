@@ -200,6 +200,15 @@ detail = "Vibe Kanban provides a web-based dashboard for switching between diffe
 agents = ["claude-code"]
 
 [[tools]]
+name = "Claude Code Enhanced Statusline"
+repo = "https://github.com/rz1989s/claude-code-statusline"
+open_source = true
+summary = "4-line terminal statusline for Claude Code with real-time cost tracking and MCP server monitoring."
+detail = "Claude Code Enhanced Statusline transforms the Claude Code terminal experience with a comprehensive statusline showing repository status, cost tracking, server health, and conversation timing. Features intelligent universal caching that reduces command execution by 70-90% and includes customizable themes with enterprise-grade configuration."
+category = "Other tools"
+agents = ["claude-code"]
+
+[[tools]]
 name = "Claude Squad"
 website = "https://smtg-ai.github.io/claude-squad/"
 repo = "https://github.com/smtg-ai/claude-squad"
