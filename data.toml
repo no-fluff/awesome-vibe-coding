@@ -239,6 +239,16 @@ category = "Security"
 agents = ["claude-code"]
 
 [[tools]]
+name = "cchistory"
+website = ""
+repo = "https://github.com/eckardt/cchistory"
+open_source = true
+summary = "Shell history tracker for Claude Code, extracting and organizing AI-executed commands across projects."
+detail = "cchistory is a command-line tool that captures and displays shell commands executed during Claude Code conversations, allowing developers to review, search, and analyze command history across different projects. It provides a seamless way to track and learn from AI-generated shell interactions."
+category = "Other tools"
+agents = ["claude-code"]
+
+[[tools]]
 name = "Code Conductor"
 website = ""
 repo = "https://github.com/ryanmac/code-conductor"
