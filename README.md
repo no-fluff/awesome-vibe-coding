@@ -20,6 +20,7 @@
     * [Agent feedback](#-agent-feedback)
     * [Design](#-design)
     * [Backups and change management](#-backups-and-change-management)
+    * [Other tools](#-other-tools)
 * [**Vibe-coding workflows**](#-vibe-coding-workflows)
     
 * [**Cloud-only agents**](#-cloud-only-agents)
@@ -276,6 +277,22 @@
   <summary><strong><a href="https://claude-checkpoints.com/">Claude Checkpoints</a></strong> Automatic version control and backup tool for AI coding workflows with MCP integration.</summary>
 
   <blockquote>Claude Checkpoints provides comprehensive project tracking during AI-assisted development by creating automatic snapshots, offering visual diff viewing, and enabling instant project restoration. The macOS desktop application integrates with Claude Desktop via MCP server to provide safety and confidence during coding workflows with seamless task monitoring and recovery capabilities.</blockquote>
+</details>
+
+<br />
+
+### &bull; Other tools
+
+<details>
+  <summary><strong><a href="https://github.com/eckardt/cchistory">cchistory</a> <a href="https://github.com/eckardt/cchistory"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Shell history tracker for Claude Code, extracting and organizing AI-executed commands across projects.</summary>
+
+  <blockquote>cchistory is a command-line tool that captures and displays shell commands executed during Claude Code conversations, allowing developers to review, search, and analyze command history across different projects. It provides a seamless way to track and learn from AI-generated shell interactions.</blockquote>
+</details>
+
+<details>
+  <summary><strong><a href="https://github.com/rz1989s/claude-code-statusline">Claude Code Enhanced Statusline</a> <a href="https://github.com/rz1989s/claude-code-statusline"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> 4-line terminal statusline for Claude Code with real-time cost tracking and MCP server monitoring.</summary>
+
+  <blockquote>Claude Code Enhanced Statusline transforms the Claude Code terminal experience with a comprehensive statusline showing repository status, cost tracking, server health, and conversation timing. Features intelligent universal caching that reduces command execution by 70-90% and includes customizable themes with enterprise-grade configuration.</blockquote>
 </details>
 
 <br />
