@@ -228,6 +228,12 @@
 ### &bull; Codebase understanding
 
 <details>
+  <summary><strong><a href="https://github.com/nyatinte/ccexp">ccexp</a> <a href="https://github.com/nyatinte/ccexp"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Interactive CLI tool for exploring and managing Claude Code configuration files.</summary>
+
+  <blockquote>ccexp provides a split-pane terminal interface for discovering project and user-level Claude Code configurations including memory files, slash commands, and subagent settings. Features keyboard-driven navigation, live search, file preview with syntax highlighting, and batch operations for efficient configuration management.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://github.com/ericbuess/claude-code-project-index">Claude Code Project Index</a> <a href="https://github.com/ericbuess/claude-code-project-index"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> CLI tool that generates architectural awareness for AI coding assistants through project indexing.</summary>
 
   <blockquote>Claude Code Project Index automatically creates PROJECT_INDEX.json files with project structure, functions, classes, and call relationships. Supports multiple programming languages and provides three usage modes for enhanced codebase understanding in AI-assisted development workflows.</blockquote>
@@ -313,6 +319,12 @@
   <summary><strong><a href="https://github.com/automazeio/ccpm">Claude Code PM</a> <a href="https://github.com/automazeio/ccpm"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> GitHub Issues-based project management system for AI-powered parallel development workflows.</summary>
 
   <blockquote>Claude Code PM transforms product requirements into GitHub Issues with traceable task breakdown, enabling 5-8 parallel AI agent streams instead of sequential work. Features automatic context preservation, reduces context switching by 89%, and accelerates feature delivery up to 3x while maintaining 75% reduction in bug rates.</blockquote>
+</details>
+
+<details>
+  <summary><strong><a href="https://github.com/github/spec-kit">Spec Kit</a> <a href="https://github.com/github/spec-kit"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Spec-driven development methodology that makes specifications executable for AI-assisted software creation.</summary>
+
+  <blockquote>Spec Kit enables intent-driven development by transforming rich specifications directly into working implementations using AI coding agents. Supports parallel implementation exploration and iterative system enhancement with explicit compatibility for Claude Code, GitHub Copilot, and Gemini CLI.</blockquote>
 </details>
 
 <details>
