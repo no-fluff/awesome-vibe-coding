@@ -239,6 +239,16 @@ category = "Security"
 agents = ["claude-code"]
 
 [[tools]]
+name = "ccexp"
+website = ""
+repo = "https://github.com/nyatinte/ccexp"
+open_source = true
+summary = "Interactive CLI tool for exploring and managing Claude Code configuration files."
+detail = "ccexp provides a split-pane terminal interface for discovering project and user-level Claude Code configurations including memory files, slash commands, and subagent settings. Features keyboard-driven navigation, live search, file preview with syntax highlighting, and batch operations for efficient configuration management."
+category = "Codebase understanding"
+agents = ["claude-code"]
+
+[[tools]]
 name = "cchistory"
 website = ""
 repo = "https://github.com/eckardt/cchistory"
