@@ -134,12 +134,6 @@
 </details>
 
 <details>
-  <summary><strong><a href="https://claudiacode.com/">Claudia</a> <a href="https://github.com/getAsterisk/claudia"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Desktop GUI for Claude Code with session management and custom agent creation.</summary>
-
-  <blockquote>Claudia provides a visual command center for Claude Code featuring project browsers, session history tracking, custom AI agents with background execution, usage analytics, and process isolation for secure AI-assisted development workflows.</blockquote>
-</details>
-
-<details>
   <summary><strong><a href="https://conductor.build/">Conductor</a></strong> Desktop application for parallel management and orchestration of Claude Code agents.</summary>
 
   <blockquote>Conductor enables running multiple Claude Code agents simultaneously with isolated workspaces, progress monitoring, and git worktree management. Built for developers seeking to maximize AI-assisted coding productivity through parallel agent workflows.</blockquote>
@@ -155,6 +149,12 @@
   <summary><strong><a href="https://happy.engineering/">Happy</a> <a href="https://github.com/slopus/happy"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Mobile client for Claude Code with remote access and cross-device synchronization.</summary>
 
   <blockquote>Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms.</blockquote>
+</details>
+
+<details>
+  <summary><strong><a href="https://opcode.sh/">opcode</a> <a href="https://github.com/getAsterisk/opcode"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Desktop GUI for Claude Code with session management and custom agent creation.</summary>
+
+  <blockquote>Opcode provides a visual command center for Claude Code featuring project browsers, session history tracking, custom AI agents with background execution, usage analytics, and process isolation for secure AI-assisted development workflows.</blockquote>
 </details>
 
 <details>
