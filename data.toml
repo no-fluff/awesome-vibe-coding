@@ -111,12 +111,12 @@ detail = "claude-frontend provides a browser widget that allows developers to se
 agents = ["claude-code"]
 
 [[interfaces]]
-name = "Claudia"
-website = "https://claudiacode.com/"
-repo = "https://github.com/getAsterisk/claudia"
+name = "opcode"
+website = "https://opcode.sh/"
+repo = "https://github.com/getAsterisk/opcode"
 open_source = true
 summary = "Desktop GUI for Claude Code with session management and custom agent creation."
-detail = "Claudia provides a visual command center for Claude Code featuring project browsers, session history tracking, custom AI agents with background execution, usage analytics, and process isolation for secure AI-assisted development workflows."
+detail = "Opcode provides a visual command center for Claude Code featuring project browsers, session history tracking, custom AI agents with background execution, usage analytics, and process isolation for secure AI-assisted development workflows."
 agents = ["claude-code"]
 
 [[interfaces]]
