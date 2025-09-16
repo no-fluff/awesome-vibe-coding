@@ -16,7 +16,7 @@ const __dirname = path.dirname(__filename);
 dotenv.config({ path: path.join(__dirname, "..", ".env") });
 
 // Configuration
-const IMAGES_DIR = path.join(__dirname, "..", "images");
+const IMAGES_DIR = path.join(__dirname, "..", "public", "images");
 const DATA_FILE = path.join(__dirname, "..", "data.toml");
 const IMAGE_SIZE = "1536x1024"; // 16:9 aspect ratio for gpt-image-1
 
@@ -31,7 +31,7 @@ async function generateImageForEntry(entry, section) {
   // Use "agents" prefix for hosted-agents section
   const filePrefix = section === "hosted-agents" ? "agents" : section;
   const imagePath = path.join(IMAGES_DIR, `${filePrefix}-${sanitizedName}.jpg`);
-  const relativeImagePath = `images/${filePrefix}-${sanitizedName}.jpg`;
+  const relativeImagePath = `/images/${filePrefix}-${sanitizedName}.jpg`;
 
   // Check if image already exists
   if (fs.existsSync(imagePath)) {

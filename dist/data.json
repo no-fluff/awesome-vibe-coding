@@ -7,7 +7,7 @@
       "items": [
         {
           "name": "Claude Code",
-          "image": "images/agents-claude-code.jpg",
+          "image": "/images/agents-claude-code.jpg",
           "website": "https://www.anthropic.com/claude-code",
           "repo": "",
           "open_source": false,
@@ -19,8 +19,21 @@
           "sectionId": "agents"
         },
         {
+          "name": "OpenAI Codex CLI",
+          "image": "/images/agents-openai-codex-cli.jpg",
+          "website": "",
+          "repo": "https://github.com/openai/codex",
+          "open_source": true,
+          "summary": "Experimental terminal-based coding agent with configurable sandbox modes.",
+          "detail": "Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access.",
+          "hot": true,
+          "id": "openai-codex-cli",
+          "slug": "openai-codex-cli",
+          "sectionId": "agents"
+        },
+        {
           "name": "Cline",
-          "image": "images/agents-cline.jpg",
+          "image": "/images/agents-cline.jpg",
           "website": "https://cline.bot/",
           "repo": "https://github.com/cline/cline",
           "open_source": true,
@@ -33,7 +46,7 @@
         },
         {
           "name": "Cursor",
-          "image": "images/agents-cursor.jpg",
+          "image": "/images/agents-cursor.jpg",
           "website": "https://cursor.com",
           "repo": "",
           "open_source": false,
@@ -45,7 +58,7 @@
         },
         {
           "name": "Gemini CLI",
-          "image": "images/agents-gemini-cli.jpg",
+          "image": "/images/agents-gemini-cli.jpg",
           "website": "https://google-gemini.github.io/gemini-cli/",
           "repo": "https://github.com/google-gemini/gemini-cli",
           "open_source": true,
@@ -58,7 +71,7 @@
         },
         {
           "name": "Kilo Code",
-          "image": "images/agents-kilo-code.jpg",
+          "image": "/images/agents-kilo-code.jpg",
           "website": "https://kilocode.ai/",
           "repo": "https://github.com/Kilo-Org/kilocode",
           "open_source": true,
@@ -70,20 +83,8 @@
           "sectionId": "agents"
         },
         {
-          "name": "OpenAI Codex CLI",
-          "image": "images/agents-openai-codex-cli.jpg",
-          "website": "",
-          "repo": "https://github.com/openai/codex",
-          "open_source": true,
-          "summary": "Experimental terminal-based coding agent with configurable sandbox modes.",
-          "detail": "Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access.",
-          "id": "openai-codex-cli",
-          "slug": "openai-codex-cli",
-          "sectionId": "agents"
-        },
-        {
           "name": "Opencode",
-          "image": "images/agents-opencode.jpg",
+          "image": "/images/agents-opencode.jpg",
           "website": "https://opencode.ai/",
           "repo": "https://github.com/sst/opencode",
           "open_source": true,
@@ -95,7 +96,7 @@
         },
         {
           "name": "OpenHands",
-          "image": "images/agents-openhands.jpg",
+          "image": "/images/agents-openhands.jpg",
           "website": "https://www.all-hands.dev/",
           "repo": "https://github.com/All-Hands-AI/OpenHands",
           "open_source": true,
@@ -108,7 +109,7 @@
         },
         {
           "name": "Qwen Code",
-          "image": "images/agents-qwen-code.jpg",
+          "image": "/images/agents-qwen-code.jpg",
           "website": "",
           "repo": "https://github.com/QwenLM/qwen-code",
           "open_source": true,
@@ -120,7 +121,7 @@
         },
         {
           "name": "Zed",
-          "image": "images/agents-zed.jpg",
+          "image": "/images/agents-zed.jpg",
           "website": "https://zed.dev/",
           "repo": "https://github.com/zed-industries/zed",
           "open_source": true,
@@ -140,7 +141,7 @@
       "items": [
         {
           "name": "Kiro",
-          "image": "images/apps-kiro.jpg",
+          "image": "/images/apps-kiro.jpg",
           "website": "https://kiro.dev/",
           "repo": "",
           "open_source": false,
@@ -153,7 +154,7 @@
         },
         {
           "name": "Claudable",
-          "image": "images/apps-claudable.jpg",
+          "image": "/images/apps-claudable.jpg",
           "website": "",
           "repo": "https://github.com/opactorai/Claudable",
           "open_source": true,
@@ -172,7 +173,7 @@
       "items": [
         {
           "name": "Agentrooms",
-          "image": "images/interfaces-agentrooms.jpg",
+          "image": "/images/interfaces-agentrooms.jpg",
           "website": "https://claudecode.run/",
           "repo": "https://github.com/baryhuang/claude-code-by-agents",
           "open_source": true,
@@ -187,7 +188,7 @@
         },
         {
           "name": "Claude Code UI",
-          "image": "images/interfaces-claude-code-ui.jpg",
+          "image": "/images/interfaces-claude-code-ui.jpg",
           "website": "https://claudecodeui.siteboon.ai/",
           "repo": "https://github.com/siteboon/claudecodeui",
           "open_source": true,
@@ -202,7 +203,7 @@
         },
         {
           "name": "claude-frontend",
-          "image": "images/interfaces-claude-frontend.jpg",
+          "image": "/images/interfaces-claude-frontend.jpg",
           "website": "",
           "repo": "https://github.com/tobias-schuemann/claude-frontend",
           "open_source": true,
@@ -217,7 +218,7 @@
         },
         {
           "name": "Conductor",
-          "image": "images/interfaces-conductor.jpg",
+          "image": "/images/interfaces-conductor.jpg",
           "website": "https://conductor.build/",
           "repo": "",
           "open_source": false,
@@ -232,7 +233,7 @@
         },
         {
           "name": "Crystal",
-          "image": "images/interfaces-crystal.jpg",
+          "image": "/images/interfaces-crystal.jpg",
           "website": "",
           "repo": "https://github.com/stravu/crystal",
           "open_source": true,
@@ -247,7 +248,7 @@
         },
         {
           "name": "Happy",
-          "image": "images/interfaces-happy.jpg",
+          "image": "/images/interfaces-happy.jpg",
           "website": "https://happy.engineering/",
           "repo": "https://github.com/slopus/happy",
           "open_source": true,
@@ -262,7 +263,7 @@
         },
         {
           "name": "opcode",
-          "image": "images/interfaces-opcode.jpg",
+          "image": "/images/interfaces-opcode.jpg",
           "website": "https://opcode.sh/",
           "repo": "https://github.com/getAsterisk/opcode",
           "open_source": true,
@@ -277,7 +278,7 @@
         },
         {
           "name": "Vibe Kanban",
-          "image": "images/interfaces-vibe-kanban.jpg",
+          "image": "/images/interfaces-vibe-kanban.jpg",
           "website": "https://www.vibekanban.com/",
           "repo": "https://github.com/BloopAI/vibe-kanban",
           "open_source": true,
@@ -292,7 +293,7 @@
         },
         {
           "name": "VibeTree",
-          "image": "images/interfaces-vibetree.jpg",
+          "image": "/images/interfaces-vibetree.jpg",
           "repo": "https://github.com/sahithvibudhi/vibe-tree",
           "open_source": true,
           "summary": "Desktop application for parallel AI-assisted development across multiple git worktrees.",
@@ -307,7 +308,7 @@
         },
         {
           "name": "VibeTunnel",
-          "image": "images/interfaces-vibetunnel.jpg",
+          "image": "/images/interfaces-vibetunnel.jpg",
           "website": "https://vt.sh/",
           "repo": "https://github.com/amantus-ai/vibetunnel",
           "open_source": true,
@@ -329,7 +330,7 @@
       "items": [
         {
           "name": "playwright-mcp",
-          "image": "images/tools-playwright-mcp.jpg",
+          "image": "/images/tools-playwright-mcp.jpg",
           "website": "",
           "repo": "https://github.com/microsoft/playwright-mcp",
           "open_source": true,
@@ -347,7 +348,7 @@
         },
         {
           "name": "Archon",
-          "image": "images/tools-archon.jpg",
+          "image": "/images/tools-archon.jpg",
           "website": "https://github.com/coleam00/Archon",
           "repo": "https://github.com/coleam00/Archon",
           "open_source": true,
@@ -364,7 +365,7 @@
         },
         {
           "name": "ccexp",
-          "image": "images/tools-ccexp.jpg",
+          "image": "/images/tools-ccexp.jpg",
           "website": "",
           "repo": "https://github.com/nyatinte/ccexp",
           "open_source": true,
@@ -380,7 +381,7 @@
         },
         {
           "name": "cchistory",
-          "image": "images/tools-cchistory.jpg",
+          "image": "/images/tools-cchistory.jpg",
           "website": "",
           "repo": "https://github.com/eckardt/cchistory",
           "open_source": true,
@@ -396,7 +397,7 @@
         },
         {
           "name": "cco",
-          "image": "images/tools-cco.jpg",
+          "image": "/images/tools-cco.jpg",
           "website": "",
           "repo": "https://github.com/nikvdp/cco",
           "open_source": true,
@@ -412,7 +413,7 @@
         },
         {
           "name": "Claude Checkpoints",
-          "image": "images/tools-claude-checkpoints.jpg",
+          "image": "/images/tools-claude-checkpoints.jpg",
           "website": "https://claude-checkpoints.com/",
           "open_source": false,
           "summary": "Automatic version control and backup tool for AI coding workflows with MCP integration.",
@@ -427,7 +428,7 @@
         },
         {
           "name": "Claude Code Enhanced Statusline",
-          "image": "images/tools-claude-code-enhanced-statusline.jpg",
+          "image": "/images/tools-claude-code-enhanced-statusline.jpg",
           "repo": "https://github.com/rz1989s/claude-code-statusline",
           "open_source": true,
           "summary": "4-line terminal statusline for Claude Code with real-time cost tracking and MCP server monitoring.",
@@ -442,7 +443,7 @@
         },
         {
           "name": "Claude Code Project Index",
-          "image": "images/tools-claude-code-project-index.jpg",
+          "image": "/images/tools-claude-code-project-index.jpg",
           "website": "",
           "repo": "https://github.com/ericbuess/claude-code-project-index",
           "open_source": true,
@@ -459,7 +460,7 @@
         },
         {
           "name": "Claude Squad",
-          "image": "images/tools-claude-squad.jpg",
+          "image": "/images/tools-claude-squad.jpg",
           "website": "https://smtg-ai.github.io/claude-squad/",
           "repo": "https://github.com/smtg-ai/claude-squad",
           "open_source": true,
@@ -475,7 +476,7 @@
         },
         {
           "name": "Code Conductor",
-          "image": "images/tools-code-conductor.jpg",
+          "image": "/images/tools-code-conductor.jpg",
           "website": "",
           "repo": "https://github.com/ryanmac/code-conductor",
           "open_source": true,
@@ -491,7 +492,7 @@
         },
         {
           "name": "Dmux",
-          "image": "images/tools-dmux.jpg",
+          "image": "/images/tools-dmux.jpg",
           "website": "",
           "repo": "https://github.com/justin-schroeder/dmux",
           "open_source": true,
@@ -504,7 +505,7 @@
         },
         {
           "name": "In Memoria",
-          "image": "images/tools-in-memoria.jpg",
+          "image": "/images/tools-in-memoria.jpg",
           "website": "",
           "repo": "https://github.com/pi22by7/In-Memoria",
           "open_source": true,
@@ -517,7 +518,7 @@
         },
         {
           "name": "Kratos MCP",
-          "image": "images/tools-kratos-mcp.jpg",
+          "image": "/images/tools-kratos-mcp.jpg",
           "website": "",
           "repo": "https://github.com/ceorkm/kratos-mcp",
           "open_source": true,
@@ -534,7 +535,7 @@
         },
         {
           "name": "Shotgun App",
-          "image": "images/tools-shotgun-app.jpg",
+          "image": "/images/tools-shotgun-app.jpg",
           "website": "",
           "repo": "https://github.com/glebkudr/shotgun_code",
           "open_source": true,
@@ -550,7 +551,7 @@
         },
         {
           "name": "Superdesign",
-          "image": "images/tools-superdesign.jpg",
+          "image": "/images/tools-superdesign.jpg",
           "website": "https://www.superdesign.dev/",
           "repo": "https://github.com/superdesigndev/superdesign",
           "open_source": true,
@@ -574,7 +575,7 @@
       "items": [
         {
           "name": "BMAD-METHOD",
-          "image": "images/workflows-bmad-method.jpg",
+          "image": "/images/workflows-bmad-method.jpg",
           "website": "",
           "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
           "open_source": true,
@@ -590,7 +591,7 @@
         },
         {
           "name": "Claude Code PM",
-          "image": "images/workflows-claude-code-pm.jpg",
+          "image": "/images/workflows-claude-code-pm.jpg",
           "website": "",
           "repo": "https://github.com/automazeio/ccpm",
           "open_source": true,
@@ -605,7 +606,7 @@
         },
         {
           "name": "Spec Kit",
-          "image": "images/workflows-spec-kit.jpg",
+          "image": "/images/workflows-spec-kit.jpg",
           "repo": "https://github.com/github/spec-kit",
           "open_source": true,
           "summary": "Spec-driven development methodology that makes specifications executable for AI-assisted software creation.",
@@ -619,7 +620,7 @@
         },
         {
           "name": "Task Master",
-          "image": "images/workflows-task-master.jpg",
+          "image": "/images/workflows-task-master.jpg",
           "website": "https://www.task-master.dev/",
           "repo": "",
           "open_source": true,
@@ -642,7 +643,7 @@
       "items": [
         {
           "name": "Bolt.new",
-          "image": "images/agents-bolt-new.jpg",
+          "image": "/images/agents-bolt-new.jpg",
           "website": "https://bolt.new/",
           "open_source": false,
           "summary": "Cloud-based AI coding agent for building and deploying full-stack web applications through conversational prompts.",
@@ -653,6 +654,7 @@
         },
         {
           "name": "Devin",
+          "image": "/images/agents-devin.jpg",
           "website": "https://devin.ai/",
           "repo": "",
           "open_source": false,
@@ -664,7 +666,7 @@
         },
         {
           "name": "Lovable",
-          "image": "images/agents-lovable.jpg",
+          "image": "/images/agents-lovable.jpg",
           "website": "https://lovable.dev/",
           "repo": "",
           "open_source": false,
@@ -676,6 +678,7 @@
         },
         {
           "name": "OpenAI Codex",
+          "image": "/images/agents-openai-codex.jpg",
           "website": "https://chatgpt.com/codex",
           "repo": "",
           "open_source": false,
@@ -687,7 +690,7 @@
         },
         {
           "name": "v0",
-          "image": "images/agents-v0.jpg",
+          "image": "/images/agents-v0.jpg",
           "website": "https://v0.app/",
           "repo": "",
           "open_source": false,
@@ -715,7 +718,7 @@
   "entries": [
     {
       "name": "Claude Code",
-      "image": "images/agents-claude-code.jpg",
+      "image": "/images/agents-claude-code.jpg",
       "website": "https://www.anthropic.com/claude-code",
       "repo": "",
       "open_source": false,
@@ -728,8 +731,22 @@
       "sectionTitle": "Agents"
     },
     {
+      "name": "OpenAI Codex CLI",
+      "image": "/images/agents-openai-codex-cli.jpg",
+      "website": "",
+      "repo": "https://github.com/openai/codex",
+      "open_source": true,
+      "summary": "Experimental terminal-based coding agent with configurable sandbox modes.",
+      "detail": "Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access.",
+      "hot": true,
+      "id": "openai-codex-cli",
+      "slug": "openai-codex-cli",
+      "sectionId": "agents",
+      "sectionTitle": "Agents"
+    },
+    {
       "name": "Cline",
-      "image": "images/agents-cline.jpg",
+      "image": "/images/agents-cline.jpg",
       "website": "https://cline.bot/",
       "repo": "https://github.com/cline/cline",
       "open_source": true,
@@ -743,7 +760,7 @@
     },
     {
       "name": "Cursor",
-      "image": "images/agents-cursor.jpg",
+      "image": "/images/agents-cursor.jpg",
       "website": "https://cursor.com",
       "repo": "",
       "open_source": false,
@@ -756,7 +773,7 @@
     },
     {
       "name": "Gemini CLI",
-      "image": "images/agents-gemini-cli.jpg",
+      "image": "/images/agents-gemini-cli.jpg",
       "website": "https://google-gemini.github.io/gemini-cli/",
       "repo": "https://github.com/google-gemini/gemini-cli",
       "open_source": true,
@@ -770,7 +787,7 @@
     },
     {
       "name": "Kilo Code",
-      "image": "images/agents-kilo-code.jpg",
+      "image": "/images/agents-kilo-code.jpg",
       "website": "https://kilocode.ai/",
       "repo": "https://github.com/Kilo-Org/kilocode",
       "open_source": true,
@@ -783,21 +800,8 @@
       "sectionTitle": "Agents"
     },
     {
-      "name": "OpenAI Codex CLI",
-      "image": "images/agents-openai-codex-cli.jpg",
-      "website": "",
-      "repo": "https://github.com/openai/codex",
-      "open_source": true,
-      "summary": "Experimental terminal-based coding agent with configurable sandbox modes.",
-      "detail": "Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access.",
-      "id": "openai-codex-cli",
-      "slug": "openai-codex-cli",
-      "sectionId": "agents",
-      "sectionTitle": "Agents"
-    },
-    {
       "name": "Opencode",
-      "image": "images/agents-opencode.jpg",
+      "image": "/images/agents-opencode.jpg",
       "website": "https://opencode.ai/",
       "repo": "https://github.com/sst/opencode",
       "open_source": true,
@@ -810,7 +814,7 @@
     },
     {
       "name": "OpenHands",
-      "image": "images/agents-openhands.jpg",
+      "image": "/images/agents-openhands.jpg",
       "website": "https://www.all-hands.dev/",
       "repo": "https://github.com/All-Hands-AI/OpenHands",
       "open_source": true,
@@ -824,7 +828,7 @@
     },
     {
       "name": "Qwen Code",
-      "image": "images/agents-qwen-code.jpg",
+      "image": "/images/agents-qwen-code.jpg",
       "website": "",
       "repo": "https://github.com/QwenLM/qwen-code",
       "open_source": true,
@@ -837,7 +841,7 @@
     },
     {
       "name": "Zed",
-      "image": "images/agents-zed.jpg",
+      "image": "/images/agents-zed.jpg",
       "website": "https://zed.dev/",
       "repo": "https://github.com/zed-industries/zed",
       "open_source": true,
@@ -851,7 +855,7 @@
     },
     {
       "name": "Kiro",
-      "image": "images/apps-kiro.jpg",
+      "image": "/images/apps-kiro.jpg",
       "website": "https://kiro.dev/",
       "repo": "",
       "open_source": false,
@@ -865,7 +869,7 @@
     },
     {
       "name": "Claudable",
-      "image": "images/apps-claudable.jpg",
+      "image": "/images/apps-claudable.jpg",
       "website": "",
       "repo": "https://github.com/opactorai/Claudable",
       "open_source": true,
@@ -878,7 +882,7 @@
     },
     {
       "name": "Agentrooms",
-      "image": "images/interfaces-agentrooms.jpg",
+      "image": "/images/interfaces-agentrooms.jpg",
       "website": "https://claudecode.run/",
       "repo": "https://github.com/baryhuang/claude-code-by-agents",
       "open_source": true,
@@ -894,7 +898,7 @@
     },
     {
       "name": "Claude Code UI",
-      "image": "images/interfaces-claude-code-ui.jpg",
+      "image": "/images/interfaces-claude-code-ui.jpg",
       "website": "https://claudecodeui.siteboon.ai/",
       "repo": "https://github.com/siteboon/claudecodeui",
       "open_source": true,
@@ -910,7 +914,7 @@
     },
     {
       "name": "claude-frontend",
-      "image": "images/interfaces-claude-frontend.jpg",
+      "image": "/images/interfaces-claude-frontend.jpg",
       "website": "",
       "repo": "https://github.com/tobias-schuemann/claude-frontend",
       "open_source": true,
@@ -926,7 +930,7 @@
     },
     {
       "name": "Conductor",
-      "image": "images/interfaces-conductor.jpg",
+      "image": "/images/interfaces-conductor.jpg",
       "website": "https://conductor.build/",
       "repo": "",
       "open_source": false,
@@ -942,7 +946,7 @@
     },
     {
       "name": "Crystal",
-      "image": "images/interfaces-crystal.jpg",
+      "image": "/images/interfaces-crystal.jpg",
       "website": "",
       "repo": "https://github.com/stravu/crystal",
       "open_source": true,
@@ -958,7 +962,7 @@
     },
     {
       "name": "Happy",
-      "image": "images/interfaces-happy.jpg",
+      "image": "/images/interfaces-happy.jpg",
       "website": "https://happy.engineering/",
       "repo": "https://github.com/slopus/happy",
       "open_source": true,
@@ -974,7 +978,7 @@
     },
     {
       "name": "opcode",
-      "image": "images/interfaces-opcode.jpg",
+      "image": "/images/interfaces-opcode.jpg",
       "website": "https://opcode.sh/",
       "repo": "https://github.com/getAsterisk/opcode",
       "open_source": true,
@@ -990,7 +994,7 @@
     },
     {
       "name": "Vibe Kanban",
-      "image": "images/interfaces-vibe-kanban.jpg",
+      "image": "/images/interfaces-vibe-kanban.jpg",
       "website": "https://www.vibekanban.com/",
       "repo": "https://github.com/BloopAI/vibe-kanban",
       "open_source": true,
@@ -1006,7 +1010,7 @@
     },
     {
       "name": "VibeTree",
-      "image": "images/interfaces-vibetree.jpg",
+      "image": "/images/interfaces-vibetree.jpg",
       "repo": "https://github.com/sahithvibudhi/vibe-tree",
       "open_source": true,
       "summary": "Desktop application for parallel AI-assisted development across multiple git worktrees.",
@@ -1022,7 +1026,7 @@
     },
     {
       "name": "VibeTunnel",
-      "image": "images/interfaces-vibetunnel.jpg",
+      "image": "/images/interfaces-vibetunnel.jpg",
       "website": "https://vt.sh/",
       "repo": "https://github.com/amantus-ai/vibetunnel",
       "open_source": true,
@@ -1038,7 +1042,7 @@
     },
     {
       "name": "playwright-mcp",
-      "image": "images/tools-playwright-mcp.jpg",
+      "image": "/images/tools-playwright-mcp.jpg",
       "website": "",
       "repo": "https://github.com/microsoft/playwright-mcp",
       "open_source": true,
@@ -1057,7 +1061,7 @@
     },
     {
       "name": "Archon",
-      "image": "images/tools-archon.jpg",
+      "image": "/images/tools-archon.jpg",
       "website": "https://github.com/coleam00/Archon",
       "repo": "https://github.com/coleam00/Archon",
       "open_source": true,
@@ -1075,7 +1079,7 @@
     },
     {
       "name": "ccexp",
-      "image": "images/tools-ccexp.jpg",
+      "image": "/images/tools-ccexp.jpg",
       "website": "",
       "repo": "https://github.com/nyatinte/ccexp",
       "open_source": true,
@@ -1092,7 +1096,7 @@
     },
     {
       "name": "cchistory",
-      "image": "images/tools-cchistory.jpg",
+      "image": "/images/tools-cchistory.jpg",
       "website": "",
       "repo": "https://github.com/eckardt/cchistory",
       "open_source": true,
@@ -1109,7 +1113,7 @@
     },
     {
       "name": "cco",
-      "image": "images/tools-cco.jpg",
+      "image": "/images/tools-cco.jpg",
       "website": "",
       "repo": "https://github.com/nikvdp/cco",
       "open_source": true,
@@ -1126,7 +1130,7 @@
     },
     {
       "name": "Claude Checkpoints",
-      "image": "images/tools-claude-checkpoints.jpg",
+      "image": "/images/tools-claude-checkpoints.jpg",
       "website": "https://claude-checkpoints.com/",
       "open_source": false,
       "summary": "Automatic version control and backup tool for AI coding workflows with MCP integration.",
@@ -1142,7 +1146,7 @@
     },
     {
       "name": "Claude Code Enhanced Statusline",
-      "image": "images/tools-claude-code-enhanced-statusline.jpg",
+      "image": "/images/tools-claude-code-enhanced-statusline.jpg",
       "repo": "https://github.com/rz1989s/claude-code-statusline",
       "open_source": true,
       "summary": "4-line terminal statusline for Claude Code with real-time cost tracking and MCP server monitoring.",
@@ -1158,7 +1162,7 @@
     },
     {
       "name": "Claude Code Project Index",
-      "image": "images/tools-claude-code-project-index.jpg",
+      "image": "/images/tools-claude-code-project-index.jpg",
       "website": "",
       "repo": "https://github.com/ericbuess/claude-code-project-index",
       "open_source": true,
@@ -1176,7 +1180,7 @@
     },
     {
       "name": "Claude Squad",
-      "image": "images/tools-claude-squad.jpg",
+      "image": "/images/tools-claude-squad.jpg",
       "website": "https://smtg-ai.github.io/claude-squad/",
       "repo": "https://github.com/smtg-ai/claude-squad",
       "open_source": true,
@@ -1193,7 +1197,7 @@
     },
     {
       "name": "Code Conductor",
-      "image": "images/tools-code-conductor.jpg",
+      "image": "/images/tools-code-conductor.jpg",
       "website": "",
       "repo": "https://github.com/ryanmac/code-conductor",
       "open_source": true,
@@ -1210,7 +1214,7 @@
     },
     {
       "name": "Dmux",
-      "image": "images/tools-dmux.jpg",
+      "image": "/images/tools-dmux.jpg",
       "website": "",
       "repo": "https://github.com/justin-schroeder/dmux",
       "open_source": true,
@@ -1224,7 +1228,7 @@
     },
     {
       "name": "In Memoria",
-      "image": "images/tools-in-memoria.jpg",
+      "image": "/images/tools-in-memoria.jpg",
       "website": "",
       "repo": "https://github.com/pi22by7/In-Memoria",
       "open_source": true,
@@ -1238,7 +1242,7 @@
     },
     {
       "name": "Kratos MCP",
-      "image": "images/tools-kratos-mcp.jpg",
+      "image": "/images/tools-kratos-mcp.jpg",
       "website": "",
       "repo": "https://github.com/ceorkm/kratos-mcp",
       "open_source": true,
@@ -1256,7 +1260,7 @@
     },
     {
       "name": "Shotgun App",
-      "image": "images/tools-shotgun-app.jpg",
+      "image": "/images/tools-shotgun-app.jpg",
       "website": "",
       "repo": "https://github.com/glebkudr/shotgun_code",
       "open_source": true,
@@ -1273,7 +1277,7 @@
     },
     {
       "name": "Superdesign",
-      "image": "images/tools-superdesign.jpg",
+      "image": "/images/tools-superdesign.jpg",
       "website": "https://www.superdesign.dev/",
       "repo": "https://github.com/superdesigndev/superdesign",
       "open_source": true,
@@ -1291,7 +1295,7 @@
     },
     {
       "name": "BMAD-METHOD",
-      "image": "images/workflows-bmad-method.jpg",
+      "image": "/images/workflows-bmad-method.jpg",
       "website": "",
       "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
       "open_source": true,
@@ -1308,7 +1312,7 @@
     },
     {
       "name": "Claude Code PM",
-      "image": "images/workflows-claude-code-pm.jpg",
+      "image": "/images/workflows-claude-code-pm.jpg",
       "website": "",
       "repo": "https://github.com/automazeio/ccpm",
       "open_source": true,
@@ -1324,7 +1328,7 @@
     },
     {
       "name": "Spec Kit",
-      "image": "images/workflows-spec-kit.jpg",
+      "image": "/images/workflows-spec-kit.jpg",
       "repo": "https://github.com/github/spec-kit",
       "open_source": true,
       "summary": "Spec-driven development methodology that makes specifications executable for AI-assisted software creation.",
@@ -1339,7 +1343,7 @@
     },
     {
       "name": "Task Master",
-      "image": "images/workflows-task-master.jpg",
+      "image": "/images/workflows-task-master.jpg",
       "website": "https://www.task-master.dev/",
       "repo": "",
       "open_source": true,
@@ -1356,7 +1360,7 @@
     },
     {
       "name": "Bolt.new",
-      "image": "images/agents-bolt-new.jpg",
+      "image": "/images/agents-bolt-new.jpg",
       "website": "https://bolt.new/",
       "open_source": false,
       "summary": "Cloud-based AI coding agent for building and deploying full-stack web applications through conversational prompts.",
@@ -1368,6 +1372,7 @@
     },
     {
       "name": "Devin",
+      "image": "/images/agents-devin.jpg",
       "website": "https://devin.ai/",
       "repo": "",
       "open_source": false,
@@ -1380,7 +1385,7 @@
     },
     {
       "name": "Lovable",
-      "image": "images/agents-lovable.jpg",
+      "image": "/images/agents-lovable.jpg",
       "website": "https://lovable.dev/",
       "repo": "",
       "open_source": false,
@@ -1393,6 +1398,7 @@
     },
     {
       "name": "OpenAI Codex",
+      "image": "/images/agents-openai-codex.jpg",
       "website": "https://chatgpt.com/codex",
       "repo": "",
       "open_source": false,
@@ -1405,7 +1411,7 @@
     },
     {
       "name": "v0",
-      "image": "images/agents-v0.jpg",
+      "image": "/images/agents-v0.jpg",
       "website": "https://v0.app/",
       "repo": "",
       "open_source": false,
