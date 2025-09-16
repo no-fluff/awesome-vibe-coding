@@ -38,6 +38,12 @@
 </details>
 
 <details>
+  <summary><strong>🔥 <a href="https://github.com/openai/codex">OpenAI Codex CLI</a> <a href="https://github.com/openai/codex"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Experimental terminal-based coding agent with configurable sandbox modes.</summary>
+
+  <blockquote>Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://cline.bot/">Cline</a> <a href="https://github.com/cline/cline"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Open source AI coding agent for VS Code with autonomous capabilities and multi-model support.</summary>
 
   <blockquote>Cline operates as a VS Code extension with autonomous file editing, terminal command execution, and browser automation capabilities. Features client-side architecture for security, supports multiple AI providers including Claude and Gemini, and offers transparent AI decision-making with human approval workflows.</blockquote>
@@ -59,12 +65,6 @@
   <summary><strong><a href="https://kilocode.ai/">Kilo Code</a> <a href="https://github.com/Kilo-Org/kilocode"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Open source VS Code AI coding agent with 400+ model support and multi-mode development assistance.</summary>
 
   <blockquote>Kilo Code provides multiple agent modes (Orchestrator, Architect, Code, Debug) with automatic context searching, memory bank for project retention, and hallucination-free code generation. Supports 400+ AI models via OpenRouter without requiring API keys and includes browser automation capabilities.</blockquote>
-</details>
-
-<details>
-  <summary><strong><a href="https://github.com/openai/codex">OpenAI Codex CLI</a> <a href="https://github.com/openai/codex"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Experimental terminal-based coding agent with configurable sandbox modes.</summary>
-
-  <blockquote>Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access.</blockquote>
 </details>
 
 <details>
