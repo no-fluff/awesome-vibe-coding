@@ -1,6 +1,5 @@
 node_modules
 README.md
-dist/
 .astro/
 .playwright-mcp
 .vscode/
