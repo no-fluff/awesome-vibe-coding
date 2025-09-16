@@ -7,7 +7,7 @@
 import Layout from '../layouts/Layout.astro';
 import { loadData } from '../lib/data-loader.js';
 
-const { data, categories } = loadData();
+const { sections: loadedSections, categories } = loadData();
 
 // Filter function to get only entries with claude-code in agents array
 function filterClaudeCodeEntries(items) {
@@ -17,50 +17,33 @@ function filterClaudeCodeEntries(items) {
   );
 }
 
-const sections = [
-  {
-    id: 'agents',
-    title: 'Agents',
-    icon: 'agents.png',
-    description: null,
-    data: filterClaudeCodeEntries(data.agents)
-  },
-  {
-    id: 'apps',
-    title: 'Vibe-coding apps',
-    icon: 'apps.png',
-    description: 'Soup-to-nuts apps for vibing with Claude Code.',
-    data: filterClaudeCodeEntries(data.apps)
-  },
-  {
-    id: 'interfaces',
-    title: 'Agent interfaces',
-    icon: 'interfaces.png',
-    description: 'Use Claude Code outside the terminal.',
-    data: filterClaudeCodeEntries(data.interfaces)
-  },
-  {
-    id: 'tools',
-    title: 'Tools and MCP servers',
-    icon: 'tools.png',
-    description: 'Everything you can plug into Claude Code.',
-    data: filterClaudeCodeEntries(data.tools)
-  },
-  {
-    id: 'workflows',
-    title: 'Vibe-coding workflows',
-    icon: 'workflows.png',
-    description: 'Claude Code rules and processes to help you ship higher-quality code, faster.',
-    data: filterClaudeCodeEntries(data.workflows)
-  },
-  {
-    id: 'hosted-agents',
-    title: 'Cloud-only agents',
-    icon: 'hosted-agents.png',
-    description: 'These closed-source agents with Claude Code integration are hosted for you.',
-    data: filterClaudeCodeEntries(data['hosted-agents'])
-  }
-];
+// Transform loaded sections into the format needed for this page
+const sections = loadedSections.map(section => {
+  const descriptions = {
+    'apps': 'Soup-to-nuts apps for vibing with Claude Code.',
+    'interfaces': 'Use Claude Code outside the terminal.',
+    'tools': 'Everything you can plug into Claude Code.',
+    'workflows': 'Claude Code rules and processes to help you ship higher-quality code, faster.',
+    'hosted-agents': 'These closed-source agents with Claude Code integration are hosted for you.'
+  };
+  
+  const icons = {
+    'agents': 'agents.png',
+    'apps': 'apps.png',
+    'interfaces': 'interfaces.png',
+    'tools': 'tools.png',
+    'workflows': 'workflows.png',
+    'hosted-agents': 'hosted-agents.png'
+  };
+  
+  return {
+    id: section.id,
+    title: section.title,
+    icon: icons[section.id],
+    description: descriptions[section.id] || null,
+    data: filterClaudeCodeEntries(section.items)
+  };
+});
 
 // Filter out sections with no data
 const activeSections = sections.filter(section => section.data.length > 0);

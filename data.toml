@@ -1,5 +1,6 @@
 [[agents]]
 name = "Gemini CLI"
+image = "images/agents-gemini-cli.jpg"
 website = "https://google-gemini.github.io/gemini-cli/"
 repo = "https://github.com/google-gemini/gemini-cli"
 open_source = true
@@ -9,6 +10,7 @@ category = "Open source"
 
 [[agents]]
 name = "Kilo Code"
+image = "images/agents-kilo-code.jpg"
 website = "https://kilocode.ai/"
 repo = "https://github.com/Kilo-Org/kilocode"
 open_source = true
@@ -18,6 +20,7 @@ category = "Open source"
 
 [[agents]]
 name = "Cline"
+image = "images/agents-cline.jpg"
 website = "https://cline.bot/"
 repo = "https://github.com/cline/cline"
 open_source = true
@@ -27,6 +30,7 @@ category = "Open source"
 
 [[agents]]
 name = "Claude Code"
+image = "images/agents-claude-code.jpg"
 website = "https://www.anthropic.com/claude-code"
 repo = ""
 open_source = false
@@ -36,6 +40,7 @@ hot = true
 
 [[agents]]
 name = "Opencode"
+image = "images/agents-opencode.jpg"
 website = "https://opencode.ai/"
 repo = "https://github.com/sst/opencode"
 open_source = true
@@ -44,6 +49,7 @@ detail = "Opencode supports 75+ LLM providers and integrates with IDEs including
 
 [[agents]]
 name = "OpenHands"
+image = "images/agents-openhands.jpg"
 website = "https://www.all-hands.dev/"
 repo = "https://github.com/All-Hands-AI/OpenHands"
 open_source = true
@@ -53,14 +59,17 @@ category = "Open source"
 
 [[agents]]
 name = "OpenAI Codex CLI"
+image = "images/agents-openai-codex-cli.jpg"
 website = ""
 repo = "https://github.com/openai/codex"
 open_source = true
 summary = "Experimental terminal-based coding agent with configurable sandbox modes."
 detail = "Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access."
+hot = true
 
 [[agents]]
 name = "Qwen Code"
+image = "images/agents-qwen-code.jpg"
 website = ""
 repo = "https://github.com/QwenLM/qwen-code"
 open_source = true
@@ -69,6 +78,7 @@ detail = "Qwen Code is an intelligent command-line tool that helps developers un
 
 [[agents]]
 name = "Zed"
+image = "images/agents-zed.jpg"
 website = "https://zed.dev/"
 repo = "https://github.com/zed-industries/zed"
 open_source = true
@@ -78,6 +88,7 @@ category = "Open source"
 
 [[apps]]
 name = "Claudable"
+image = "images/apps-claudable.jpg"
 website = ""
 repo = "https://github.com/opactorai/Claudable"
 open_source = true
@@ -86,6 +97,7 @@ detail = "Claudable enables users to create web applications through natural lan
 
 [[apps]]
 name = "Kiro"
+image = "images/apps-kiro.jpg"
 website = "https://kiro.dev/"
 repo = ""
 open_source = false
@@ -95,6 +107,7 @@ hot = true
 
 [[hosted-agents]]
 name = "v0"
+image = "images/agents-v0.jpg"
 website = "https://v0.app/"
 repo = ""
 open_source = false
@@ -103,6 +116,7 @@ detail = "v0 converts natural language descriptions into full-stack applications
 
 [[interfaces]]
 name = "claude-frontend"
+image = "images/interfaces-claude-frontend.jpg"
 website = ""
 repo = "https://github.com/tobias-schuemann/claude-frontend"
 open_source = true
@@ -112,6 +126,7 @@ agents = ["claude-code"]
 
 [[interfaces]]
 name = "opcode"
+image = "images/interfaces-opcode.jpg"
 website = "https://opcode.sh/"
 repo = "https://github.com/getAsterisk/opcode"
 open_source = true
@@ -121,6 +136,7 @@ agents = ["claude-code"]
 
 [[interfaces]]
 name = "Conductor"
+image = "images/interfaces-conductor.jpg"
 website = "https://conductor.build/"
 repo = ""
 open_source = false
@@ -130,6 +146,7 @@ agents = ["claude-code"]
 
 [[interfaces]]
 name = "Crystal"
+image = "images/interfaces-crystal.jpg"
 website = ""
 repo = "https://github.com/stravu/crystal"
 open_source = true
@@ -139,7 +156,8 @@ agents = ["claude-code"]
 
 [[interfaces]]
 name = "Agentrooms"
-website = ""
+image = "images/interfaces-agentrooms.jpg"
+website = "https://claudecode.run/"
 repo = "https://github.com/baryhuang/claude-code-by-agents"
 open_source = true
 summary = "Multi-agent workspace for collaborative development with Claude CLI."
@@ -149,6 +167,7 @@ agents = ["claude-code"]
 
 [[agents]]
 name = "Cursor"
+image = "images/agents-cursor.jpg"
 website = "https://cursor.com"
 repo = ""
 open_source = false
@@ -157,6 +176,7 @@ detail = "Cursor is an AI-enhanced code editor that provides intelligent tab com
 
 [[interfaces]]
 name = "Claude Code UI"
+image = "images/interfaces-claude-code-ui.jpg"
 website = "https://claudecodeui.siteboon.ai/"
 repo = "https://github.com/siteboon/claudecodeui"
 open_source = true
@@ -166,6 +186,7 @@ agents = ["claude-code"]
 
 [[interfaces]]
 name = "Happy"
+image = "images/interfaces-happy.jpg"
 website = "https://happy.engineering/"
 repo = "https://github.com/slopus/happy"
 open_source = true
@@ -175,6 +196,7 @@ agents = ["claude-code"]
 
 [[interfaces]]
 name = "VibeTunnel"
+image = "images/interfaces-vibetunnel.jpg"
 website = "https://vt.sh/"
 repo = "https://github.com/amantus-ai/vibetunnel"
 open_source = true
@@ -184,6 +206,7 @@ agents = ["claude-code"]
 
 [[interfaces]]
 name = "VibeTree"
+image = "images/interfaces-vibetree.jpg"
 repo = "https://github.com/sahithvibudhi/vibe-tree"
 open_source = true
 summary = "Desktop application for parallel AI-assisted development across multiple git worktrees."
@@ -192,6 +215,7 @@ agents = ["claude-code", "cursor"]
 
 [[interfaces]]
 name = "Vibe Kanban"
+image = "images/interfaces-vibe-kanban.jpg"
 website = "https://www.vibekanban.com/"
 repo = "https://github.com/BloopAI/vibe-kanban"
 open_source = true
@@ -201,6 +225,7 @@ agents = ["claude-code"]
 
 [[tools]]
 name = "Claude Code Enhanced Statusline"
+image = "images/tools-claude-code-enhanced-statusline.jpg"
 repo = "https://github.com/rz1989s/claude-code-statusline"
 open_source = true
 summary = "4-line terminal statusline for Claude Code with real-time cost tracking and MCP server monitoring."
@@ -210,6 +235,7 @@ agents = ["claude-code"]
 
 [[tools]]
 name = "Claude Squad"
+image = "images/tools-claude-squad.jpg"
 website = "https://smtg-ai.github.io/claude-squad/"
 repo = "https://github.com/smtg-ai/claude-squad"
 open_source = true
@@ -220,6 +246,7 @@ agents = ["claude-code"]
 
 [[tools]]
 name = "Archon"
+image = "images/tools-archon.jpg"
 website = "https://github.com/coleam00/Archon"
 repo = "https://github.com/coleam00/Archon"
 open_source = true
@@ -230,6 +257,7 @@ agents = ["claude-code", "cursor"]
 
 [[tools]]
 name = "cco"
+image = "images/tools-cco.jpg"
 website = ""
 repo = "https://github.com/nikvdp/cco"
 open_source = true
@@ -240,6 +268,7 @@ agents = ["claude-code"]
 
 [[tools]]
 name = "ccexp"
+image = "images/tools-ccexp.jpg"
 website = ""
 repo = "https://github.com/nyatinte/ccexp"
 open_source = true
@@ -250,6 +279,7 @@ agents = ["claude-code"]
 
 [[tools]]
 name = "cchistory"
+image = "images/tools-cchistory.jpg"
 website = ""
 repo = "https://github.com/eckardt/cchistory"
 open_source = true
@@ -260,6 +290,7 @@ agents = ["claude-code"]
 
 [[tools]]
 name = "Code Conductor"
+image = "images/tools-code-conductor.jpg"
 website = ""
 repo = "https://github.com/ryanmac/code-conductor"
 open_source = true
@@ -270,6 +301,7 @@ agents = ["claude-code"]
 
 [[tools]]
 name = "Dmux"
+image = "images/tools-dmux.jpg"
 website = ""
 repo = "https://github.com/justin-schroeder/dmux"
 open_source = true
@@ -279,6 +311,7 @@ category = "Task management"
 
 [[tools]]
 name = "In Memoria"
+image = "images/tools-in-memoria.jpg"
 website = ""
 repo = "https://github.com/pi22by7/In-Memoria"
 open_source = true
@@ -288,6 +321,7 @@ category = "Memory"
 
 [[tools]]
 name = "Kratos MCP"
+image = "images/tools-kratos-mcp.jpg"
 website = ""
 repo = "https://github.com/ceorkm/kratos-mcp"
 open_source = true
@@ -298,6 +332,7 @@ agents = ["claude-code", "cursor"]
 
 [[tools]]
 name = "Claude Code Project Index"
+image = "images/tools-claude-code-project-index.jpg"
 website = ""
 repo = "https://github.com/ericbuess/claude-code-project-index"
 open_source = true
@@ -308,6 +343,7 @@ agents = ["claude-code", "cursor"]
 
 [[tools]]
 name = "Shotgun App"
+image = "images/tools-shotgun-app.jpg"
 website = ""
 repo = "https://github.com/glebkudr/shotgun_code"
 open_source = true
@@ -318,6 +354,7 @@ agents = ["cursor"]
 
 [[tools]]
 name = "playwright-mcp"
+image = "images/tools-playwright-mcp.jpg"
 website = ""
 repo = "https://github.com/microsoft/playwright-mcp"
 open_source = true
@@ -329,6 +366,7 @@ agents = ["claude-code", "cursor"]
 
 [[tools]]
 name = "Claude Checkpoints"
+image = "images/tools-claude-checkpoints.jpg"
 website = "https://claude-checkpoints.com/"
 open_source = false
 summary = "Automatic version control and backup tool for AI coding workflows with MCP integration."
@@ -338,6 +376,7 @@ agents = ["claude-code"]
 
 [[tools]]
 name = "Superdesign"
+image = "images/tools-superdesign.jpg"
 website = "https://www.superdesign.dev/"
 repo = "https://github.com/superdesigndev/superdesign"
 open_source = true
@@ -348,6 +387,7 @@ agents = ["claude-code", "cursor"]
 
 [[workflows]]
 name = "Task Master"
+image = "images/workflows-task-master.jpg"
 website = "https://www.task-master.dev/"
 repo = ""
 open_source = true
@@ -357,6 +397,7 @@ agents = ["claude-code", "cursor"]
 
 [[workflows]]
 name = "BMAD-METHOD"
+image = "images/workflows-bmad-method.jpg"
 website = ""
 repo = "https://github.com/bmad-code-org/BMAD-METHOD"
 open_source = true
@@ -366,6 +407,7 @@ agents = ["claude-code", "cursor"]
 
 [[workflows]]
 name = "Claude Code PM"
+image = "images/workflows-claude-code-pm.jpg"
 website = ""
 repo = "https://github.com/automazeio/ccpm"
 open_source = true
@@ -375,6 +417,7 @@ agents = ["claude-code"]
 
 [[workflows]]
 name = "Spec Kit"
+image = "images/workflows-spec-kit.jpg"
 repo = "https://github.com/github/spec-kit"
 open_source = true
 summary = "Spec-driven development methodology that makes specifications executable for AI-assisted software creation."
@@ -383,6 +426,7 @@ agents = ["claude-code"]
 
 [[hosted-agents]]
 name = "Bolt.new"
+image = "images/agents-bolt-new.jpg"
 website = "https://bolt.new/"
 open_source = false
 summary = "Cloud-based AI coding agent for building and deploying full-stack web applications through conversational prompts."
@@ -390,6 +434,7 @@ detail = "Bolt.new provides a complete browser-based development environment wit
 
 [[hosted-agents]]
 name = "Lovable"
+image = "images/agents-lovable.jpg"
 website = "https://lovable.dev/"
 repo = ""
 open_source = false
@@ -398,6 +443,7 @@ detail = "Lovable enables users to create applications and websites by chatting 
 
 [[hosted-agents]]
 name = "OpenAI Codex"
+image = "images/agents-openai-codex.jpg"
 website = "https://chatgpt.com/codex"
 repo = ""
 open_source = false
@@ -406,6 +452,7 @@ detail = "OpenAI Codex operates in secure cloud sandboxes to handle multiple sof
 
 [[hosted-agents]]
 name = "Devin"
+image = "images/agents-devin.jpg"
 website = "https://devin.ai/"
 repo = ""
 open_source = false

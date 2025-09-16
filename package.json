@@ -6,15 +6,24 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "generate-images": "node scripts/generate-images.js"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^2.0.30",
+    "ai": "^5.0.44",
     "astro": "^5.1.1",
+    "dotenv": "^17.2.2",
     "ejs": "^3.1.10",
+    "openai": "^5.20.3",
     "toml": "^3.0.0"
   },
-  "devDependencies": {},
-  "keywords": ["vibe-coding", "ai", "tools", "awesome-list"],
+  "keywords": [
+    "vibe-coding",
+    "ai",
+    "tools",
+    "awesome-list"
+  ],
   "author": "",
   "license": "MIT"
 }

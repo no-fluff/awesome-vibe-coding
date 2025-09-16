@@ -116,7 +116,7 @@
 *Use your AI agent outside the terminal.*
 
 <details>
-  <summary><strong><a href="https://github.com/baryhuang/claude-code-by-agents">Agentrooms</a> <a href="https://github.com/baryhuang/claude-code-by-agents"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Multi-agent workspace for collaborative development with Claude CLI.</summary>
+  <summary><strong><a href="https://claudecode.run/">Agentrooms</a> <a href="https://github.com/baryhuang/claude-code-by-agents"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Multi-agent workspace for collaborative development with Claude CLI.</summary>
 
   <blockquote>Agentrooms provides desktop and web interfaces for coordinating specialized AI agents in collaborative software development workflows, enabling task routing via @agent-name mentions, automatic decomposition, and management of complex multi-agent projects using Claude CLI as the underlying engine.</blockquote>
 </details>

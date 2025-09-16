@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import readmeIntegration from './src/lib/readme-integration.js';
+import imageGenerationIntegration from './src/lib/image-generation-integration.js';
 
 // https://astro.build/config
 export default defineConfig({
@@ -9,5 +10,5 @@ export default defineConfig({
   build: {
     format: 'file'
   },
-  integrations: [readmeIntegration()]
+  integrations: [imageGenerationIntegration(), readmeIntegration()]
 });

@@ -135,7 +135,13 @@ function renderCategories(sectionKey, data, categoriesConfig) {
 }
 
 export function generateReadme() {
-  const { data, categories } = loadData();
+  const { sections, categories } = loadData();
+  
+  // Convert sections array to data object for backward compatibility
+  const data = {};
+  sections.forEach(section => {
+    data[section.id] = section.items;
+  });
   
   // Read the EJS template
   const templatePath = path.join(process.cwd(), 'README.ejs');
