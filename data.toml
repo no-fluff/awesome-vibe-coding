@@ -7,6 +7,7 @@ open_source = true
 summary = "Open source terminal-based AI agent with Gemini 2.5 Pro and multimodal capabilities."
 detail = "Gemini CLI brings Google's Gemini AI directly to the terminal with code generation, Google Search integration, file operations, and 1M token context window. Supports multiple authentication methods and offers extensible architecture for developer workflows."
 category = "Open source"
+agents = ["gemini-cli"]
 
 [[agents]]
 name = "Kilo Code"
@@ -17,6 +18,7 @@ open_source = true
 summary = "Open source VS Code AI coding agent with 400+ model support and multi-mode development assistance."
 detail = "Kilo Code provides multiple agent modes (Orchestrator, Architect, Code, Debug) with automatic context searching, memory bank for project retention, and hallucination-free code generation. Supports 400+ AI models via OpenRouter without requiring API keys and includes browser automation capabilities."
 category = "Open source"
+agents = ["kilo-code"]
 
 [[agents]]
 name = "Cline"
@@ -27,6 +29,7 @@ open_source = true
 summary = "Open source AI coding agent for VS Code with autonomous capabilities and multi-model support."
 detail = "Cline operates as a VS Code extension with autonomous file editing, terminal command execution, and browser automation capabilities. Features client-side architecture for security, supports multiple AI providers including Claude and Gemini, and offers transparent AI decision-making with human approval workflows."
 category = "Open source"
+agents = ["cline"]
 
 [[agents]]
 name = "Claude Code"
@@ -37,6 +40,7 @@ open_source = false
 summary = "AI-powered terminal coding assistant with deep codebase understanding and multi-file coordination."
 detail = "Claude Code embeds Claude Opus 4.1 directly in developers' terminals, providing agentic search across entire codebases, coordinated multi-file changes, and direct command execution in development environments with integrations for VS Code, JetBrains IDEs, GitHub, and enterprise tools."
 hot = true
+agents = ["claude-code"]
 
 [[agents]]
 name = "Opencode"
@@ -46,6 +50,7 @@ repo = "https://github.com/sst/opencode"
 open_source = true
 summary = "Open source terminal-based coding agent with multi-provider LLM support."
 detail = "Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows."
+agents = ["opencode"]
 
 [[agents]]
 name = "OpenHands"
@@ -56,6 +61,7 @@ open_source = true
 summary = "Open source AI software development agent platform with autonomous coding capabilities."
 detail = "OpenHands enables AI agents to perform developer tasks autonomously including code modification, terminal commands, web browsing, and API calls. Supports multiple LLM providers with recommended Claude Sonnet 4 integration and offers both GUI and CLI interfaces for flexible development workflows."
 category = "Open source"
+agents = ["openhands"]
 
 [[agents]]
 name = "OpenAI Codex CLI"
@@ -66,6 +72,7 @@ open_source = true
 summary = "Experimental terminal-based coding agent with configurable sandbox modes."
 detail = "Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access."
 hot = true
+agents = ["codex-cli"]
 
 [[agents]]
 name = "Qwen Code"
@@ -75,6 +82,8 @@ repo = "https://github.com/QwenLM/qwen-code"
 open_source = true
 summary = "AI coding assistant CLI for exploring, developing, and automating software workflows."
 detail = "Qwen Code is an intelligent command-line tool that helps developers understand, refactor, and generate code using advanced AI models. It provides workflow automation, code analysis, and supports multiple authentication methods across different regional providers."
+agents = ["qwen-code"]
+
 
 [[agents]]
 name = "Zed"
@@ -85,6 +94,7 @@ open_source = true
 summary = "High-performance collaborative code editor with AI-powered agentic editing capabilities."
 detail = "Zed is a next-generation code editor built in Rust that enables fluent collaboration between humans and AI. Features native AI integration for code generation and transformation with upcoming LLM support, multiplayer editing, and custom language models for edit prediction."
 category = "Open source"
+agents = ["zed"]
 
 [[apps]]
 name = "Claudable"
@@ -95,6 +105,7 @@ open_source = true
 summary = "AI-powered web application builder with natural language development and instant deployment."
 detail = "Claudable enables users to create web applications through natural language descriptions using Claude Code and Cursor CLI agents. Features instant live preview, one-click Vercel deployment, automatic GitHub version control, and Supabase database integration with beautiful UI generation using Tailwind CSS and shadcn/ui."
 agents = ["claude-code", "cursor"]
+
 
 [[apps]]
 name = "Kiro"
@@ -174,6 +185,7 @@ repo = ""
 open_source = false
 summary = "AI-powered code editor with predictive tab completion and natural language code editing."
 detail = "Cursor is an AI-enhanced code editor that provides intelligent tab completion, codebase understanding, and natural language code modification capabilities. Imports VSCode extensions and themes while offering seamless AI integration for enhanced developer productivity."
+agents = ["cursor"]
 
 [[interfaces]]
 name = "Claude Code UI"
@@ -463,4 +475,6 @@ detail = "Devin handles code migration, refactoring, bug fixes, and development 
 
 [categories]
 tools = ["Memory", "Task management", "Codebase understanding", "Security", "Agent feedback", "Design", "Backups and change management", "Other tools"]
- 
+
+[config]
+agents = ["claude-code", "cursor", "gemini-cli", "codex-cli"]

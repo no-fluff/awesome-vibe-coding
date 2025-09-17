@@ -1,0 +1,1564 @@
+{
+  "sections": [
+    {
+      "id": "agents",
+      "title": "Agents",
+      "tagline": "Autonomous coders, copilots, and CLI partners.",
+      "items": [
+        {
+          "name": "Claude Code",
+          "image": "/images/agents-claude-code.jpg",
+          "website": "https://www.anthropic.com/claude-code",
+          "repo": "",
+          "open_source": false,
+          "summary": "AI-powered terminal coding assistant with deep codebase understanding and multi-file coordination.",
+          "detail": "Claude Code embeds Claude Opus 4.1 directly in developers' terminals, providing agentic search across entire codebases, coordinated multi-file changes, and direct command execution in development environments with integrations for VS Code, JetBrains IDEs, GitHub, and enterprise tools.",
+          "hot": true,
+          "agents": [
+            "claude-code"
+          ],
+          "id": "claude-code",
+          "slug": "claude-code",
+          "sectionId": "agents"
+        },
+        {
+          "name": "OpenAI Codex CLI",
+          "image": "/images/agents-openai-codex-cli.jpg",
+          "website": "",
+          "repo": "https://github.com/openai/codex",
+          "open_source": true,
+          "summary": "Experimental terminal-based coding agent with configurable sandbox modes.",
+          "detail": "Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access.",
+          "hot": true,
+          "agents": [
+            "codex-cli"
+          ],
+          "id": "openai-codex-cli",
+          "slug": "openai-codex-cli",
+          "sectionId": "agents"
+        },
+        {
+          "name": "Cline",
+          "image": "/images/agents-cline.jpg",
+          "website": "https://cline.bot/",
+          "repo": "https://github.com/cline/cline",
+          "open_source": true,
+          "summary": "Open source AI coding agent for VS Code with autonomous capabilities and multi-model support.",
+          "detail": "Cline operates as a VS Code extension with autonomous file editing, terminal command execution, and browser automation capabilities. Features client-side architecture for security, supports multiple AI providers including Claude and Gemini, and offers transparent AI decision-making with human approval workflows.",
+          "category": "Open source",
+          "agents": [
+            "cline"
+          ],
+          "id": "cline",
+          "slug": "cline",
+          "sectionId": "agents"
+        },
+        {
+          "name": "Cursor",
+          "image": "/images/agents-cursor.jpg",
+          "website": "https://cursor.com",
+          "repo": "",
+          "open_source": false,
+          "summary": "AI-powered code editor with predictive tab completion and natural language code editing.",
+          "detail": "Cursor is an AI-enhanced code editor that provides intelligent tab completion, codebase understanding, and natural language code modification capabilities. Imports VSCode extensions and themes while offering seamless AI integration for enhanced developer productivity.",
+          "agents": [
+            "cursor"
+          ],
+          "id": "cursor",
+          "slug": "cursor",
+          "sectionId": "agents"
+        },
+        {
+          "name": "Gemini CLI",
+          "image": "/images/agents-gemini-cli.jpg",
+          "website": "https://google-gemini.github.io/gemini-cli/",
+          "repo": "https://github.com/google-gemini/gemini-cli",
+          "open_source": true,
+          "summary": "Open source terminal-based AI agent with Gemini 2.5 Pro and multimodal capabilities.",
+          "detail": "Gemini CLI brings Google's Gemini AI directly to the terminal with code generation, Google Search integration, file operations, and 1M token context window. Supports multiple authentication methods and offers extensible architecture for developer workflows.",
+          "category": "Open source",
+          "agents": [
+            "gemini-cli"
+          ],
+          "id": "gemini-cli",
+          "slug": "gemini-cli",
+          "sectionId": "agents"
+        },
+        {
+          "name": "Kilo Code",
+          "image": "/images/agents-kilo-code.jpg",
+          "website": "https://kilocode.ai/",
+          "repo": "https://github.com/Kilo-Org/kilocode",
+          "open_source": true,
+          "summary": "Open source VS Code AI coding agent with 400+ model support and multi-mode development assistance.",
+          "detail": "Kilo Code provides multiple agent modes (Orchestrator, Architect, Code, Debug) with automatic context searching, memory bank for project retention, and hallucination-free code generation. Supports 400+ AI models via OpenRouter without requiring API keys and includes browser automation capabilities.",
+          "category": "Open source",
+          "agents": [
+            "kilo-code"
+          ],
+          "id": "kilo-code",
+          "slug": "kilo-code",
+          "sectionId": "agents"
+        },
+        {
+          "name": "Opencode",
+          "image": "/images/agents-opencode.jpg",
+          "website": "https://opencode.ai/",
+          "repo": "https://github.com/sst/opencode",
+          "open_source": true,
+          "summary": "Open source terminal-based coding agent with multi-provider LLM support.",
+          "detail": "Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.",
+          "agents": [
+            "opencode"
+          ],
+          "id": "opencode",
+          "slug": "opencode",
+          "sectionId": "agents"
+        },
+        {
+          "name": "OpenHands",
+          "image": "/images/agents-openhands.jpg",
+          "website": "https://www.all-hands.dev/",
+          "repo": "https://github.com/All-Hands-AI/OpenHands",
+          "open_source": true,
+          "summary": "Open source AI software development agent platform with autonomous coding capabilities.",
+          "detail": "OpenHands enables AI agents to perform developer tasks autonomously including code modification, terminal commands, web browsing, and API calls. Supports multiple LLM providers with recommended Claude Sonnet 4 integration and offers both GUI and CLI interfaces for flexible development workflows.",
+          "category": "Open source",
+          "agents": [
+            "openhands"
+          ],
+          "id": "openhands",
+          "slug": "openhands",
+          "sectionId": "agents"
+        },
+        {
+          "name": "Qwen Code",
+          "image": "/images/agents-qwen-code.jpg",
+          "website": "",
+          "repo": "https://github.com/QwenLM/qwen-code",
+          "open_source": true,
+          "summary": "AI coding assistant CLI for exploring, developing, and automating software workflows.",
+          "detail": "Qwen Code is an intelligent command-line tool that helps developers understand, refactor, and generate code using advanced AI models. It provides workflow automation, code analysis, and supports multiple authentication methods across different regional providers.",
+          "agents": [
+            "qwen-code"
+          ],
+          "id": "qwen-code",
+          "slug": "qwen-code",
+          "sectionId": "agents"
+        },
+        {
+          "name": "Zed",
+          "image": "/images/agents-zed.jpg",
+          "website": "https://zed.dev/",
+          "repo": "https://github.com/zed-industries/zed",
+          "open_source": true,
+          "summary": "High-performance collaborative code editor with AI-powered agentic editing capabilities.",
+          "detail": "Zed is a next-generation code editor built in Rust that enables fluent collaboration between humans and AI. Features native AI integration for code generation and transformation with upcoming LLM support, multiplayer editing, and custom language models for edit prediction.",
+          "category": "Open source",
+          "agents": [
+            "zed"
+          ],
+          "id": "zed",
+          "slug": "zed",
+          "sectionId": "agents"
+        }
+      ]
+    },
+    {
+      "id": "apps",
+      "title": "Vibe-coding apps",
+      "tagline": "End-to-end workbenches and hosted experiences.",
+      "items": [
+        {
+          "name": "Kiro",
+          "image": "/images/apps-kiro.jpg",
+          "website": "https://kiro.dev/",
+          "repo": "",
+          "open_source": false,
+          "summary": "AI-powered IDE with spec-driven development and autonomous task execution.",
+          "detail": "Kiro transforms prompts into structured requirements and implementation tasks, supporting multimodal inputs and agent hooks for automated background workflows with Claude Sonnet integration.",
+          "hot": true,
+          "id": "kiro",
+          "slug": "kiro",
+          "sectionId": "apps"
+        },
+        {
+          "name": "Claudable",
+          "image": "/images/apps-claudable.jpg",
+          "website": "",
+          "repo": "https://github.com/opactorai/Claudable",
+          "open_source": true,
+          "summary": "AI-powered web application builder with natural language development and instant deployment.",
+          "detail": "Claudable enables users to create web applications through natural language descriptions using Claude Code and Cursor CLI agents. Features instant live preview, one-click Vercel deployment, automatic GitHub version control, and Supabase database integration with beautiful UI generation using Tailwind CSS and shadcn/ui.",
+          "agents": [
+            "claude-code",
+            "cursor"
+          ],
+          "id": "claudable",
+          "slug": "claudable",
+          "sectionId": "apps"
+        }
+      ]
+    },
+    {
+      "id": "interfaces",
+      "title": "Agent interfaces",
+      "tagline": "Dashboards, GUIs, and bridges beyond the terminal.",
+      "items": [
+        {
+          "name": "Agentrooms",
+          "image": "/images/interfaces-agentrooms.jpg",
+          "website": "https://claudecode.run/",
+          "repo": "https://github.com/baryhuang/claude-code-by-agents",
+          "open_source": true,
+          "summary": "Multi-agent workspace for collaborative development with Claude CLI.",
+          "detail": "Agentrooms provides desktop and web interfaces for coordinating specialized AI agents in collaborative software development workflows, enabling task routing via @agent-name mentions, automatic decomposition, and management of complex multi-agent projects using Claude CLI as the underlying engine.",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "agentrooms",
+          "slug": "agentrooms",
+          "sectionId": "interfaces"
+        },
+        {
+          "name": "Claude Code UI",
+          "image": "/images/interfaces-claude-code-ui.jpg",
+          "website": "https://claudecodeui.siteboon.ai/",
+          "repo": "https://github.com/siteboon/claudecodeui",
+          "open_source": true,
+          "summary": "Web and mobile interface for Claude Code with responsive design and Git integration.",
+          "detail": "Claude Code UI provides a multi-device interface with project browser, file explorer with syntax highlighting, session management, and security-focused tool permissions. Supports Claude Sonnet 4, Opus 4.1, and GPT-5 models with React-based responsive design for desktop and mobile development workflows.",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "claude-code-ui",
+          "slug": "claude-code-ui",
+          "sectionId": "interfaces"
+        },
+        {
+          "name": "claude-frontend",
+          "image": "/images/interfaces-claude-frontend.jpg",
+          "website": "",
+          "repo": "https://github.com/tobias-schuemann/claude-frontend",
+          "open_source": true,
+          "summary": "Visual interface for AI-powered code modifications with Claude CLI.",
+          "detail": "claude-frontend provides a browser widget that allows developers to select webpage elements and send them to Claude for instant code modifications, supporting multiple frameworks including Next.js, Vite, React, and Vue in local development environments.",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "claude-frontend",
+          "slug": "claude-frontend",
+          "sectionId": "interfaces"
+        },
+        {
+          "name": "Conductor",
+          "image": "/images/interfaces-conductor.jpg",
+          "website": "https://conductor.build/",
+          "repo": "",
+          "open_source": false,
+          "summary": "Desktop application for parallel management and orchestration of Claude Code agents.",
+          "detail": "Conductor enables running multiple Claude Code agents simultaneously with isolated workspaces, progress monitoring, and git worktree management. Built for developers seeking to maximize AI-assisted coding productivity through parallel agent workflows.",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "conductor",
+          "slug": "conductor",
+          "sectionId": "interfaces"
+        },
+        {
+          "name": "Crystal",
+          "image": "/images/interfaces-crystal.jpg",
+          "website": "",
+          "repo": "https://github.com/stravu/crystal",
+          "open_source": true,
+          "summary": "Desktop Electron app for managing multiple Claude Code sessions in parallel git worktrees.",
+          "detail": "Crystal enables developers to run multiple Claude Code AI sessions simultaneously with isolated git worktrees for each session. Features persistent conversation tracking, built-in git operations, change visualization, and desktop notifications for streamlined parallel AI-assisted development workflows.",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "crystal",
+          "slug": "crystal",
+          "sectionId": "interfaces"
+        },
+        {
+          "name": "Happy",
+          "image": "/images/interfaces-happy.jpg",
+          "website": "https://happy.engineering/",
+          "repo": "https://github.com/slopus/happy",
+          "open_source": true,
+          "summary": "Mobile client for Claude Code with remote access and cross-device synchronization.",
+          "detail": "Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms.",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "happy",
+          "slug": "happy",
+          "sectionId": "interfaces"
+        },
+        {
+          "name": "opcode",
+          "image": "/images/interfaces-opcode.jpg",
+          "website": "https://opcode.sh/",
+          "repo": "https://github.com/getAsterisk/opcode",
+          "open_source": true,
+          "summary": "Desktop GUI for Claude Code with session management and custom agent creation.",
+          "detail": "Opcode provides a visual command center for Claude Code featuring project browsers, session history tracking, custom AI agents with background execution, usage analytics, and process isolation for secure AI-assisted development workflows.",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "opcode",
+          "slug": "opcode",
+          "sectionId": "interfaces"
+        },
+        {
+          "name": "Vibe Kanban",
+          "image": "/images/interfaces-vibe-kanban.jpg",
+          "website": "https://www.vibekanban.com/",
+          "repo": "https://github.com/BloopAI/vibe-kanban",
+          "open_source": true,
+          "summary": "Kanban-style interface for managing and orchestrating multiple AI coding agents.",
+          "detail": "Vibe Kanban provides a web-based dashboard for switching between different coding agents, executing multiple agents in parallel or sequence, and tracking task statuses. Built with Rust and TypeScript, it centralizes agent configuration and supports agents like Claude Code, Gemini CLI, and Codex.",
+          "agents": [
+            "claude-code",
+            "cursor",
+            "gemini-cli",
+            "codex-cli",
+            "qwen-code"
+          ],
+          "id": "vibe-kanban",
+          "slug": "vibe-kanban",
+          "sectionId": "interfaces"
+        },
+        {
+          "name": "VibeTree",
+          "image": "/images/interfaces-vibetree.jpg",
+          "repo": "https://github.com/sahithvibudhi/vibe-tree",
+          "open_source": true,
+          "summary": "Desktop application for parallel AI-assisted development across multiple git worktrees.",
+          "detail": "VibeTree enables developers to work on multiple features simultaneously using parallel git worktrees with integrated Claude support. Features persistent terminal sessions, VS Code and Cursor integration, and streamlined workflow management to eliminate context switching in AI-assisted development.",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "vibetree",
+          "slug": "vibetree",
+          "sectionId": "interfaces"
+        },
+        {
+          "name": "VibeTunnel",
+          "image": "/images/interfaces-vibetunnel.jpg",
+          "website": "https://vt.sh/",
+          "repo": "https://github.com/amantus-ai/vibetunnel",
+          "open_source": true,
+          "summary": "Web-based terminal proxy enabling browser access to Mac terminals with remote capabilities.",
+          "detail": "VibeTunnel turns any browser into a Mac terminal interface with zero configuration, supporting multiple terminal sessions, Git follow mode, and remote access via Tailscale or ngrok. Features AI agent monitoring and dynamic terminal titles for enhanced development workflows.",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "vibetunnel",
+          "slug": "vibetunnel",
+          "sectionId": "interfaces"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Tools and MCP servers",
+      "tagline": "Plugins, skills, and extensions that supercharge the stack.",
+      "items": [
+        {
+          "name": "playwright-mcp",
+          "image": "/images/tools-playwright-mcp.jpg",
+          "website": "",
+          "repo": "https://github.com/microsoft/playwright-mcp",
+          "open_source": true,
+          "summary": "MCP server providing browser automation capabilities using Playwright's accessibility tree.",
+          "detail": "playwright-mcp enables LLMs to interact with web pages through structured accessibility snapshots rather than pixel-based input, offering deterministic browser automation with clicking, typing, navigation, and screenshot tools for precise web interactions.",
+          "category": "Agent feedback",
+          "hot": true,
+          "agents": [
+            "claude-code",
+            "cursor",
+            "gemini-cli",
+            "codex-cli",
+            "qwen-code",
+            "opencode"
+          ],
+          "id": "playwright-mcp",
+          "slug": "playwright-mcp",
+          "sectionId": "tools"
+        },
+        {
+          "name": "Archon",
+          "image": "/images/tools-archon.jpg",
+          "website": "https://github.com/coleam00/Archon",
+          "repo": "https://github.com/coleam00/Archon",
+          "open_source": true,
+          "summary": "MCP server and knowledge management platform for AI coding assistants.",
+          "detail": "Archon provides custom knowledge bases with web crawling, vector search, and task management capabilities, supporting multiple LLMs and offering 10 MCP tools for enhanced RAG queries and collaborative development workflows.",
+          "category": "Memory",
+          "agents": [
+            "claude-code",
+            "cursor",
+            "gemini-cli",
+            "codex-cli",
+            "qwen-code",
+            "opencode"
+          ],
+          "id": "archon",
+          "slug": "archon",
+          "sectionId": "tools"
+        },
+        {
+          "name": "ccexp",
+          "image": "/images/tools-ccexp.jpg",
+          "website": "",
+          "repo": "https://github.com/nyatinte/ccexp",
+          "open_source": true,
+          "summary": "Interactive CLI tool for exploring and managing Claude Code configuration files.",
+          "detail": "ccexp provides a split-pane terminal interface for discovering project and user-level Claude Code configurations including memory files, slash commands, and subagent settings. Features keyboard-driven navigation, live search, file preview with syntax highlighting, and batch operations for efficient configuration management.",
+          "category": "Codebase understanding",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "ccexp",
+          "slug": "ccexp",
+          "sectionId": "tools"
+        },
+        {
+          "name": "cchistory",
+          "image": "/images/tools-cchistory.jpg",
+          "website": "",
+          "repo": "https://github.com/eckardt/cchistory",
+          "open_source": true,
+          "summary": "Shell history tracker for Claude Code, extracting and organizing AI-executed commands across projects.",
+          "detail": "cchistory is a command-line tool that captures and displays shell commands executed during Claude Code conversations, allowing developers to review, search, and analyze command history across different projects. It provides a seamless way to track and learn from AI-generated shell interactions.",
+          "category": "Other tools",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "cchistory",
+          "slug": "cchistory",
+          "sectionId": "tools"
+        },
+        {
+          "name": "cco",
+          "image": "/images/tools-cco.jpg",
+          "website": "",
+          "repo": "https://github.com/nikvdp/cco",
+          "open_source": true,
+          "summary": "Protective wrapper for Claude Code with zero-config sandboxed execution.",
+          "detail": "cco provides automatic sandboxing for Claude Code using native OS tools or Docker fallback, enabling secure isolated interactions while maintaining seamless user experience and preserving project context across platforms.",
+          "category": "Security",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "cco",
+          "slug": "cco",
+          "sectionId": "tools"
+        },
+        {
+          "name": "Claude Checkpoints",
+          "image": "/images/tools-claude-checkpoints.jpg",
+          "website": "https://claude-checkpoints.com/",
+          "open_source": false,
+          "summary": "Automatic version control and backup tool for AI coding workflows with MCP integration.",
+          "detail": "Claude Checkpoints provides comprehensive project tracking during AI-assisted development by creating automatic snapshots, offering visual diff viewing, and enabling instant project restoration. The macOS desktop application integrates with Claude Desktop via MCP server to provide safety and confidence during coding workflows with seamless task monitoring and recovery capabilities.",
+          "category": "Backups and change management",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "claude-checkpoints",
+          "slug": "claude-checkpoints",
+          "sectionId": "tools"
+        },
+        {
+          "name": "Claude Code Enhanced Statusline",
+          "image": "/images/tools-claude-code-enhanced-statusline.jpg",
+          "repo": "https://github.com/rz1989s/claude-code-statusline",
+          "open_source": true,
+          "summary": "4-line terminal statusline for Claude Code with real-time cost tracking and MCP server monitoring.",
+          "detail": "Claude Code Enhanced Statusline transforms the Claude Code terminal experience with a comprehensive statusline showing repository status, cost tracking, server health, and conversation timing. Features intelligent universal caching that reduces command execution by 70-90% and includes customizable themes with enterprise-grade configuration.",
+          "category": "Other tools",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "claude-code-enhanced-statusline",
+          "slug": "claude-code-enhanced-statusline",
+          "sectionId": "tools"
+        },
+        {
+          "name": "Claude Code Project Index",
+          "image": "/images/tools-claude-code-project-index.jpg",
+          "website": "",
+          "repo": "https://github.com/ericbuess/claude-code-project-index",
+          "open_source": true,
+          "summary": "CLI tool that generates architectural awareness for AI coding assistants through project indexing.",
+          "detail": "Claude Code Project Index automatically creates PROJECT_INDEX.json files with project structure, functions, classes, and call relationships. Supports multiple programming languages and provides three usage modes for enhanced codebase understanding in AI-assisted development workflows.",
+          "category": "Codebase understanding",
+          "agents": [
+            "claude-code",
+            "cursor"
+          ],
+          "id": "claude-code-project-index",
+          "slug": "claude-code-project-index",
+          "sectionId": "tools"
+        },
+        {
+          "name": "Claude Squad",
+          "image": "/images/tools-claude-squad.jpg",
+          "website": "https://smtg-ai.github.io/claude-squad/",
+          "repo": "https://github.com/smtg-ai/claude-squad",
+          "open_source": true,
+          "summary": "Terminal application for managing multiple AI coding agents in isolated git workspaces.",
+          "detail": "Claude Squad coordinates multiple AI agents like Claude Code, Codex, and Aider using tmux sessions and git worktrees for isolation. Features background task completion, session management, change review workflows, and automatic GitHub branch operations for streamlined multi-agent development.",
+          "category": "Task management",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "claude-squad",
+          "slug": "claude-squad",
+          "sectionId": "tools"
+        },
+        {
+          "name": "Code Conductor",
+          "image": "/images/tools-code-conductor.jpg",
+          "website": "",
+          "repo": "https://github.com/ryanmac/code-conductor",
+          "open_source": true,
+          "summary": "Multi-agent orchestration tool enabling parallel AI coding workflows with git worktree isolation.",
+          "detail": "Code Conductor orchestrates multiple AI coding agents simultaneously across isolated git worktrees to eliminate sequential bottlenecks. Features automatic task claiming, zero merge conflicts through workspace isolation, and streamlined GitHub Actions workflows for autonomous agent development.",
+          "category": "Task management",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "code-conductor",
+          "slug": "code-conductor",
+          "sectionId": "tools"
+        },
+        {
+          "name": "Dmux",
+          "image": "/images/tools-dmux.jpg",
+          "website": "",
+          "repo": "https://github.com/justin-schroeder/dmux",
+          "open_source": true,
+          "summary": "CLI tool for simplified parallel development with AI agents using tmux and git worktrees.",
+          "detail": "Dmux enables developers to run multiple parallel development agents simultaneously with isolated git worktrees and tmux panes for each task. Features AI-powered branch naming and commit management, Claude Code integration, and one-command merge workflows for streamlined multi-agent development.",
+          "category": "Task management",
+          "agents": [
+            "claude-code",
+            "opencode"
+          ],
+          "id": "dmux",
+          "slug": "dmux",
+          "sectionId": "tools"
+        },
+        {
+          "name": "In Memoria",
+          "image": "/images/tools-in-memoria.jpg",
+          "website": "",
+          "repo": "https://github.com/pi22by7/In-Memoria",
+          "open_source": true,
+          "summary": "Persistent intelligence infrastructure MCP server that learns coding patterns for AI agents.",
+          "detail": "In Memoria provides a Model Context Protocol server with Rust-based engines for AST parsing, pattern learning, and semantic code analysis. Learns developer-specific coding styles, naming conventions, and architectural decisions, offering 17 tools for codebase analysis and context-aware recommendations across AI coding assistants.",
+          "category": "Memory",
+          "agents": [
+            "claude-code",
+            "cursor",
+            "gemini-cli",
+            "codex-cli",
+            "qwen-code",
+            "opencode"
+          ],
+          "id": "in-memoria",
+          "slug": "in-memoria",
+          "sectionId": "tools"
+        },
+        {
+          "name": "Kratos MCP",
+          "image": "/images/tools-kratos-mcp.jpg",
+          "website": "",
+          "repo": "https://github.com/ceorkm/kratos-mcp",
+          "open_source": true,
+          "summary": "Memory system MCP server for AI coding tools with 95.8% context accuracy.",
+          "detail": "Kratos MCP provides persistent memory for AI coding tools using a Four Pillars Framework with SQLite storage, ensuring AI maintains project context across sessions with sub-10ms retrieval times and automatic project isolation.",
+          "category": "Memory",
+          "agents": [
+            "claude-code",
+            "cursor",
+            "gemini-cli",
+            "codex-cli",
+            "qwen-code",
+            "opencode"
+          ],
+          "id": "kratos-mcp",
+          "slug": "kratos-mcp",
+          "sectionId": "tools"
+        },
+        {
+          "name": "Shotgun App",
+          "image": "/images/tools-shotgun-app.jpg",
+          "website": "",
+          "repo": "https://github.com/glebkudr/shotgun_code",
+          "open_source": true,
+          "summary": "Desktop tool for preparing comprehensive project context for AI coding assistants.",
+          "detail": "Shotgun App enables one-click generation of structured project payloads for LLM interactions, allowing selective file exclusion and supporting whole-repository analysis and modification workflows with ChatGPT, Gemini, and other AI assistants.",
+          "category": "Codebase understanding",
+          "id": "shotgun-app",
+          "slug": "shotgun-app",
+          "sectionId": "tools"
+        },
+        {
+          "name": "Superdesign",
+          "image": "/images/tools-superdesign.jpg",
+          "website": "https://www.superdesign.dev/",
+          "repo": "https://github.com/superdesigndev/superdesign",
+          "open_source": true,
+          "summary": "Open source AI design agent for generating UI mockups and components inside IDEs.",
+          "detail": "Superdesign integrates directly into VS Code, Cursor, Windsurf, and Claude Code to generate UI screens, wireframes, and reusable components from natural language prompts. Enables parallel design exploration and rapid prototyping within development environments, eliminating context switching between design and coding workflows.",
+          "category": "Design",
+          "agents": [
+            "claude-code",
+            "cursor"
+          ],
+          "id": "superdesign",
+          "slug": "superdesign",
+          "sectionId": "tools"
+        }
+      ]
+    },
+    {
+      "id": "workflows",
+      "title": "Vibe-coding workflows",
+      "tagline": "Repeatable playbooks, autopilot patterns, and rituals.",
+      "items": [
+        {
+          "name": "BMAD-METHOD",
+          "image": "/images/workflows-bmad-method.jpg",
+          "website": "",
+          "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+          "open_source": true,
+          "summary": "AI-driven agile development framework with specialized agent orchestration and context engineering.",
+          "detail": "BMAD-METHOD combines agentic planning with context-engineered development, using specialized AI agents (Analyst, Product Manager, Architect, Scrum Master) to create detailed PRDs and hyper-detailed development stories that embed full implementation context and architectural guidance directly in story files.",
+          "agents": [
+            "claude-code",
+            "cursor",
+            "gemini-cli",
+            "codex-cli",
+            "qwen-code",
+            "opencode"
+          ],
+          "id": "bmad-method",
+          "slug": "bmad-method",
+          "sectionId": "workflows"
+        },
+        {
+          "name": "Claude Code PM",
+          "image": "/images/workflows-claude-code-pm.jpg",
+          "website": "",
+          "repo": "https://github.com/automazeio/ccpm",
+          "open_source": true,
+          "summary": "GitHub Issues-based project management system for AI-powered parallel development workflows.",
+          "detail": "Claude Code PM transforms product requirements into GitHub Issues with traceable task breakdown, enabling 5-8 parallel AI agent streams instead of sequential work. Features automatic context preservation, reduces context switching by 89%, and accelerates feature delivery up to 3x while maintaining 75% reduction in bug rates.",
+          "agents": [
+            "claude-code"
+          ],
+          "id": "claude-code-pm",
+          "slug": "claude-code-pm",
+          "sectionId": "workflows"
+        },
+        {
+          "name": "Spec Kit",
+          "image": "/images/workflows-spec-kit.jpg",
+          "repo": "https://github.com/github/spec-kit",
+          "open_source": true,
+          "summary": "Spec-driven development methodology that makes specifications executable for AI-assisted software creation.",
+          "detail": "Spec Kit enables intent-driven development by transforming rich specifications directly into working implementations using AI coding agents. Supports parallel implementation exploration and iterative system enhancement with explicit compatibility for Claude Code, GitHub Copilot, and Gemini CLI.",
+          "agents": [
+            "claude-code",
+            "gemini-cli"
+          ],
+          "id": "spec-kit",
+          "slug": "spec-kit",
+          "sectionId": "workflows"
+        },
+        {
+          "name": "Task Master",
+          "image": "/images/workflows-task-master.jpg",
+          "website": "https://www.task-master.dev/",
+          "repo": "",
+          "open_source": true,
+          "summary": "AI-powered task management system for coding workflows with MCP integration.",
+          "detail": "Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage.",
+          "agents": [
+            "claude-code",
+            "cursor",
+            "cline",
+            "windsurf"
+          ],
+          "id": "task-master",
+          "slug": "task-master",
+          "sectionId": "workflows"
+        }
+      ]
+    },
+    {
+      "id": "hosted-agents",
+      "title": "Cloud-only agents",
+      "tagline": "Ready-to-run services with nothing to install.",
+      "items": [
+        {
+          "name": "Bolt.new",
+          "image": "/images/agents-bolt-new.jpg",
+          "website": "https://bolt.new/",
+          "open_source": false,
+          "summary": "Cloud-based AI coding agent for building and deploying full-stack web applications through conversational prompts.",
+          "detail": "Bolt.new provides a complete browser-based development environment with AI-powered code generation, supporting React, Vue, Next.js, and other modern frameworks. Features full npm ecosystem access, integrated terminal, automatic deployment to .bolt.host domains, and AI control over the entire development environment including filesystem and package management.",
+          "id": "bolt-new",
+          "slug": "bolt-new",
+          "sectionId": "hosted-agents"
+        },
+        {
+          "name": "Devin",
+          "image": "/images/agents-devin.jpg",
+          "website": "https://devin.ai/",
+          "repo": "",
+          "open_source": false,
+          "summary": "Autonomous AI software engineer that completes complex engineering tasks across codebases.",
+          "detail": "Devin handles code migration, refactoring, bug fixes, and development tasks with autonomous testing and PR creation, integrating with GitHub, Slack, Jira, and other platforms while learning from examples to improve performance over time.",
+          "id": "devin",
+          "slug": "devin",
+          "sectionId": "hosted-agents"
+        },
+        {
+          "name": "Lovable",
+          "image": "/images/agents-lovable.jpg",
+          "website": "https://lovable.dev/",
+          "repo": "",
+          "open_source": false,
+          "summary": "AI-powered web development platform for creating apps and websites through conversational interaction.",
+          "detail": "Lovable enables users to create applications and websites by chatting with AI, offering collaborative workspaces, GitHub sync, and Supabase integrations. The platform supports various project types from prototypes to production apps with deployment options and MCP server capabilities for enhanced AI development workflows.",
+          "id": "lovable",
+          "slug": "lovable",
+          "sectionId": "hosted-agents"
+        },
+        {
+          "name": "OpenAI Codex",
+          "image": "/images/agents-openai-codex.jpg",
+          "website": "https://chatgpt.com/codex",
+          "repo": "",
+          "open_source": false,
+          "summary": "Cloud-based autonomous coding agent with multi-task execution and isolated environments.",
+          "detail": "OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions.",
+          "id": "openai-codex",
+          "slug": "openai-codex",
+          "sectionId": "hosted-agents"
+        },
+        {
+          "name": "v0",
+          "image": "/images/agents-v0.jpg",
+          "website": "https://v0.app/",
+          "repo": "",
+          "open_source": false,
+          "summary": "AI-powered interface builder that generates React applications from text prompts and designs.",
+          "detail": "v0 converts natural language descriptions into full-stack applications with UI, content, backend, and logic. Features agentic capabilities for research and planning, generates code using Next.js, React, and Tailwind CSS, and integrates with GitHub and Vercel for seamless deployment.",
+          "id": "v0",
+          "slug": "v0",
+          "sectionId": "hosted-agents"
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "tools": [
+      "Memory",
+      "Task management",
+      "Codebase understanding",
+      "Security",
+      "Agent feedback",
+      "Design",
+      "Backups and change management",
+      "Other tools"
+    ]
+  },
+  "entries": [
+    {
+      "name": "Claude Code",
+      "image": "/images/agents-claude-code.jpg",
+      "website": "https://www.anthropic.com/claude-code",
+      "repo": "",
+      "open_source": false,
+      "summary": "AI-powered terminal coding assistant with deep codebase understanding and multi-file coordination.",
+      "detail": "Claude Code embeds Claude Opus 4.1 directly in developers' terminals, providing agentic search across entire codebases, coordinated multi-file changes, and direct command execution in development environments with integrations for VS Code, JetBrains IDEs, GitHub, and enterprise tools.",
+      "hot": true,
+      "agents": [
+        "claude-code"
+      ],
+      "id": "claude-code",
+      "slug": "claude-code",
+      "sectionId": "agents",
+      "sectionTitle": "Agents"
+    },
+    {
+      "name": "OpenAI Codex CLI",
+      "image": "/images/agents-openai-codex-cli.jpg",
+      "website": "",
+      "repo": "https://github.com/openai/codex",
+      "open_source": true,
+      "summary": "Experimental terminal-based coding agent with configurable sandbox modes.",
+      "detail": "Provides AI-powered code generation, refactoring, testing, and security scanning capabilities through both OpenAI and open-source models, with safety features including configurable sandbox execution to prevent unrestricted file access.",
+      "hot": true,
+      "agents": [
+        "codex-cli"
+      ],
+      "id": "openai-codex-cli",
+      "slug": "openai-codex-cli",
+      "sectionId": "agents",
+      "sectionTitle": "Agents"
+    },
+    {
+      "name": "Cline",
+      "image": "/images/agents-cline.jpg",
+      "website": "https://cline.bot/",
+      "repo": "https://github.com/cline/cline",
+      "open_source": true,
+      "summary": "Open source AI coding agent for VS Code with autonomous capabilities and multi-model support.",
+      "detail": "Cline operates as a VS Code extension with autonomous file editing, terminal command execution, and browser automation capabilities. Features client-side architecture for security, supports multiple AI providers including Claude and Gemini, and offers transparent AI decision-making with human approval workflows.",
+      "category": "Open source",
+      "agents": [
+        "cline"
+      ],
+      "id": "cline",
+      "slug": "cline",
+      "sectionId": "agents",
+      "sectionTitle": "Agents"
+    },
+    {
+      "name": "Cursor",
+      "image": "/images/agents-cursor.jpg",
+      "website": "https://cursor.com",
+      "repo": "",
+      "open_source": false,
+      "summary": "AI-powered code editor with predictive tab completion and natural language code editing.",
+      "detail": "Cursor is an AI-enhanced code editor that provides intelligent tab completion, codebase understanding, and natural language code modification capabilities. Imports VSCode extensions and themes while offering seamless AI integration for enhanced developer productivity.",
+      "agents": [
+        "cursor"
+      ],
+      "id": "cursor",
+      "slug": "cursor",
+      "sectionId": "agents",
+      "sectionTitle": "Agents"
+    },
+    {
+      "name": "Gemini CLI",
+      "image": "/images/agents-gemini-cli.jpg",
+      "website": "https://google-gemini.github.io/gemini-cli/",
+      "repo": "https://github.com/google-gemini/gemini-cli",
+      "open_source": true,
+      "summary": "Open source terminal-based AI agent with Gemini 2.5 Pro and multimodal capabilities.",
+      "detail": "Gemini CLI brings Google's Gemini AI directly to the terminal with code generation, Google Search integration, file operations, and 1M token context window. Supports multiple authentication methods and offers extensible architecture for developer workflows.",
+      "category": "Open source",
+      "agents": [
+        "gemini-cli"
+      ],
+      "id": "gemini-cli",
+      "slug": "gemini-cli",
+      "sectionId": "agents",
+      "sectionTitle": "Agents"
+    },
+    {
+      "name": "Kilo Code",
+      "image": "/images/agents-kilo-code.jpg",
+      "website": "https://kilocode.ai/",
+      "repo": "https://github.com/Kilo-Org/kilocode",
+      "open_source": true,
+      "summary": "Open source VS Code AI coding agent with 400+ model support and multi-mode development assistance.",
+      "detail": "Kilo Code provides multiple agent modes (Orchestrator, Architect, Code, Debug) with automatic context searching, memory bank for project retention, and hallucination-free code generation. Supports 400+ AI models via OpenRouter without requiring API keys and includes browser automation capabilities.",
+      "category": "Open source",
+      "agents": [
+        "kilo-code"
+      ],
+      "id": "kilo-code",
+      "slug": "kilo-code",
+      "sectionId": "agents",
+      "sectionTitle": "Agents"
+    },
+    {
+      "name": "Opencode",
+      "image": "/images/agents-opencode.jpg",
+      "website": "https://opencode.ai/",
+      "repo": "https://github.com/sst/opencode",
+      "open_source": true,
+      "summary": "Open source terminal-based coding agent with multi-provider LLM support.",
+      "detail": "Opencode supports 75+ LLM providers and integrates with IDEs including Cursor and VS Code, enabling flexible model subscriptions for terminal-based development workflows.",
+      "agents": [
+        "opencode"
+      ],
+      "id": "opencode",
+      "slug": "opencode",
+      "sectionId": "agents",
+      "sectionTitle": "Agents"
+    },
+    {
+      "name": "OpenHands",
+      "image": "/images/agents-openhands.jpg",
+      "website": "https://www.all-hands.dev/",
+      "repo": "https://github.com/All-Hands-AI/OpenHands",
+      "open_source": true,
+      "summary": "Open source AI software development agent platform with autonomous coding capabilities.",
+      "detail": "OpenHands enables AI agents to perform developer tasks autonomously including code modification, terminal commands, web browsing, and API calls. Supports multiple LLM providers with recommended Claude Sonnet 4 integration and offers both GUI and CLI interfaces for flexible development workflows.",
+      "category": "Open source",
+      "agents": [
+        "openhands"
+      ],
+      "id": "openhands",
+      "slug": "openhands",
+      "sectionId": "agents",
+      "sectionTitle": "Agents"
+    },
+    {
+      "name": "Qwen Code",
+      "image": "/images/agents-qwen-code.jpg",
+      "website": "",
+      "repo": "https://github.com/QwenLM/qwen-code",
+      "open_source": true,
+      "summary": "AI coding assistant CLI for exploring, developing, and automating software workflows.",
+      "detail": "Qwen Code is an intelligent command-line tool that helps developers understand, refactor, and generate code using advanced AI models. It provides workflow automation, code analysis, and supports multiple authentication methods across different regional providers.",
+      "agents": [
+        "qwen-code"
+      ],
+      "id": "qwen-code",
+      "slug": "qwen-code",
+      "sectionId": "agents",
+      "sectionTitle": "Agents"
+    },
+    {
+      "name": "Zed",
+      "image": "/images/agents-zed.jpg",
+      "website": "https://zed.dev/",
+      "repo": "https://github.com/zed-industries/zed",
+      "open_source": true,
+      "summary": "High-performance collaborative code editor with AI-powered agentic editing capabilities.",
+      "detail": "Zed is a next-generation code editor built in Rust that enables fluent collaboration between humans and AI. Features native AI integration for code generation and transformation with upcoming LLM support, multiplayer editing, and custom language models for edit prediction.",
+      "category": "Open source",
+      "agents": [
+        "zed"
+      ],
+      "id": "zed",
+      "slug": "zed",
+      "sectionId": "agents",
+      "sectionTitle": "Agents"
+    },
+    {
+      "name": "Kiro",
+      "image": "/images/apps-kiro.jpg",
+      "website": "https://kiro.dev/",
+      "repo": "",
+      "open_source": false,
+      "summary": "AI-powered IDE with spec-driven development and autonomous task execution.",
+      "detail": "Kiro transforms prompts into structured requirements and implementation tasks, supporting multimodal inputs and agent hooks for automated background workflows with Claude Sonnet integration.",
+      "hot": true,
+      "id": "kiro",
+      "slug": "kiro",
+      "sectionId": "apps",
+      "sectionTitle": "Vibe-coding apps"
+    },
+    {
+      "name": "Claudable",
+      "image": "/images/apps-claudable.jpg",
+      "website": "",
+      "repo": "https://github.com/opactorai/Claudable",
+      "open_source": true,
+      "summary": "AI-powered web application builder with natural language development and instant deployment.",
+      "detail": "Claudable enables users to create web applications through natural language descriptions using Claude Code and Cursor CLI agents. Features instant live preview, one-click Vercel deployment, automatic GitHub version control, and Supabase database integration with beautiful UI generation using Tailwind CSS and shadcn/ui.",
+      "agents": [
+        "claude-code",
+        "cursor"
+      ],
+      "id": "claudable",
+      "slug": "claudable",
+      "sectionId": "apps",
+      "sectionTitle": "Vibe-coding apps"
+    },
+    {
+      "name": "Agentrooms",
+      "image": "/images/interfaces-agentrooms.jpg",
+      "website": "https://claudecode.run/",
+      "repo": "https://github.com/baryhuang/claude-code-by-agents",
+      "open_source": true,
+      "summary": "Multi-agent workspace for collaborative development with Claude CLI.",
+      "detail": "Agentrooms provides desktop and web interfaces for coordinating specialized AI agents in collaborative software development workflows, enabling task routing via @agent-name mentions, automatic decomposition, and management of complex multi-agent projects using Claude CLI as the underlying engine.",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "agentrooms",
+      "slug": "agentrooms",
+      "sectionId": "interfaces",
+      "sectionTitle": "Agent interfaces"
+    },
+    {
+      "name": "Claude Code UI",
+      "image": "/images/interfaces-claude-code-ui.jpg",
+      "website": "https://claudecodeui.siteboon.ai/",
+      "repo": "https://github.com/siteboon/claudecodeui",
+      "open_source": true,
+      "summary": "Web and mobile interface for Claude Code with responsive design and Git integration.",
+      "detail": "Claude Code UI provides a multi-device interface with project browser, file explorer with syntax highlighting, session management, and security-focused tool permissions. Supports Claude Sonnet 4, Opus 4.1, and GPT-5 models with React-based responsive design for desktop and mobile development workflows.",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "claude-code-ui",
+      "slug": "claude-code-ui",
+      "sectionId": "interfaces",
+      "sectionTitle": "Agent interfaces"
+    },
+    {
+      "name": "claude-frontend",
+      "image": "/images/interfaces-claude-frontend.jpg",
+      "website": "",
+      "repo": "https://github.com/tobias-schuemann/claude-frontend",
+      "open_source": true,
+      "summary": "Visual interface for AI-powered code modifications with Claude CLI.",
+      "detail": "claude-frontend provides a browser widget that allows developers to select webpage elements and send them to Claude for instant code modifications, supporting multiple frameworks including Next.js, Vite, React, and Vue in local development environments.",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "claude-frontend",
+      "slug": "claude-frontend",
+      "sectionId": "interfaces",
+      "sectionTitle": "Agent interfaces"
+    },
+    {
+      "name": "Conductor",
+      "image": "/images/interfaces-conductor.jpg",
+      "website": "https://conductor.build/",
+      "repo": "",
+      "open_source": false,
+      "summary": "Desktop application for parallel management and orchestration of Claude Code agents.",
+      "detail": "Conductor enables running multiple Claude Code agents simultaneously with isolated workspaces, progress monitoring, and git worktree management. Built for developers seeking to maximize AI-assisted coding productivity through parallel agent workflows.",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "conductor",
+      "slug": "conductor",
+      "sectionId": "interfaces",
+      "sectionTitle": "Agent interfaces"
+    },
+    {
+      "name": "Crystal",
+      "image": "/images/interfaces-crystal.jpg",
+      "website": "",
+      "repo": "https://github.com/stravu/crystal",
+      "open_source": true,
+      "summary": "Desktop Electron app for managing multiple Claude Code sessions in parallel git worktrees.",
+      "detail": "Crystal enables developers to run multiple Claude Code AI sessions simultaneously with isolated git worktrees for each session. Features persistent conversation tracking, built-in git operations, change visualization, and desktop notifications for streamlined parallel AI-assisted development workflows.",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "crystal",
+      "slug": "crystal",
+      "sectionId": "interfaces",
+      "sectionTitle": "Agent interfaces"
+    },
+    {
+      "name": "Happy",
+      "image": "/images/interfaces-happy.jpg",
+      "website": "https://happy.engineering/",
+      "repo": "https://github.com/slopus/happy",
+      "open_source": true,
+      "summary": "Mobile client for Claude Code with remote access and cross-device synchronization.",
+      "detail": "Happy enables developers to control Claude Code sessions remotely via mobile and web apps, providing push notifications, instant device switching, and end-to-end encrypted code transmission across iOS, Android, and web platforms.",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "happy",
+      "slug": "happy",
+      "sectionId": "interfaces",
+      "sectionTitle": "Agent interfaces"
+    },
+    {
+      "name": "opcode",
+      "image": "/images/interfaces-opcode.jpg",
+      "website": "https://opcode.sh/",
+      "repo": "https://github.com/getAsterisk/opcode",
+      "open_source": true,
+      "summary": "Desktop GUI for Claude Code with session management and custom agent creation.",
+      "detail": "Opcode provides a visual command center for Claude Code featuring project browsers, session history tracking, custom AI agents with background execution, usage analytics, and process isolation for secure AI-assisted development workflows.",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "opcode",
+      "slug": "opcode",
+      "sectionId": "interfaces",
+      "sectionTitle": "Agent interfaces"
+    },
+    {
+      "name": "Vibe Kanban",
+      "image": "/images/interfaces-vibe-kanban.jpg",
+      "website": "https://www.vibekanban.com/",
+      "repo": "https://github.com/BloopAI/vibe-kanban",
+      "open_source": true,
+      "summary": "Kanban-style interface for managing and orchestrating multiple AI coding agents.",
+      "detail": "Vibe Kanban provides a web-based dashboard for switching between different coding agents, executing multiple agents in parallel or sequence, and tracking task statuses. Built with Rust and TypeScript, it centralizes agent configuration and supports agents like Claude Code, Gemini CLI, and Codex.",
+      "agents": [
+        "claude-code",
+        "cursor",
+        "gemini-cli",
+        "codex-cli",
+        "qwen-code"
+      ],
+      "id": "vibe-kanban",
+      "slug": "vibe-kanban",
+      "sectionId": "interfaces",
+      "sectionTitle": "Agent interfaces"
+    },
+    {
+      "name": "VibeTree",
+      "image": "/images/interfaces-vibetree.jpg",
+      "repo": "https://github.com/sahithvibudhi/vibe-tree",
+      "open_source": true,
+      "summary": "Desktop application for parallel AI-assisted development across multiple git worktrees.",
+      "detail": "VibeTree enables developers to work on multiple features simultaneously using parallel git worktrees with integrated Claude support. Features persistent terminal sessions, VS Code and Cursor integration, and streamlined workflow management to eliminate context switching in AI-assisted development.",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "vibetree",
+      "slug": "vibetree",
+      "sectionId": "interfaces",
+      "sectionTitle": "Agent interfaces"
+    },
+    {
+      "name": "VibeTunnel",
+      "image": "/images/interfaces-vibetunnel.jpg",
+      "website": "https://vt.sh/",
+      "repo": "https://github.com/amantus-ai/vibetunnel",
+      "open_source": true,
+      "summary": "Web-based terminal proxy enabling browser access to Mac terminals with remote capabilities.",
+      "detail": "VibeTunnel turns any browser into a Mac terminal interface with zero configuration, supporting multiple terminal sessions, Git follow mode, and remote access via Tailscale or ngrok. Features AI agent monitoring and dynamic terminal titles for enhanced development workflows.",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "vibetunnel",
+      "slug": "vibetunnel",
+      "sectionId": "interfaces",
+      "sectionTitle": "Agent interfaces"
+    },
+    {
+      "name": "playwright-mcp",
+      "image": "/images/tools-playwright-mcp.jpg",
+      "website": "",
+      "repo": "https://github.com/microsoft/playwright-mcp",
+      "open_source": true,
+      "summary": "MCP server providing browser automation capabilities using Playwright's accessibility tree.",
+      "detail": "playwright-mcp enables LLMs to interact with web pages through structured accessibility snapshots rather than pixel-based input, offering deterministic browser automation with clicking, typing, navigation, and screenshot tools for precise web interactions.",
+      "category": "Agent feedback",
+      "hot": true,
+      "agents": [
+        "claude-code",
+        "cursor",
+        "gemini-cli",
+        "codex-cli",
+        "qwen-code",
+        "opencode"
+      ],
+      "id": "playwright-mcp",
+      "slug": "playwright-mcp",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "Archon",
+      "image": "/images/tools-archon.jpg",
+      "website": "https://github.com/coleam00/Archon",
+      "repo": "https://github.com/coleam00/Archon",
+      "open_source": true,
+      "summary": "MCP server and knowledge management platform for AI coding assistants.",
+      "detail": "Archon provides custom knowledge bases with web crawling, vector search, and task management capabilities, supporting multiple LLMs and offering 10 MCP tools for enhanced RAG queries and collaborative development workflows.",
+      "category": "Memory",
+      "agents": [
+        "claude-code",
+        "cursor",
+        "gemini-cli",
+        "codex-cli",
+        "qwen-code",
+        "opencode"
+      ],
+      "id": "archon",
+      "slug": "archon",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "ccexp",
+      "image": "/images/tools-ccexp.jpg",
+      "website": "",
+      "repo": "https://github.com/nyatinte/ccexp",
+      "open_source": true,
+      "summary": "Interactive CLI tool for exploring and managing Claude Code configuration files.",
+      "detail": "ccexp provides a split-pane terminal interface for discovering project and user-level Claude Code configurations including memory files, slash commands, and subagent settings. Features keyboard-driven navigation, live search, file preview with syntax highlighting, and batch operations for efficient configuration management.",
+      "category": "Codebase understanding",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "ccexp",
+      "slug": "ccexp",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "cchistory",
+      "image": "/images/tools-cchistory.jpg",
+      "website": "",
+      "repo": "https://github.com/eckardt/cchistory",
+      "open_source": true,
+      "summary": "Shell history tracker for Claude Code, extracting and organizing AI-executed commands across projects.",
+      "detail": "cchistory is a command-line tool that captures and displays shell commands executed during Claude Code conversations, allowing developers to review, search, and analyze command history across different projects. It provides a seamless way to track and learn from AI-generated shell interactions.",
+      "category": "Other tools",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "cchistory",
+      "slug": "cchistory",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "cco",
+      "image": "/images/tools-cco.jpg",
+      "website": "",
+      "repo": "https://github.com/nikvdp/cco",
+      "open_source": true,
+      "summary": "Protective wrapper for Claude Code with zero-config sandboxed execution.",
+      "detail": "cco provides automatic sandboxing for Claude Code using native OS tools or Docker fallback, enabling secure isolated interactions while maintaining seamless user experience and preserving project context across platforms.",
+      "category": "Security",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "cco",
+      "slug": "cco",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "Claude Checkpoints",
+      "image": "/images/tools-claude-checkpoints.jpg",
+      "website": "https://claude-checkpoints.com/",
+      "open_source": false,
+      "summary": "Automatic version control and backup tool for AI coding workflows with MCP integration.",
+      "detail": "Claude Checkpoints provides comprehensive project tracking during AI-assisted development by creating automatic snapshots, offering visual diff viewing, and enabling instant project restoration. The macOS desktop application integrates with Claude Desktop via MCP server to provide safety and confidence during coding workflows with seamless task monitoring and recovery capabilities.",
+      "category": "Backups and change management",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "claude-checkpoints",
+      "slug": "claude-checkpoints",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "Claude Code Enhanced Statusline",
+      "image": "/images/tools-claude-code-enhanced-statusline.jpg",
+      "repo": "https://github.com/rz1989s/claude-code-statusline",
+      "open_source": true,
+      "summary": "4-line terminal statusline for Claude Code with real-time cost tracking and MCP server monitoring.",
+      "detail": "Claude Code Enhanced Statusline transforms the Claude Code terminal experience with a comprehensive statusline showing repository status, cost tracking, server health, and conversation timing. Features intelligent universal caching that reduces command execution by 70-90% and includes customizable themes with enterprise-grade configuration.",
+      "category": "Other tools",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "claude-code-enhanced-statusline",
+      "slug": "claude-code-enhanced-statusline",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "Claude Code Project Index",
+      "image": "/images/tools-claude-code-project-index.jpg",
+      "website": "",
+      "repo": "https://github.com/ericbuess/claude-code-project-index",
+      "open_source": true,
+      "summary": "CLI tool that generates architectural awareness for AI coding assistants through project indexing.",
+      "detail": "Claude Code Project Index automatically creates PROJECT_INDEX.json files with project structure, functions, classes, and call relationships. Supports multiple programming languages and provides three usage modes for enhanced codebase understanding in AI-assisted development workflows.",
+      "category": "Codebase understanding",
+      "agents": [
+        "claude-code",
+        "cursor"
+      ],
+      "id": "claude-code-project-index",
+      "slug": "claude-code-project-index",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "Claude Squad",
+      "image": "/images/tools-claude-squad.jpg",
+      "website": "https://smtg-ai.github.io/claude-squad/",
+      "repo": "https://github.com/smtg-ai/claude-squad",
+      "open_source": true,
+      "summary": "Terminal application for managing multiple AI coding agents in isolated git workspaces.",
+      "detail": "Claude Squad coordinates multiple AI agents like Claude Code, Codex, and Aider using tmux sessions and git worktrees for isolation. Features background task completion, session management, change review workflows, and automatic GitHub branch operations for streamlined multi-agent development.",
+      "category": "Task management",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "claude-squad",
+      "slug": "claude-squad",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "Code Conductor",
+      "image": "/images/tools-code-conductor.jpg",
+      "website": "",
+      "repo": "https://github.com/ryanmac/code-conductor",
+      "open_source": true,
+      "summary": "Multi-agent orchestration tool enabling parallel AI coding workflows with git worktree isolation.",
+      "detail": "Code Conductor orchestrates multiple AI coding agents simultaneously across isolated git worktrees to eliminate sequential bottlenecks. Features automatic task claiming, zero merge conflicts through workspace isolation, and streamlined GitHub Actions workflows for autonomous agent development.",
+      "category": "Task management",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "code-conductor",
+      "slug": "code-conductor",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "Dmux",
+      "image": "/images/tools-dmux.jpg",
+      "website": "",
+      "repo": "https://github.com/justin-schroeder/dmux",
+      "open_source": true,
+      "summary": "CLI tool for simplified parallel development with AI agents using tmux and git worktrees.",
+      "detail": "Dmux enables developers to run multiple parallel development agents simultaneously with isolated git worktrees and tmux panes for each task. Features AI-powered branch naming and commit management, Claude Code integration, and one-command merge workflows for streamlined multi-agent development.",
+      "category": "Task management",
+      "agents": [
+        "claude-code",
+        "opencode"
+      ],
+      "id": "dmux",
+      "slug": "dmux",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "In Memoria",
+      "image": "/images/tools-in-memoria.jpg",
+      "website": "",
+      "repo": "https://github.com/pi22by7/In-Memoria",
+      "open_source": true,
+      "summary": "Persistent intelligence infrastructure MCP server that learns coding patterns for AI agents.",
+      "detail": "In Memoria provides a Model Context Protocol server with Rust-based engines for AST parsing, pattern learning, and semantic code analysis. Learns developer-specific coding styles, naming conventions, and architectural decisions, offering 17 tools for codebase analysis and context-aware recommendations across AI coding assistants.",
+      "category": "Memory",
+      "agents": [
+        "claude-code",
+        "cursor",
+        "gemini-cli",
+        "codex-cli",
+        "qwen-code",
+        "opencode"
+      ],
+      "id": "in-memoria",
+      "slug": "in-memoria",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "Kratos MCP",
+      "image": "/images/tools-kratos-mcp.jpg",
+      "website": "",
+      "repo": "https://github.com/ceorkm/kratos-mcp",
+      "open_source": true,
+      "summary": "Memory system MCP server for AI coding tools with 95.8% context accuracy.",
+      "detail": "Kratos MCP provides persistent memory for AI coding tools using a Four Pillars Framework with SQLite storage, ensuring AI maintains project context across sessions with sub-10ms retrieval times and automatic project isolation.",
+      "category": "Memory",
+      "agents": [
+        "claude-code",
+        "cursor",
+        "gemini-cli",
+        "codex-cli",
+        "qwen-code",
+        "opencode"
+      ],
+      "id": "kratos-mcp",
+      "slug": "kratos-mcp",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "Shotgun App",
+      "image": "/images/tools-shotgun-app.jpg",
+      "website": "",
+      "repo": "https://github.com/glebkudr/shotgun_code",
+      "open_source": true,
+      "summary": "Desktop tool for preparing comprehensive project context for AI coding assistants.",
+      "detail": "Shotgun App enables one-click generation of structured project payloads for LLM interactions, allowing selective file exclusion and supporting whole-repository analysis and modification workflows with ChatGPT, Gemini, and other AI assistants.",
+      "category": "Codebase understanding",
+      "id": "shotgun-app",
+      "slug": "shotgun-app",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "Superdesign",
+      "image": "/images/tools-superdesign.jpg",
+      "website": "https://www.superdesign.dev/",
+      "repo": "https://github.com/superdesigndev/superdesign",
+      "open_source": true,
+      "summary": "Open source AI design agent for generating UI mockups and components inside IDEs.",
+      "detail": "Superdesign integrates directly into VS Code, Cursor, Windsurf, and Claude Code to generate UI screens, wireframes, and reusable components from natural language prompts. Enables parallel design exploration and rapid prototyping within development environments, eliminating context switching between design and coding workflows.",
+      "category": "Design",
+      "agents": [
+        "claude-code",
+        "cursor"
+      ],
+      "id": "superdesign",
+      "slug": "superdesign",
+      "sectionId": "tools",
+      "sectionTitle": "Tools and MCP servers"
+    },
+    {
+      "name": "BMAD-METHOD",
+      "image": "/images/workflows-bmad-method.jpg",
+      "website": "",
+      "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+      "open_source": true,
+      "summary": "AI-driven agile development framework with specialized agent orchestration and context engineering.",
+      "detail": "BMAD-METHOD combines agentic planning with context-engineered development, using specialized AI agents (Analyst, Product Manager, Architect, Scrum Master) to create detailed PRDs and hyper-detailed development stories that embed full implementation context and architectural guidance directly in story files.",
+      "agents": [
+        "claude-code",
+        "cursor",
+        "gemini-cli",
+        "codex-cli",
+        "qwen-code",
+        "opencode"
+      ],
+      "id": "bmad-method",
+      "slug": "bmad-method",
+      "sectionId": "workflows",
+      "sectionTitle": "Vibe-coding workflows"
+    },
+    {
+      "name": "Claude Code PM",
+      "image": "/images/workflows-claude-code-pm.jpg",
+      "website": "",
+      "repo": "https://github.com/automazeio/ccpm",
+      "open_source": true,
+      "summary": "GitHub Issues-based project management system for AI-powered parallel development workflows.",
+      "detail": "Claude Code PM transforms product requirements into GitHub Issues with traceable task breakdown, enabling 5-8 parallel AI agent streams instead of sequential work. Features automatic context preservation, reduces context switching by 89%, and accelerates feature delivery up to 3x while maintaining 75% reduction in bug rates.",
+      "agents": [
+        "claude-code"
+      ],
+      "id": "claude-code-pm",
+      "slug": "claude-code-pm",
+      "sectionId": "workflows",
+      "sectionTitle": "Vibe-coding workflows"
+    },
+    {
+      "name": "Spec Kit",
+      "image": "/images/workflows-spec-kit.jpg",
+      "repo": "https://github.com/github/spec-kit",
+      "open_source": true,
+      "summary": "Spec-driven development methodology that makes specifications executable for AI-assisted software creation.",
+      "detail": "Spec Kit enables intent-driven development by transforming rich specifications directly into working implementations using AI coding agents. Supports parallel implementation exploration and iterative system enhancement with explicit compatibility for Claude Code, GitHub Copilot, and Gemini CLI.",
+      "agents": [
+        "claude-code",
+        "gemini-cli"
+      ],
+      "id": "spec-kit",
+      "slug": "spec-kit",
+      "sectionId": "workflows",
+      "sectionTitle": "Vibe-coding workflows"
+    },
+    {
+      "name": "Task Master",
+      "image": "/images/workflows-task-master.jpg",
+      "website": "https://www.task-master.dev/",
+      "repo": "",
+      "open_source": true,
+      "summary": "AI-powered task management system for coding workflows with MCP integration.",
+      "detail": "Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage.",
+      "agents": [
+        "claude-code",
+        "cursor",
+        "cline",
+        "windsurf"
+      ],
+      "id": "task-master",
+      "slug": "task-master",
+      "sectionId": "workflows",
+      "sectionTitle": "Vibe-coding workflows"
+    },
+    {
+      "name": "Bolt.new",
+      "image": "/images/agents-bolt-new.jpg",
+      "website": "https://bolt.new/",
+      "open_source": false,
+      "summary": "Cloud-based AI coding agent for building and deploying full-stack web applications through conversational prompts.",
+      "detail": "Bolt.new provides a complete browser-based development environment with AI-powered code generation, supporting React, Vue, Next.js, and other modern frameworks. Features full npm ecosystem access, integrated terminal, automatic deployment to .bolt.host domains, and AI control over the entire development environment including filesystem and package management.",
+      "id": "bolt-new",
+      "slug": "bolt-new",
+      "sectionId": "hosted-agents",
+      "sectionTitle": "Cloud-only agents"
+    },
+    {
+      "name": "Devin",
+      "image": "/images/agents-devin.jpg",
+      "website": "https://devin.ai/",
+      "repo": "",
+      "open_source": false,
+      "summary": "Autonomous AI software engineer that completes complex engineering tasks across codebases.",
+      "detail": "Devin handles code migration, refactoring, bug fixes, and development tasks with autonomous testing and PR creation, integrating with GitHub, Slack, Jira, and other platforms while learning from examples to improve performance over time.",
+      "id": "devin",
+      "slug": "devin",
+      "sectionId": "hosted-agents",
+      "sectionTitle": "Cloud-only agents"
+    },
+    {
+      "name": "Lovable",
+      "image": "/images/agents-lovable.jpg",
+      "website": "https://lovable.dev/",
+      "repo": "",
+      "open_source": false,
+      "summary": "AI-powered web development platform for creating apps and websites through conversational interaction.",
+      "detail": "Lovable enables users to create applications and websites by chatting with AI, offering collaborative workspaces, GitHub sync, and Supabase integrations. The platform supports various project types from prototypes to production apps with deployment options and MCP server capabilities for enhanced AI development workflows.",
+      "id": "lovable",
+      "slug": "lovable",
+      "sectionId": "hosted-agents",
+      "sectionTitle": "Cloud-only agents"
+    },
+    {
+      "name": "OpenAI Codex",
+      "image": "/images/agents-openai-codex.jpg",
+      "website": "https://chatgpt.com/codex",
+      "repo": "",
+      "open_source": false,
+      "summary": "Cloud-based autonomous coding agent with multi-task execution and isolated environments.",
+      "detail": "OpenAI Codex operates in secure cloud sandboxes to handle multiple software engineering tasks simultaneously, including writing features, fixing bugs, and running tests, with 75% accuracy and support for ChatGPT Plus/Pro subscriptions.",
+      "id": "openai-codex",
+      "slug": "openai-codex",
+      "sectionId": "hosted-agents",
+      "sectionTitle": "Cloud-only agents"
+    },
+    {
+      "name": "v0",
+      "image": "/images/agents-v0.jpg",
+      "website": "https://v0.app/",
+      "repo": "",
+      "open_source": false,
+      "summary": "AI-powered interface builder that generates React applications from text prompts and designs.",
+      "detail": "v0 converts natural language descriptions into full-stack applications with UI, content, backend, and logic. Features agentic capabilities for research and planning, generates code using Next.js, React, and Tailwind CSS, and integrates with GitHub and Vercel for seamless deployment.",
+      "id": "v0",
+      "slug": "v0",
+      "sectionId": "hosted-agents",
+      "sectionTitle": "Cloud-only agents"
+    }
+  ],
+  "config": {
+    "agents": [
+      "claude-code",
+      "cursor",
+      "gemini-cli",
+      "codex-cli"
+    ]
+  }
+}

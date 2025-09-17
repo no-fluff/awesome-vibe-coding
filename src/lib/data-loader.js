@@ -68,6 +68,7 @@ export function loadData() {
   const parsed = TOML.parse(fileContents);
 
   const categories = parsed.categories || {};
+  const config = parsed.config || {};
 
   const sections = SECTION_DEFINITIONS.map((definition) => {
     const items = normalizeItems(definition.id, parsed[definition.id]);
@@ -88,7 +89,8 @@ export function loadData() {
   return {
     sections,
     categories,
-    entries
+    entries,
+    config
   };
 }
 

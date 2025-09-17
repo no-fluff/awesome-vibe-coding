@@ -3,7 +3,33 @@ import Layout from '../layouts/Layout.astro';
 import { loadData } from '../lib/data-loader.js';
 import { buildSearchText, tileStyle, getAggregatedCategories } from '../lib/catalog-helpers.js';
 
-const { sections, categories } = loadData();
+const siteVariant = import.meta.env.PUBLIC_SITE_VARIANT || 'awesome-vibe-coding';
+const agentFilter = import.meta.env.PUBLIC_AGENT_FILTER;
+const showAgentFilter = import.meta.env.PUBLIC_SHOW_AGENT_FILTER !== false;
+
+let { sections, categories, config } = loadData();
+
+// Filter items based on agent if specified
+if (agentFilter) {
+  sections = sections.map(section => ({
+    ...section,
+    items: section.items.filter(item => 
+      item.agents && Array.isArray(item.agents) && item.agents.includes(agentFilter)
+    )
+  })).filter(section => section.items.length > 0);
+  
+  // Rebuild categories for filtered items
+  categories = {};
+  sections.forEach(section => {
+    const sectionCategories = new Set();
+    section.items.forEach(item => {
+      if (item.category) sectionCategories.add(item.category);
+    });
+    if (sectionCategories.size > 0) {
+      categories[section.id] = Array.from(sectionCategories).sort();
+    }
+  });
+}
 
 const typeOptions = sections.map((section) => ({
   value: section.id,
@@ -12,23 +38,42 @@ const typeOptions = sections.map((section) => ({
 
 const aggregatedCategories = getAggregatedCategories(categories);
 
+// Use agents from config.agents instead of extracting from items
+const uniqueAgents = config.agents || [];
+
 const categoriesJSON = JSON.stringify(categories);
 const totalEntries = sections.reduce((count, section) => count + section.items.length, 0);
+
+// Get title based on site variant
+const siteTitle = siteVariant
+  .replace('awesome-', '')
+  .split('-')
+  .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+  .join(' ');
+const fullTitle = `Awesome ${siteTitle}`;
 ---
 
-<Layout title="Awesome Vibe Coding">
+<Layout title={fullTitle}>
   <main class="stream-page">
     <header class="page-hero">
       <div class="hero-content">
         <h1 class="hero-title">
           <span class="hero-gradient">Awesome</span>
-          <span class="hero-text">Vibe Coding</span>
+          <span class="hero-text">{siteTitle}</span>
         </h1>
         <p class="hero-subtitle">
           Discover agents, interfaces, and automations that transform your development workflow
         </p>
+        {siteVariant === 'awesome-vibe-coding' && (
+          <nav class="site-nav">
+            <a href="https://awesome-claude-code.com" class="nav-link">Awesome Claude Code</a>
+            <a href="https://awesome-gemini-cli.com" class="nav-link">Awesome Gemini CLI</a>
+            <a href="https://awesome-opencode.com" class="nav-link">Awesome Opencode</a>
+            <a href="https://awesome-codex-cli.com" class="nav-link">Awesome Codex CLI</a>
+          </nav>
+        )}
         <div class="hero-actions">
-          <a class="btn-primary" href="https://github.com/no-fluff/awesome-vibe-coding" target="_blank" rel="noreferrer">
+          <a class="btn-primary" href={`https://github.com/no-fluff/${siteVariant}`} target="_blank" rel="noreferrer">
             <svg aria-hidden="true" viewBox="0 0 16 16">
               <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
             </svg>
@@ -60,6 +105,15 @@ const totalEntries = sections.reduce((count, section) => count + section.items.l
             <option value={category}>{category}</option>
           ))}
         </select>
+        
+        {showAgentFilter && (
+          <select data-role="agent-filter" class="filter-select">
+            <option value="all" selected>Works with</option>
+            {uniqueAgents.map((agent) => (
+              <option value={agent}>{agent.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase())}</option>
+            ))}
+          </select>
+        )}
         
         <div class="filter-toggles">
           <label class="toggle-item">
@@ -99,6 +153,9 @@ const totalEntries = sections.reduce((count, section) => count + section.items.l
             const categoriesForItem = [item.category]
               .filter(Boolean)
               .join('|');
+            const agentsForItem = item.agents && Array.isArray(item.agents) 
+              ? item.agents.join('|') 
+              : '';
 
             return (
               <article
@@ -106,6 +163,7 @@ const totalEntries = sections.reduce((count, section) => count + section.items.l
                 data-role="tile"
                 data-section={section.id}
                 data-categories={categoriesForItem}
+                data-agents={agentsForItem}
                 data-open-source={item.open_source ? 'true' : 'false'}
                 data-hot={item.hot ? 'true' : 'false'}
                 data-search={searchText}
@@ -174,11 +232,13 @@ const totalEntries = sections.reduce((count, section) => count + section.items.l
   </main>
 
   <script type="application/json" id="category-data" set:html={categoriesJSON}></script>
+  <script type="application/json" id="site-config" set:html={JSON.stringify({ showAgentFilter })}></script>
   <script>
     (() => {
       const searchInput = document.querySelector('[data-role="search"]');
       const typeSelect = document.querySelector('[data-role="type-filter"]');
       const categorySelect = document.querySelector('[data-role="category-filter"]');
+      const agentSelect = document.querySelector('[data-role="agent-filter"]');
       const openSourceToggle = document.querySelector('[data-role="open-source-filter"]');
       const hotToggle = document.querySelector('[data-role="hot-filter"]');
       const tiles = Array.from(document.querySelectorAll('[data-role="tile"]'));
@@ -187,6 +247,7 @@ const totalEntries = sections.reduce((count, section) => count + section.items.l
       const emptyState = document.querySelector('[data-role="empty-state"]');
       const resultsMeta = document.querySelector('[data-role="results-meta"]');
       const categoriesData = JSON.parse(document.getElementById('category-data').textContent || '{}');
+      const siteConfig = JSON.parse(document.getElementById('site-config').textContent || '{}');
 
       const allCategories = Array.from(
         new Set(
@@ -239,6 +300,7 @@ const totalEntries = sections.reduce((count, section) => count + section.items.l
         typeSelect.value = 'all';
         updateCategoryOptions('all');
         categorySelect.value = 'all';
+        agentSelect.value = 'all';
         openSourceToggle.checked = false;
         hotToggle.checked = false;
         applyFilters();
@@ -248,11 +310,12 @@ const totalEntries = sections.reduce((count, section) => count + section.items.l
         const query = (searchInput.value || '').trim().toLowerCase();
         const sectionFilter = typeSelect.value;
         const categoryFilter = categorySelect.value;
+        const agentFilter = siteConfig.showAgentFilter && agentSelect ? agentSelect.value : 'all';
         const openOnly = openSourceToggle.checked;
         const hotOnly = hotToggle.checked;
 
         let visibleTiles = 0;
-        const hasActiveFilters = query || sectionFilter !== 'all' || categoryFilter !== 'all' || openOnly || hotOnly;
+        const hasActiveFilters = query || sectionFilter !== 'all' || categoryFilter !== 'all' || agentFilter !== 'all' || openOnly || hotOnly;
         
         // Update filter bar visual state
         const filterBar = document.querySelector('.filter-bar');
@@ -267,10 +330,12 @@ const totalEntries = sections.reduce((count, section) => count + section.items.l
             const matchesSection = sectionFilter === 'all' || tile.dataset.section === sectionFilter;
             const tileCategories = tile.dataset.categories ? tile.dataset.categories.split('|') : [];
             const matchesCategory = categoryFilter === 'all' || tileCategories.includes(categoryFilter);
+            const tileAgents = tile.dataset.agents ? tile.dataset.agents.split('|') : [];
+            const matchesAgent = agentFilter === 'all' || tileAgents.includes(agentFilter);
             const matchesOpen = !openOnly || tile.dataset.openSource === 'true';
             const matchesHot = !hotOnly || tile.dataset.hot === 'true';
 
-            const isVisible = matchesQuery && matchesSection && matchesCategory && matchesOpen && matchesHot;
+            const isVisible = matchesQuery && matchesSection && matchesCategory && matchesAgent && matchesOpen && matchesHot;
 
             tile.style.display = isVisible ? '' : 'none';
             tile.classList.toggle('is-hidden', !isVisible);
@@ -337,6 +402,9 @@ const totalEntries = sections.reduce((count, section) => count + section.items.l
       });
       
       categorySelect.addEventListener('change', applyFilters);
+      if (agentSelect) {
+        agentSelect.addEventListener('change', applyFilters);
+      }
       openSourceToggle.addEventListener('change', applyFilters);
       hotToggle.addEventListener('change', applyFilters);
 
@@ -410,6 +478,33 @@ const totalEntries = sections.reduce((count, section) => count + section.items.l
       radial-gradient(circle at 70% 50%, rgba(251, 191, 36, 0.2) 0%, transparent 40%);
     filter: blur(60px);
     z-index: -1;
+  }
+
+  .site-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+  }
+
+  .nav-link {
+    color: var(--page-muted);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    background: var(--surface-bg);
+    border: 1px solid var(--surface-border);
+  }
+
+  .nav-link:hover {
+    color: var(--page-text);
+    background: var(--surface-hover);
+    border-color: rgba(20, 184, 166, 0.3);
+    transform: translateY(-2px);
   }
 
   .hero-content {

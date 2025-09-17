@@ -2,42 +2,39 @@ name: Generate Missing Images
 
 on:
   workflow_dispatch:
-  schedule:
-    # Run weekly on Sundays at 2 AM UTC
-    - cron: '0 2 * * 0'
   push:
     paths:
-      - 'data.toml'
+      - "data.toml"
     branches:
       - main
 
 jobs:
   generate-images:
     runs-on: ubuntu-latest
-    
+
     permissions:
       contents: write
       pull-requests: write
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-      
+          node-version: "20"
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Generate missing images
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: npm run generate-images
-      
+
       - name: Check for changes
         id: check_changes
         run: |
@@ -46,23 +43,23 @@ jobs:
           else
             echo "changes=false" >> $GITHUB_OUTPUT
           fi
-      
+
       - name: Create Pull Request
         if: steps.check_changes.outputs.changes == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'feat: Add generated poster images for entries'
-          title: 'Add generated poster images'
+          commit-message: "feat: Add generated poster images for entries"
+          title: "Add generated poster images"
           body: |
             This PR adds AI-generated poster images for entries that were missing them.
-            
+
             The images were generated using OpenAI's gpt-image-1 model with the following prompt template:
             - Movie poster artwork style
             - Teal/gold color scheme
             - 16:9 aspect ratio
             - No text overlays
-            
+
             Please review the generated images and the updated `data.toml` file.
           branch: generated-images-${{ github.run_number }}
           delete-branch: true
