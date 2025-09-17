@@ -94,6 +94,7 @@ repo = "https://github.com/opactorai/Claudable"
 open_source = true
 summary = "AI-powered web application builder with natural language development and instant deployment."
 detail = "Claudable enables users to create web applications through natural language descriptions using Claude Code and Cursor CLI agents. Features instant live preview, one-click Vercel deployment, automatic GitHub version control, and Supabase database integration with beautiful UI generation using Tailwind CSS and shadcn/ui."
+agents = ["claude-code", "cursor"]
 
 [[apps]]
 name = "Kiro"
@@ -211,7 +212,7 @@ repo = "https://github.com/sahithvibudhi/vibe-tree"
 open_source = true
 summary = "Desktop application for parallel AI-assisted development across multiple git worktrees."
 detail = "VibeTree enables developers to work on multiple features simultaneously using parallel git worktrees with integrated Claude support. Features persistent terminal sessions, VS Code and Cursor integration, and streamlined workflow management to eliminate context switching in AI-assisted development."
-agents = ["claude-code", "cursor"]
+agents = ["claude-code"]
 
 [[interfaces]]
 name = "Vibe Kanban"
@@ -221,7 +222,7 @@ repo = "https://github.com/BloopAI/vibe-kanban"
 open_source = true
 summary = "Kanban-style interface for managing and orchestrating multiple AI coding agents."
 detail = "Vibe Kanban provides a web-based dashboard for switching between different coding agents, executing multiple agents in parallel or sequence, and tracking task statuses. Built with Rust and TypeScript, it centralizes agent configuration and supports agents like Claude Code, Gemini CLI, and Codex."
-agents = ["claude-code"]
+agents = ["claude-code", "cursor", "gemini-cli", "codex-cli", "qwen-code"]
 
 [[tools]]
 name = "Claude Code Enhanced Statusline"
@@ -253,7 +254,7 @@ open_source = true
 summary = "MCP server and knowledge management platform for AI coding assistants."
 detail = "Archon provides custom knowledge bases with web crawling, vector search, and task management capabilities, supporting multiple LLMs and offering 10 MCP tools for enhanced RAG queries and collaborative development workflows."
 category = "Memory"
-agents = ["claude-code", "cursor"]
+agents = ["claude-code", "cursor", "gemini-cli", "codex-cli", "qwen-code", "opencode"]
 
 [[tools]]
 name = "cco"
@@ -308,6 +309,7 @@ open_source = true
 summary = "CLI tool for simplified parallel development with AI agents using tmux and git worktrees."
 detail = "Dmux enables developers to run multiple parallel development agents simultaneously with isolated git worktrees and tmux panes for each task. Features AI-powered branch naming and commit management, Claude Code integration, and one-command merge workflows for streamlined multi-agent development."
 category = "Task management"
+agents = ["claude-code", "opencode"]
 
 [[tools]]
 name = "In Memoria"
@@ -318,6 +320,7 @@ open_source = true
 summary = "Persistent intelligence infrastructure MCP server that learns coding patterns for AI agents."
 detail = "In Memoria provides a Model Context Protocol server with Rust-based engines for AST parsing, pattern learning, and semantic code analysis. Learns developer-specific coding styles, naming conventions, and architectural decisions, offering 17 tools for codebase analysis and context-aware recommendations across AI coding assistants."
 category = "Memory"
+agents = ["claude-code", "cursor", "gemini-cli", "codex-cli", "qwen-code", "opencode"]
 
 [[tools]]
 name = "Kratos MCP"
@@ -328,7 +331,7 @@ open_source = true
 summary = "Memory system MCP server for AI coding tools with 95.8% context accuracy."
 detail = "Kratos MCP provides persistent memory for AI coding tools using a Four Pillars Framework with SQLite storage, ensuring AI maintains project context across sessions with sub-10ms retrieval times and automatic project isolation."
 category = "Memory"
-agents = ["claude-code", "cursor"]
+agents = ["claude-code", "cursor", "gemini-cli", "codex-cli", "qwen-code", "opencode"]
 
 [[tools]]
 name = "Claude Code Project Index"
@@ -350,7 +353,6 @@ open_source = true
 summary = "Desktop tool for preparing comprehensive project context for AI coding assistants."
 detail = "Shotgun App enables one-click generation of structured project payloads for LLM interactions, allowing selective file exclusion and supporting whole-repository analysis and modification workflows with ChatGPT, Gemini, and other AI assistants."
 category = "Codebase understanding"
-agents = ["cursor"]
 
 [[tools]]
 name = "playwright-mcp"
@@ -362,7 +364,7 @@ summary = "MCP server providing browser automation capabilities using Playwright
 detail = "playwright-mcp enables LLMs to interact with web pages through structured accessibility snapshots rather than pixel-based input, offering deterministic browser automation with clicking, typing, navigation, and screenshot tools for precise web interactions."
 category = "Agent feedback"
 hot = true
-agents = ["claude-code", "cursor"]
+agents = ["claude-code", "cursor", "gemini-cli", "codex-cli", "qwen-code", "opencode"]
 
 [[tools]]
 name = "Claude Checkpoints"
@@ -393,7 +395,7 @@ repo = ""
 open_source = true
 summary = "AI-powered task management system for coding workflows with MCP integration."
 detail = "Task Master breaks down complex projects into manageable tasks, integrates with editors like Cursor and VS Code through MCP, and supports multiple AI providers to enhance development productivity without requiring API keys for Claude Code CLI usage."
-agents = ["claude-code", "cursor"]
+agents = ["claude-code", "cursor", "cline", "windsurf"]
 
 [[workflows]]
 name = "BMAD-METHOD"
@@ -403,7 +405,7 @@ repo = "https://github.com/bmad-code-org/BMAD-METHOD"
 open_source = true
 summary = "AI-driven agile development framework with specialized agent orchestration and context engineering."
 detail = "BMAD-METHOD combines agentic planning with context-engineered development, using specialized AI agents (Analyst, Product Manager, Architect, Scrum Master) to create detailed PRDs and hyper-detailed development stories that embed full implementation context and architectural guidance directly in story files."
-agents = ["claude-code", "cursor"]
+agents = ["claude-code", "cursor",  "gemini-cli", "codex-cli", "qwen-code", "opencode"]
 
 [[workflows]]
 name = "Claude Code PM"
@@ -422,7 +424,7 @@ repo = "https://github.com/github/spec-kit"
 open_source = true
 summary = "Spec-driven development methodology that makes specifications executable for AI-assisted software creation."
 detail = "Spec Kit enables intent-driven development by transforming rich specifications directly into working implementations using AI coding agents. Supports parallel implementation exploration and iterative system enhancement with explicit compatibility for Claude Code, GitHub Copilot, and Gemini CLI."
-agents = ["claude-code"]
+agents = ["claude-code", "gemini-cli"]
 
 [[hosted-agents]]
 name = "Bolt.new"
@@ -461,3 +463,4 @@ detail = "Devin handles code migration, refactoring, bug fixes, and development 
 
 [categories]
 tools = ["Memory", "Task management", "Codebase understanding", "Security", "Agent feedback", "Design", "Backups and change management", "Other tools"]
+ 
