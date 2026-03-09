@@ -307,6 +307,12 @@
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/workflows.png" width="36" height="36" alt="Workflows" align="absmiddle" />&nbsp; Vibe-coding workflows
 
+<details>
+  <summary><strong><a href="https://github.com/connerlambden/bgpt-mcp">BGPT MCP</a> <a href="https://github.com/connerlambden/bgpt-mcp"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Hosted MCP server for searching scientific papers with full-text experimental data.</summary>
+
+  <blockquote>BGPT MCP provides SSE and Streamable HTTP endpoints with a search_papers tool for querying biomedical and scientific literature. Offers 50 free searches with no API key required, enabling AI coding agents to access research paper data directly within development workflows.</blockquote>
+</details>
+
 *Agent rules and processes to help you ship higher-quality code, faster.*
 
 <details>
