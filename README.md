@@ -152,6 +152,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://mantra.gonewx.com">Mantra</a> <a href="https://github.com/mantra-hq/mantra-releases"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> AI coding session replay tool with sensitive content detection and cross-tool management.</summary>
+
+  <blockquote>Mantra records complete AI coding sessions including conversations, terminal I/O, and code changes from Claude Code, Cursor, Codex, and Gemini CLI. Features time-travel session replay, unified MCP and Skills management across multiple tools, and automatic sensitive content detection with redaction for secure session sharing. Desktop app for macOS, Windows, and Linux.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://opcode.sh/">opcode</a> <a href="https://github.com/getAsterisk/opcode"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Desktop GUI for Claude Code with session management and custom agent creation.</summary>
 
   <blockquote>Opcode provides a visual command center for Claude Code featuring project browsers, session history tracking, custom AI agents with background execution, usage analytics, and process isolation for secure AI-assisted development workflows.</blockquote>
