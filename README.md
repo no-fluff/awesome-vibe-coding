@@ -86,6 +86,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://github.com/voidborne-d/sober-coding">Sober Coding</a> <a href="https://github.com/voidborne-d/sober-coding"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Language-agnostic code quality analyzer built specifically for vibe-coded projects.</summary>
+
+  <blockquote>Sober Coding scans AI-generated codebases for 27 types of issues across 7 dimensions: security, architecture, duplication, error handling, dependencies, testing, and dead code. Features sobriety scoring (SOBER/TIPSY/HUNGOVER/BLACKOUT), fix suggestions, .soberrc.json config, and CI mode with severity gating. Zero config, runs locally.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://zed.dev/">Zed</a> <a href="https://github.com/zed-industries/zed"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> High-performance collaborative code editor with AI-powered agentic editing capabilities.</summary>
 
   <blockquote>Zed is a next-generation code editor built in Rust that enables fluent collaboration between humans and AI. Features native AI integration for code generation and transformation with upcoming LLM support, multiplayer editing, and custom language models for edit prediction.</blockquote>
