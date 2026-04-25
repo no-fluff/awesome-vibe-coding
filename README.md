@@ -275,6 +275,11 @@
   <blockquote>Superdesign integrates directly into VS Code, Cursor, Windsurf, and Claude Code to generate UI screens, wireframes, and reusable components from natural language prompts. Enables parallel design exploration and rapid prototyping within development environments, eliminating context switching between design and coding workflows.</blockquote>
 </details>
 
+<details>
+  <summary><strong><a href="https://github.com/MohamedAbdallah-14/prompt-to-asset">prompt-to-asset</a> <a href="https://github.com/MohamedAbdallah-14/prompt-to-asset"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> MCP server for generating production-ready visual assets from text prompts.</summary>
+
+  <blockquote>prompt-to-asset routes image generation requests across 30+ models (Stable Diffusion, DALL-E, Pollinations, Stable Horde) to produce app icons, favicons, OG images, logos, and wordmarks. Three execution modes: inline SVG, external prompt, or full API generation. No API key required for first run via free-tier providers.</blockquote>
+</details>
 <br />
 
 ### &bull; Backups and change management
@@ -301,6 +306,11 @@
   <blockquote>Claude Code Enhanced Statusline transforms the Claude Code terminal experience with a comprehensive statusline showing repository status, cost tracking, server health, and conversation timing. Features intelligent universal caching that reduces command execution by 70-90% and includes customizable themes with enterprise-grade configuration.</blockquote>
 </details>
 
+<details>
+  <summary><strong><a href="https://github.com/MohamedAbdallah-14/unslop">unslop</a> <a href="https://github.com/MohamedAbdallah-14/unslop"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> CLI and MCP server that removes AI writing patterns from agent-generated text.</summary>
+
+  <blockquote>unslop strips tricolons, em-dash overuse, hedging stacks, sycophancy openers, and overused vocabulary from text produced by AI coding agents. Works as a Claude Code MCP server or standalone CLI pipe. Five intensity levels and a lint-only audit mode. Useful for cleaning up AI-generated docs, commit messages, and README drafts.</blockquote>
+</details>
 <br />
 
 <br />
