@@ -247,6 +247,17 @@ category = "Other tools"
 agents = ["claude-code"]
 
 [[tools]]
+name = "WhereMyTokens"
+image = "/images/tools-where-my-tokens.jpg"
+website = ""
+repo = "https://github.com/jeongwookie/WhereMyTokens"
+open_source = true
+summary = "Windows tray app for monitoring Claude Code and Codex usage, sessions, costs, and rate limits."
+detail = "WhereMyTokens is a local-first desktop tray app for Windows developers using Claude Code, Codex, or both. It reads local session data to show project and branch activity, token usage, estimated costs, cache metrics, 5h/1w limit status, reset times, and quota pace without cloud sync."
+category = "Other tools"
+agents = ["claude-code", "codex-cli"]
+
+[[tools]]
 name = "Claude Squad"
 image = "/images/tools-claude-squad.jpg"
 website = "https://smtg-ai.github.io/claude-squad/"

@@ -301,6 +301,12 @@
   <blockquote>Claude Code Enhanced Statusline transforms the Claude Code terminal experience with a comprehensive statusline showing repository status, cost tracking, server health, and conversation timing. Features intelligent universal caching that reduces command execution by 70-90% and includes customizable themes with enterprise-grade configuration.</blockquote>
 </details>
 
+<details>
+  <summary><strong><a href="https://github.com/jeongwookie/WhereMyTokens">WhereMyTokens</a> <a href="https://github.com/jeongwookie/WhereMyTokens"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Windows tray app for monitoring Claude Code and Codex usage, sessions, costs, and rate limits.</summary>
+
+  <blockquote>WhereMyTokens is a local-first desktop tray app for Windows developers using Claude Code, Codex, or both. It reads local session data to show project and branch activity, token usage, estimated costs, cache metrics, 5h/1w limit status, reset times, and quota pace without cloud sync.</blockquote>
+</details>
+
 <br />
 
 <br />
