@@ -127,6 +127,16 @@ summary = "AI-powered interface builder that generates React applications from t
 detail = "v0 converts natural language descriptions into full-stack applications with UI, content, backend, and logic. Features agentic capabilities for research and planning, generates code using Next.js, React, and Tailwind CSS, and integrates with GitHub and Vercel for seamless deployment."
 
 [[interfaces]]
+name = "Agent FM"
+image = "/images/interfaces-agent-fm.jpg"
+website = "https://agentfm.ai"
+repo = "https://github.com/agentfm-ai/agent-fm"
+open_source = true
+summary = "Local macOS app for listening to Claude Code and Codex agents as they work."
+detail = "Agent FM turns local Claude Code and Codex sessions into live audio stations with Global Mix, blocker alerts, and BYOK narration, helping developers stay aware of progress, errors, decisions, and attention requests across parallel coding sessions."
+agents = ["claude-code", "codex-cli"]
+
+[[interfaces]]
 name = "claude-frontend"
 image = "/images/interfaces-claude-frontend.jpg"
 website = ""
