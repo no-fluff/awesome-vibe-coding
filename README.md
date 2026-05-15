@@ -116,6 +116,12 @@
 *Use your AI agent outside the terminal.*
 
 <details>
+  <summary><strong><a href="https://agentfm.ai">Agent FM</a> <a href="https://github.com/agentfm-ai/agent-fm"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Local macOS app for listening to Claude Code and Codex agents as they work.</summary>
+
+  <blockquote>Agent FM turns local Claude Code and Codex sessions into live audio stations with Global Mix, blocker alerts, and BYOK narration, helping developers stay aware of progress, errors, decisions, and attention requests across parallel coding sessions.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://claudecode.run/">Agentrooms</a> <a href="https://github.com/baryhuang/claude-code-by-agents"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Multi-agent workspace for collaborative development with Claude CLI.</summary>
 
   <blockquote>Agentrooms provides desktop and web interfaces for coordinating specialized AI agents in collaborative software development workflows, enabling task routing via @agent-name mentions, automatic decomposition, and management of complex multi-agent projects using Claude CLI as the underlying engine.</blockquote>
@@ -378,5 +384,4 @@ We're excited to have your contributions to awesome-vibe-coding! If you'd like t
 1. Open an issue on GitHub
 2. Choose the appropriate resource type (e.g., Agent, Tool, Workflow)
 3. Fill in what information you can -- at minimum, all the AI agent needs is the name and website/GitHub repo link.
-
 
