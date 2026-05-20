@@ -301,6 +301,12 @@
   <blockquote>Claude Code Enhanced Statusline transforms the Claude Code terminal experience with a comprehensive statusline showing repository status, cost tracking, server health, and conversation timing. Features intelligent universal caching that reduces command execution by 70-90% and includes customizable themes with enterprise-grade configuration.</blockquote>
 </details>
 
+<details>
+  <summary><strong><a href="https://www.vibe-coding-profiler.com/">Vibe Coding Profiler</a></strong> Git history analyzer for AI-assisted engineering style and vibe coding personas.</summary>
+
+  <blockquote>Vibe Coding Profiler analyzes repository history to surface a developer's AI-assisted engineering style, session rhythm, commit patterns, and vibe coding persona across repositories.</blockquote>
+</details>
+
 <br />
 
 <br />
@@ -378,5 +384,4 @@ We're excited to have your contributions to awesome-vibe-coding! If you'd like t
 1. Open an issue on GitHub
 2. Choose the appropriate resource type (e.g., Agent, Tool, Workflow)
 3. Fill in what information you can -- at minimum, all the AI agent needs is the name and website/GitHub repo link.
-
 
