@@ -109,6 +109,12 @@
   <blockquote>Claudable enables users to create web applications through natural language descriptions using Claude Code and Cursor CLI agents. Features instant live preview, one-click Vercel deployment, automatic GitHub version control, and Supabase database integration with beautiful UI generation using Tailwind CSS and shadcn/ui.</blockquote>
 </details>
 
+<details>
+  <summary><strong><a href="https://robloxguimaker.dev/">Roblox GUI Maker</a></strong> AI-powered Roblox Studio interface generator for GUI layouts and Lua starter code.</summary>
+
+  <blockquote>Roblox GUI Maker turns natural language prompts into Roblox Studio UI layouts and starter Lua snippets, helping creators prototype screens, menus, and in-game interface components before refining them in Studio.</blockquote>
+</details>
+
 <br />
 
 ## <img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/interfaces.png" width="36" height="36" alt="Interfaces" align="absmiddle" />&nbsp; Agent interfaces
