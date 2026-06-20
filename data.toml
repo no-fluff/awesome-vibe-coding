@@ -237,6 +237,16 @@ detail = "Vibe Kanban provides a web-based dashboard for switching between diffe
 agents = ["claude-code", "cursor", "gemini-cli", "codex-cli", "qwen-code"]
 
 [[tools]]
+name = "ax"
+website = ""
+repo = "https://github.com/Necmttn/ax"
+open_source = true
+summary = "Local telemetry and recall graph for AI coding agents."
+detail = "ax ingests Claude Code, Codex, Cursor, OpenCode, and Pi sessions into a local graph for reviewing turns, tool calls, skills, cost, dispatches, and OTLP telemetry through a CLI, dashboard, and read-only MCP server."
+category = "Other tools"
+agents = ["claude-code", "cursor", "gemini-cli", "codex-cli", "opencode"]
+
+[[tools]]
 name = "Claude Code Enhanced Statusline"
 image = "/images/tools-claude-code-enhanced-statusline.jpg"
 repo = "https://github.com/rz1989s/claude-code-statusline"
