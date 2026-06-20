@@ -290,6 +290,12 @@
 ### &bull; Other tools
 
 <details>
+  <summary><strong><a href="https://github.com/Necmttn/ax">ax</a> <a href="https://github.com/Necmttn/ax"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Local telemetry and recall graph for AI coding agents.</summary>
+
+  <blockquote>ax ingests Claude Code, Codex, Cursor, OpenCode, and Pi sessions into a local graph for reviewing turns, tool calls, skills, cost, dispatches, and OTLP telemetry through a CLI, dashboard, and read-only MCP server.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://github.com/eckardt/cchistory">cchistory</a> <a href="https://github.com/eckardt/cchistory"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Shell history tracker for Claude Code, extracting and organizing AI-executed commands across projects.</summary>
 
   <blockquote>cchistory is a command-line tool that captures and displays shell commands executed during Claude Code conversations, allowing developers to review, search, and analyze command history across different projects. It provides a seamless way to track and learn from AI-generated shell interactions.</blockquote>
