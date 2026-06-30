@@ -152,6 +152,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://github.com/nimbalyst/nimbalyst">Nimbalyst</a> <a href="https://github.com/nimbalyst/nimbalyst"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Open-source visual workspace for building with Codex, Claude Code, and more.</summary>
+
+  <blockquote>Nimbalyst is the open-source visual workspace for building with Codex, Claude Code, and more. Run and manage your agents as sessions, edit the work visually across markdown, mockups, diagrams, and red/green diffs, and track tasks in one place for higher bandwidth and less context switching.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://opcode.sh/">opcode</a> <a href="https://github.com/getAsterisk/opcode"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Desktop GUI for Claude Code with session management and custom agent creation.</summary>
 
   <blockquote>Opcode provides a visual command center for Claude Code featuring project browsers, session history tracking, custom AI agents with background execution, usage analytics, and process isolation for secure AI-assisted development workflows.</blockquote>
