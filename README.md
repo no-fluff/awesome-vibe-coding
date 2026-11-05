@@ -104,6 +104,12 @@
 </details>
 
 <details>
+  <summary><strong><a href="https://www.taskade.com/create">Taskade Genesis</a> <a href="https://github.com/taskade/awesome-vibe-coding"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> Prompt-to-app builder with hosted apps, agents, and automations.</summary>
+
+  <blockquote>Taskade Genesis turns a plain-language prompt into a live app with Taskade Projects as structured data, built-in AI agents, and workflow automations. Curated vibe-coding tools and MCP servers: <a href="https://github.com/taskade/awesome-vibe-coding">taskade/awesome-vibe-coding</a>. Official MCP: <a href="https://github.com/taskade/mcp">taskade/mcp</a>.</blockquote>
+</details>
+
+<details>
   <summary><strong><a href="https://github.com/opactorai/Claudable">Claudable</a> <a href="https://github.com/opactorai/Claudable"><img src="https://raw.githubusercontent.com/no-fluff/awesome-vibe-coding/main/src/images/github.svg" width="16" height="16" alt="GitHub" align="absmiddle" /></a></strong> AI-powered web application builder with natural language development and instant deployment.</summary>
 
   <blockquote>Claudable enables users to create web applications through natural language descriptions using Claude Code and Cursor CLI agents. Features instant live preview, one-click Vercel deployment, automatic GitHub version control, and Supabase database integration with beautiful UI generation using Tailwind CSS and shadcn/ui.</blockquote>
